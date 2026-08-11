@@ -4,48 +4,48 @@ export const routes: Routes = [
   {
     path: '',
     loadComponent: () => import('./features/home/home.component').then((m) => m.HomeComponent),
-    title: 'Saúde ao Seu Alcance',
+    title: 'Tribuna — Mídia. Cultura. Negócios.',
   },
   {
     path: 'blog',
     loadComponent: () => import('./features/blog/blog.component').then((m) => m.BlogComponent),
-    title: 'Cuidados com a saúde — Saúde ao Seu Alcance',
+    title: 'Últimas Notícias — Tribuna',
   },
   {
     path: 'quem-somos',
     loadComponent: () =>
       import('./features/institutional/institutional-page.component').then((m) => m.InstitutionalPageComponent),
     data: { slug: 'quem-somos' },
-    title: 'Quem Somos — Saúde ao Seu Alcance',
+    title: 'Quem Somos — Tribuna',
   },
   {
     path: 'sobre-o-portal',
     loadComponent: () =>
       import('./features/institutional/institutional-page.component').then((m) => m.InstitutionalPageComponent),
     data: { slug: 'sobre-o-portal' },
-    title: 'Sobre o Portal — Saúde ao Seu Alcance',
+    title: 'Sobre o Portal — Tribuna',
   },
   {
     path: 'linha-editorial',
     loadComponent: () =>
       import('./features/institutional/institutional-page.component').then((m) => m.InstitutionalPageComponent),
     data: { slug: 'linha-editorial' },
-    title: 'Linha Editorial — Saúde ao Seu Alcance',
+    title: 'Linha Editorial — Tribuna',
   },
   {
     path: 'cadastre-se',
     loadComponent: () => import('./features/auth/create-account.component').then((m) => m.CreateAccountComponent),
-    title: 'Criar nova conta — Saúde ao Seu Alcance',
+    title: 'Criar nova conta — Tribuna',
   },
   {
     path: 'artigos/:slug',
     loadComponent: () => import('./features/article/article-page.component').then((m) => m.ArticlePageComponent),
-    title: 'Artigo — Saúde ao Seu Alcance',
+    title: 'Artigo — Tribuna',
   },
   {
     path: 'contato',
     loadComponent: () => import('./features/contact/contact.component').then((m) => m.ContactComponent),
-    title: 'Contato — Saúde ao Seu Alcance',
+    title: 'Contato — Tribuna',
   },
   { path: '**', redirectTo: '' },
 ];

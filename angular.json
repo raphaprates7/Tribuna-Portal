@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "sasa-portal": {
+    "tribuna-portal": {
       "projectType": "application",
       "root": "",
       "sourceRoot": "src",
@@ -12,7 +12,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/sasa-portal",
+            "outputPath": "dist/tribuna-portal",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": ["zone.js"],
@@ -38,8 +38,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
-            "production": { "buildTarget": "sasa-portal:build:production" },
-            "development": { "buildTarget": "sasa-portal:build:development" }
+            "production": { "buildTarget": "tribuna-portal:build:production" },
+            "development": { "buildTarget": "tribuna-portal:build:development" }
           },
           "defaultConfiguration": "development"
         }

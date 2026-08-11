@@ -1,5 +1,5 @@
 .header {
-  background: var(--color-primary);
+  background: var(--color-secondary);
   position: relative;
   z-index: 30;
 }
@@ -16,30 +16,17 @@
 .header__logo {
   display: flex;
   align-items: center;
-  gap: 10px;
   line-height: 1.15;
-  font-family: var(--font-heading);
-  font-size: 22px;
-  color: #fff;
-  flex-shrink: 0;
-}
-.header__logo-mark {
-  width: 30px;
-  height: 31px;
   flex-shrink: 0;
 }
 .header__logo-text {
-  display: flex;
-  flex-direction: column;
-}
-.header__logo-line strong {
+  font-family: var(--font-heading);
   font-weight: 700;
+  font-size: 26px;
+  color: var(--color-surface);
 }
-.header__logo-line em {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 0.7em;
-  color: var(--color-secondary);
+.header__logo-dot {
+  color: var(--color-primary);
 }
 .header__logo:hover {
   text-decoration: none;
@@ -155,8 +142,8 @@
   white-space: nowrap;
 }
 .header__login:hover {
-  background: var(--color-secondary);
-  color: var(--color-primary-dark);
+  background: var(--color-primary);
+  color: #fff;
   text-decoration: none;
 }
 
@@ -168,7 +155,7 @@
   white-space: nowrap;
 }
 .header__contact:hover {
-  color: var(--color-secondary);
+  color: var(--color-primary-tint);
   text-decoration: none;
 }
 

@@ -1,20 +1,20 @@
 {
-  "tagline": "Saúde ao Seu Alcance",
+  "tagline": "Mídia. Cultura. Negócios.",
   "columns": [
     {
-      "title": "Cuidados com a Saúde",
+      "title": "Editorial",
       "links": [
-        { "label": "Hábitos Saudáveis", "href": "/blog/habitos-saudaveis" },
-        { "label": "Nutrição", "href": "/nutricao" },
-        { "label": "O Sistema de Saúde", "href": "/sistema-de-saude" }
+        { "label": "Cultura", "href": "/blog/cultura" },
+        { "label": "Tecnologia", "href": "/tecnologia" },
+        { "label": "Negócios & Economia", "href": "/negocios-economia" }
       ]
     },
     {
       "title": "Observatório",
       "links": [
-        { "label": "Saúde Corporativa", "href": "/saude-corporativa" },
-        { "label": "Mercado de Saúde", "href": "/mercado-de-saude" },
-        { "label": "Dados da Saúde", "href": "/dados-da-saude" }
+        { "label": "Economia Corporativa", "href": "/economia-corporativa" },
+        { "label": "Mercado de Mídia", "href": "/mercado-de-midia" },
+        { "label": "Tribuna em Números", "href": "/tribuna-em-numeros" }
       ]
     },
     {
@@ -45,14 +45,14 @@
   ],
   "newsletter": {
     "title": "Receba conteúdos exclusivos",
-    "description": "Assine nossa newsletter e fique por dentro das principais novidades da saúde.",
+    "description": "Assine nossa newsletter e fique por dentro das principais novidades de mídia, cultura e negócios.",
     "placeholder": "Seu e-mail",
     "ctaLabel": "Inscrever"
   },
   "specialProjects": [
-    { "icon": "ring", "title": "Outubro Rosa", "description": "Prevenção do câncer de mama", "href": "/projetos/outubro-rosa" },
-    { "icon": "dot", "title": "Novembro Azul", "description": "Cuidados com o câncer de próstata", "href": "/projetos/novembro-azul" },
-    { "icon": "square", "title": "Saúde na Escola", "description": "Educação para toda a vida", "href": "/projetos/saude-na-escola" },
-    { "icon": "cross", "title": "Envelhecer Bem", "description": "Qualidade de vida na terceira idade", "href": "/projetos/envelhecer-bem" }
+    { "icon": "ring", "title": "Tribuna Investiga", "description": "Jornalismo investigativo e apuração aprofundada", "href": "/projetos/tribuna-investiga" },
+    { "icon": "dot", "title": "Prêmio Tribuna de Cultura", "description": "Reconhecendo o melhor da produção cultural brasileira", "href": "/projetos/premio-tribuna-cultura" },
+    { "icon": "square", "title": "Ranking Tribuna 500", "description": "As empresas que mais crescem no país", "href": "/projetos/ranking-tribuna-500" },
+    { "icon": "cross", "title": "Tribuna Next", "description": "Inovação, startups e o futuro dos negócios", "href": "/projetos/tribuna-next" }
   ]
 }

@@ -1,5 +1,5 @@
 .footer {
-  background: var(--color-primary);
+  background: var(--color-secondary);
   color: rgba(255, 255, 255, 0.9);
   margin-top: 64px;
 }
@@ -17,12 +17,12 @@
 .footer__logo {
   font-family: var(--font-heading);
   font-weight: 700;
-  font-size: 18px;
+  font-size: 22px;
   color: #fff;
   margin-bottom: 20px;
 }
 .footer__logo span {
-  color: var(--color-secondary);
+  color: var(--color-primary);
 }
 
 .footer__brand h3 {

@@ -2,31 +2,31 @@
   "breadcrumbs": [
     { "label": "Home", "href": "/" },
     { "label": "Artigos", "href": "/blog" },
-    { "label": "Cuidados com a Saúde", "href": "/blog" }
+    { "label": "Cultura", "href": "/blog" }
   ],
-  "pageTitle": "Cuidados com a saúde",
+  "pageTitle": "Cultura",
   "articles": [
-    { "date": "15/07/2027", "title": "Título do Artigo", "excerpt": "Pequenas mudanças no dia a dia ajudam a prevenir doenças e a manter o corpo e a mente em equilíbrio ao longo dos anos.", "image": "assets/images/cuidado-com-a-saude.jpg", "href": "/artigos/blog-1" },
-    { "date": "15/07/2027", "title": "Título do Artigo", "excerpt": "Caminhar ou correr ao ar livre com regularidade melhora a saúde cardiovascular e reduz o estresse do dia a dia.", "image": "assets/images/blog-corrida.jpg", "href": "/artigos/blog-2" },
-    { "date": "15/07/2027", "title": "Título do Artigo", "excerpt": "Pausas de descanso genuíno, sem telas, são tão importantes para a saúde mental quanto o sono noturno.", "image": "assets/images/blog-sofa.jpg", "href": "/artigos/blog-3" },
-    { "date": "15/07/2027", "title": "Título do Artigo", "excerpt": "Pequenos momentos ao ar livre entre um compromisso e outro ajudam a recarregar as energias durante a semana.", "image": "assets/images/blog-ciclista.jpg", "href": "/artigos/blog-4" },
-    { "date": "15/07/2027", "title": "Título do Artigo", "excerpt": "Alongamento e exercícios funcionais simples podem ser feitos em poucos minutos e trazem benefícios imediatos.", "image": "assets/images/blog-yoga.jpg", "href": "/artigos/blog-5" },
-    { "date": "15/07/2027", "title": "Título do Artigo", "excerpt": "Atividades físicas em família aproximam gerações e criam hábitos saudáveis que duram a vida toda.", "image": "assets/images/blog-familia-bike.jpg", "href": "/artigos/blog-6" }
+    { "date": "15/07/2027", "title": "Como os festivais de música estão reinventando a experiência ao vivo", "excerpt": "Formatos híbridos e tecnologia imersiva atraem um público cada vez mais jovem aos grandes festivais.", "image": "assets/images/cuidado-com-a-saude.jpg", "href": "/artigos/blog-1" },
+    { "date": "15/07/2027", "title": "Corrida de rua vive boom no Brasil e movimenta nova economia esportiva", "excerpt": "Provas lotadas e patrocínios milionários transformam a corrida em um dos setores que mais crescem no país.", "image": "assets/images/blog-corrida.jpg", "href": "/artigos/blog-2" },
+    { "date": "15/07/2027", "title": "Streaming muda hábito do brasileiro e redefine a noite de sofá", "excerpt": "Pesquisa mostra que maratonar séries já é o principal programa de lazer nos fins de semana.", "image": "assets/images/blog-sofa.jpg", "href": "/artigos/blog-3" },
+    { "date": "15/07/2027", "title": "Mobilidade urbana ganha impulso com nova onda de ciclovias", "excerpt": "Cidades investem em infraestrutura para pedalar e criam nova pauta de debate público.", "image": "assets/images/blog-ciclista.jpg", "href": "/artigos/blog-4" },
+    { "date": "15/07/2027", "title": "Bem-estar corporativo vira prioridade estratégica das empresas", "excerpt": "Programas de equilíbrio entre vida pessoal e profissional ganham espaço nos maiores escritórios do país.", "image": "assets/images/blog-yoga.jpg", "href": "/artigos/blog-5" },
+    { "date": "15/07/2027", "title": "Fins de semana em família impulsionam o turismo de proximidade", "excerpt": "Passeios de bicicleta e roteiros locais crescem como opção de lazer acessível.", "image": "assets/images/blog-familia-bike.jpg", "href": "/artigos/blog-6" }
   ],
   "categories": [
-    { "label": "Cuidados com a saúde", "count": 35, "href": "/blog", "active": true },
-    { "label": "Cuidado Federal", "count": 9, "href": "/blog/cuidado-federal", "active": false },
-    { "label": "Emergências e Primeiros Cuidados", "count": 16, "href": "/blog/emergencias", "active": false },
-    { "label": "Hábitos Saudáveis", "count": 104, "href": "/blog/habitos-saudaveis", "active": false }
+    { "label": "Cultura", "count": 35, "href": "/blog", "active": true },
+    { "label": "Negócios & Economia", "count": 9, "href": "/blog/negocios-economia", "active": false },
+    { "label": "Tecnologia", "count": 16, "href": "/blog/tecnologia", "active": false },
+    { "label": "Entretenimento", "count": 104, "href": "/blog/entretenimento", "active": false }
   ],
   "recentPosts": [
-    { "date": "01/07/2027", "excerpt": "Saiba como agir em situações de emergência e salvar vidas.", "href": "/artigos/recente-1" },
-    { "date": "01/07/2027", "excerpt": "Saiba como agir em situações de emergência e salvar vidas.", "href": "/artigos/recente-2" },
-    { "date": "01/07/2027", "excerpt": "Saiba como agir em situações de emergência e salvar vidas.", "href": "/artigos/recente-3" }
+    { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
+    { "date": "01/07/2027", "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.", "href": "/artigos/recente-2" },
+    { "date": "01/07/2027", "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.", "href": "/artigos/recente-3" }
   ],
   "extras": [
-    { "kind": "ad", "title": "Medicamentos de qualidade para cuidar de você todos os dias.", "ctaLabel": "Saiba mais", "href": "/artigos/medicamentos-qualidade" },
-    { "kind": "sponsor", "icon": "ring", "title": "Dasa", "image": "assets/images/outubro-rosa.png", "description": "Laboratórios Dasa promovem campanha nacional de prevenção e reforçam a importância do diagnóstico precoce.", "linkLabel": "Ler notícia", "href": "/artigos/dasa" }
+    { "kind": "ad", "title": "Soluções financeiras sob medida para o seu negócio crescer.", "ctaLabel": "Saiba mais", "href": "/artigos/medicamentos-qualidade" },
+    { "kind": "sponsor", "icon": "ring", "title": "Vantis Capital", "image": "assets/images/skyline.jpg", "description": "Vantis Capital anuncia parceria estratégica para acelerar startups de tecnologia financeira no país.", "linkLabel": "Ler notícia", "href": "/artigos/dasa" }
   ],
   "pagination": {
     "current": 1,

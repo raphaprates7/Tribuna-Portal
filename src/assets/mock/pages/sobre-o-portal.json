@@ -5,27 +5,27 @@
   ],
   "title": "Sobre o Portal",
   "blocks": [
-    { "type": "paragraph", "text": "O Portal Saúde ao Seu Alcance é um ecossistema editorial de saúde e um hub de conteúdo qualificado. Afastando-se dos modelos tradicionais de portais comerciais ou de vendas, a nossa plataforma nasceu com a missão de democratizar o conhecimento, oferecendo dados fiáveis sobre prevenção, saúde mental, inovações tecnológicas e tendências de mercado. Acreditamos que o acesso a informação clara e responsável é o primeiro passo para uma vida mais saudável e bem orientada." },
-    { "type": "paragraph", "text": "Para materializar este propósito, funcionamos como uma base editorial multicanal, projetada para acompanhar o utilizador em qualquer momento do seu dia. O nosso conteúdo dinâmico ganha vida através de publicações, podcasts, newsletters, vídeos e presença constante nas redes sociais. Cobrimos desde os cuidados diários de bem-estar e nutrição até aos movimentos complexos do sistema de saúde, atuando de forma ativa como um observatório do mercado e garantindo que a literacia em saúde se torna uma realidade." },
-    { "type": "display", "text": "Saúde & Bem-Estar" },
-    { "type": "quote", "text": "A nossa própria identidade visual reflete o nosso compromisso inabalável com a integração e o cuidado contínuo. O nosso ícone representativo, um \"S\" estilizado formado por linhas curvas e elos entrelaçados, simboliza a união de todo o ecossistema e o fator humano." },
-    { "type": "paragraph", "text": "Esta abordagem conceptual estende-se diretamente à nossa comunicação, que procura um equilíbrio vital: utilizar uma linguagem empática, humanizada e de utilidade pública para a população geral, mantendo, em simultâneo, a densidade técnica exigida para dialogar de igual para igual com médicos, gestores e especialistas do setor." },
-    { "type": "paragraph", "text": "Em última análise, o Portal Saúde ao Seu Alcance não mede o seu impacto ou sucesso através de vendas diretas ou conversões comerciais. A nossa estratégia fundacional reside na geração de valor contínuo e na edificação de uma audiência própria, recorrente e altamente qualificada, sempre sustentada por uma independência editorial percebida." },
-    { "type": "paragraph", "text": "O nosso compromisso é consolidarmo-nos como a sua fonte de referência mais segura, colocando a informação, o acolhimento e a excelência, de facto, ao seu alcance." }
+    { "type": "paragraph", "text": "O Tribuna é um hub editorial de mídia, cultura e negócios e a porta de entrada do ecossistema Tribuna&Co. Afastando-se dos modelos tradicionais de portais de entretenimento raso, a nossa plataforma nasceu com a missão de oferecer informação clara e relevante sobre cultura, economia, tecnologia e os movimentos que moldam o país. Acreditamos que o acesso a informação de qualidade é o primeiro passo para decisões melhores, dentro e fora dos negócios." },
+    { "type": "paragraph", "text": "Para materializar este propósito, funcionamos como uma base editorial multicanal, projetada para acompanhar o leitor em qualquer momento do seu dia. O nosso conteúdo dinâmico ganha vida através de publicações, podcasts, newsletters, vídeos e presença constante nas redes sociais. Cobrimos desde os bastidores da cultura e do entretenimento até aos movimentos complexos do mercado, atuando de forma ativa como um observatório e garantindo que a informação relevante chegue a quem precisa dela." },
+    { "type": "display", "text": "Mídia. Cultura. Negócios." },
+    { "type": "quote", "text": "A nossa própria identidade visual reflete o nosso compromisso com a integração e a clareza. O nosso ícone representativo simboliza a união de todas as verticais do ecossistema Tribuna&Co. e o olhar atento sobre o que realmente importa." },
+    { "type": "paragraph", "text": "Esta abordagem conceptual estende-se diretamente à nossa comunicação, que procura um equilíbrio vital: utilizar uma linguagem clara, elegante e direta para o público em geral, mantendo, em simultâneo, a densidade analítica exigida para dialogar de igual para igual com investidores, gestores e especialistas de cada setor." },
+    { "type": "paragraph", "text": "Em última análise, o Tribuna não mede o seu impacto ou sucesso através de conversões comerciais. A nossa estratégia fundacional reside na geração de valor contínuo e na edificação de uma audiência própria, recorrente e altamente qualificada, sempre sustentada por uma independência editorial percebida." },
+    { "type": "paragraph", "text": "O nosso compromisso é consolidarmo-nos como a sua fonte de referência mais segura, colocando a informação, a cultura e os negócios, de facto, ao seu alcance." }
   ],
   "categories": [
-    { "label": "Cuidados com a saúde", "count": 35, "href": "/blog", "active": false },
-    { "label": "Cuidado Federal", "count": 9, "href": "/blog/cuidado-federal", "active": false },
-    { "label": "Emergências e Primeiros Cuidados", "count": 16, "href": "/blog/emergencias", "active": false },
-    { "label": "Hábitos Saudáveis", "count": 104, "href": "/blog/habitos-saudaveis", "active": false }
+    { "label": "Cultura", "count": 35, "href": "/blog", "active": false },
+    { "label": "Negócios & Economia", "count": 9, "href": "/blog/negocios-economia", "active": false },
+    { "label": "Tecnologia", "count": 16, "href": "/blog/tecnologia", "active": false },
+    { "label": "Entretenimento", "count": 104, "href": "/blog/entretenimento", "active": false }
   ],
   "recentPosts": [
-    { "date": "01/07/2027", "excerpt": "Saiba como agir em situações de emergência e salvar vidas.", "href": "/artigos/recente-1" },
-    { "date": "01/07/2027", "excerpt": "Saiba como agir em situações de emergência e salvar vidas.", "href": "/artigos/recente-2" },
-    { "date": "01/07/2027", "excerpt": "Saiba como agir em situações de emergência e salvar vidas.", "href": "/artigos/recente-3" }
+    { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
+    { "date": "01/07/2027", "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.", "href": "/artigos/recente-2" },
+    { "date": "01/07/2027", "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.", "href": "/artigos/recente-3" }
   ],
   "extras": [
-    { "kind": "ad", "title": "Medicamentos de qualidade para cuidar de você todos os dias.", "ctaLabel": "Saiba mais", "href": "/artigos/medicamentos-qualidade" },
-    { "kind": "sponsor", "icon": "ring", "title": "Dasa", "image": "assets/images/outubro-rosa.png", "description": "Laboratórios Dasa promovem campanha nacional de prevenção e reforçam a importância do diagnóstico precoce.", "linkLabel": "Ler notícia", "href": "/artigos/dasa" }
+    { "kind": "ad", "title": "Soluções financeiras sob medida para o seu negócio crescer.", "ctaLabel": "Saiba mais", "href": "/artigos/medicamentos-qualidade" },
+    { "kind": "sponsor", "icon": "ring", "title": "Vantis Capital", "image": "assets/images/skyline.jpg", "description": "Vantis Capital anuncia parceria estratégica para acelerar startups de tecnologia financeira no país.", "linkLabel": "Ler notícia", "href": "/artigos/dasa" }
   ]
 }
