@@ -1,0 +1,261 @@
+[
+  {
+    "title": "Como o consumo de conteúdo mudou nos últimos cinco anos",
+    "excerpt": "Um panorama de como plataformas, formatos e hábitos de consumo evoluíram.",
+    "href": "/artigos/artigo-exemplo",
+    "image": "assets/images/skyline.jpg",
+    "date": "01/07/2027"
+  },
+  {
+    "title": "Como os festivais de música estão reinventando a experiência ao vivo",
+    "excerpt": "Formatos híbridos e tecnologia imersiva atraem um público cada vez mais jovem aos grandes festivais.",
+    "href": "/artigos/blog-1",
+    "image": "assets/images/cuidado-com-a-saude.jpg",
+    "date": "15/07/2027"
+  },
+  {
+    "title": "Corrida de rua vive boom no Brasil e movimenta nova economia esportiva",
+    "excerpt": "Provas lotadas e patrocínios milionários transformam a corrida em um dos setores que mais crescem no país.",
+    "href": "/artigos/blog-2",
+    "image": "assets/images/blog-corrida.jpg",
+    "date": "15/07/2027"
+  },
+  {
+    "title": "Streaming muda hábito do brasileiro e redefine a noite de sofá",
+    "excerpt": "Pesquisa mostra que maratonar séries já é o principal programa de lazer nos fins de semana.",
+    "href": "/artigos/blog-3",
+    "image": "assets/images/blog-sofa.jpg",
+    "date": "15/07/2027"
+  },
+  {
+    "title": "Mobilidade urbana ganha impulso com nova onda de ciclovias",
+    "excerpt": "Cidades investem em infraestrutura para pedalar e criam nova pauta de debate público.",
+    "href": "/artigos/blog-4",
+    "image": "assets/images/blog-ciclista.jpg",
+    "date": "15/07/2027"
+  },
+  {
+    "title": "Bem-estar corporativo vira prioridade estratégica das empresas",
+    "excerpt": "Programas de equilíbrio entre vida pessoal e profissional ganham espaço nos maiores escritórios do país.",
+    "href": "/artigos/blog-5",
+    "image": "assets/images/blog-yoga.jpg",
+    "date": "15/07/2027"
+  },
+  {
+    "title": "Fins de semana em família impulsionam o turismo de proximidade",
+    "excerpt": "Passeios de bicicleta e roteiros locais crescem como opção de lazer acessível.",
+    "href": "/artigos/blog-6",
+    "image": "assets/images/blog-familia-bike.jpg",
+    "date": "15/07/2027"
+  },
+  {
+    "title": "Grupo Altano compra fatia majoritária da varejista Bravante por R$ 640 milhões",
+    "excerpt": "Operação amplia presença do grupo no varejo alimentar e deve fechar no quarto trimestre, à espera do aval do Cade.",
+    "href": "/artigos/capital-1",
+    "image": "assets/images/skyline.jpg",
+    "date": "07/08/2026"
+  },
+  {
+    "title": "Fundos de venture capital voltam a acelerar aportes em startups B2B",
+    "excerpt": "Após dois anos de cautela, gestoras retomam cheques maiores para negócios de software voltados a empresas.",
+    "href": "/artigos/capital-2",
+    "image": null,
+    "date": "05/08/2026"
+  },
+  {
+    "title": "Bolsa brasileira encerra semana em alta puxada por bancos e commodities",
+    "excerpt": "Ibovespa acumula ganhos com resultados corporativos acima do esperado e expectativa de novo corte de juros.",
+    "href": "/artigos/capital-3",
+    "image": null,
+    "date": "08/08/2026"
+  },
+  {
+    "title": "Fluxo estrangeiro para a bolsa brasileira atinge maior patamar em cinco anos",
+    "excerpt": "Gestoras internacionais reforçam posições em ativos locais em meio a juros em queda e reformas em andamento no Congresso.",
+    "href": "/artigos/capital-destaque",
+    "image": "assets/images/skyline.jpg",
+    "date": "10/08/2026"
+  },
+  {
+    "title": "Governo federal lança nova etapa do Programa Impulso",
+    "excerpt": "Ampliação do incentivo à economia criativa marca a nova fase do programa nacional.",
+    "href": "/artigos/cuidado-federal",
+    "image": "assets/images/mapa-brasil.svg",
+    "date": "10/07/2027"
+  },
+  {
+    "title": "Vantis Capital anuncia parceria estratégica para acelerar startups de tecnologia",
+    "excerpt": "Gestora reforça a aposta em fintechs e negócios digitais em fase de crescimento.",
+    "href": "/artigos/dasa",
+    "image": "assets/images/skyline.jpg",
+    "date": "08/07/2027"
+  },
+  {
+    "title": "Eficiência e estratégia para a transformação dos negócios",
+    "excerpt": "Conteúdo, tecnologia e gestão inteligente que impulsionam resultados sustentáveis.",
+    "href": "/artigos/eficiencia-setor-saude",
+    "image": "assets/images/tessera-bg.png",
+    "date": "30/06/2027"
+  },
+  {
+    "title": "Time paulista confirma técnico e mira retomada no returno do Brasileirão",
+    "excerpt": "Clube aposta em treinador com passagem recente por competições internacionais para reagir na tabela.",
+    "href": "/artigos/esportes-1",
+    "image": null,
+    "date": "06/08/2026"
+  },
+  {
+    "title": "Maratona da capital bate recorde de inscritos e libera últimas vagas",
+    "excerpt": "Prova reúne corredores amadores e profissionais em percurso de 42 km pelo centro histórico da cidade.",
+    "href": "/artigos/esportes-2",
+    "image": "assets/images/blog-corrida.jpg",
+    "date": "04/08/2026"
+  },
+  {
+    "title": "Brasil garante vaga inédita em modalidade coletiva para os Jogos",
+    "excerpt": "Seleção supera adversário europeu em jogo decisivo e assegura presença no torneio pela primeira vez na história.",
+    "href": "/artigos/esportes-3",
+    "image": null,
+    "date": "03/08/2026"
+  },
+  {
+    "title": "Delegação brasileira confirma recorde de atletas para o próximo ciclo olímpico",
+    "excerpt": "Comitê Olímpico anuncia número histórico de convocados e projeta o melhor resultado do país em quadro de medalhas.",
+    "href": "/artigos/esportes-destaque",
+    "image": null,
+    "date": "09/08/2026"
+  },
+  {
+    "title": "Organização brasileira anuncia nova line-up para a temporada de FPS competitivo",
+    "excerpt": "Elenco reformulado chega com dois campeões mundiais e mira o topo do ranking já na primeira etapa da liga.",
+    "href": "/artigos/gg-1",
+    "image": null,
+    "date": "06/08/2026"
+  },
+  {
+    "title": "Sequência de RPG de mundo aberto chega com trilha inédita e mapa três vezes maior",
+    "excerpt": "Estúdio promete até 120 horas de campanha e sistema de combate reformulado nesta que é a produção mais ambiciosa da franquia.",
+    "href": "/artigos/gg-2",
+    "image": "assets/images/skyline.jpg",
+    "date": "04/08/2026"
+  },
+  {
+    "title": "Streamers brasileiros lideram audiência global durante maratona de lançamento",
+    "excerpt": "Transmissões conjuntas somaram mais de 2 milhões de espectadores simultâneos, consolidando a cena nacional no cenário internacional.",
+    "href": "/artigos/gg-3",
+    "image": null,
+    "date": "01/08/2026"
+  },
+  {
+    "title": "Time brasileiro vence final continental e garante vaga no mundial de MOBA",
+    "excerpt": "Campanha invicta na fase eliminatória coloca a organização entre as favoritas ao título global pela primeira vez.",
+    "href": "/artigos/gg-destaque",
+    "image": "assets/images/skyline.jpg",
+    "date": "09/08/2026"
+  },
+  {
+    "title": "Instituto Meridiano lança programa de fomento à cultura independente",
+    "excerpt": "Iniciativa tem foco em novos talentos e produção cultural fora do eixo Rio-São Paulo.",
+    "href": "/artigos/hospital-sao-jose",
+    "image": "assets/images/entrevistas.jpg",
+    "date": "05/07/2027"
+  },
+  {
+    "title": "Soluções financeiras sob medida para o seu negócio crescer",
+    "excerpt": "Compromisso com a excelência em consultoria financeira ao alcance de toda empresa.",
+    "href": "/artigos/medicamentos-qualidade",
+    "image": "assets/images/tessera-bg.png",
+    "date": "27/06/2027"
+  },
+  {
+    "title": "Instituto Avança inaugura hub de inovação para startups em BH",
+    "excerpt": "Novo espaço amplia o acesso de empreendedores locais a mentoria e capital semente.",
+    "href": "/artigos/pbh",
+    "image": "assets/images/inovacao.png",
+    "date": "02/07/2027"
+  },
+  {
+    "title": "Mídia, cultura e negócios: as tendências que vão marcar o ano",
+    "excerpt": "Do consumo de conteúdo à economia criativa, mapeamos os movimentos que estão redefinindo a forma como o Brasil se informa, se diverte e investe.",
+    "href": "/artigos/prevencao-hoje-qualidade-de-vida-amanha",
+    "image": "assets/images/skyline.jpg",
+    "date": "01/07/2027"
+  },
+  {
+    "title": "Como identificar fake news em minutos",
+    "excerpt": "Passos simples ajudam qualquer leitor a checar fontes antes de compartilhar.",
+    "href": "/artigos/recente-1",
+    "image": "assets/images/inovacao.png",
+    "date": "01/07/2027"
+  },
+  {
+    "title": "Deepfakes: como identificar vídeos manipulados por IA",
+    "excerpt": "Ferramentas gratuitas ajudam a checar a autenticidade de imagens e vídeos.",
+    "href": "/artigos/recente-2",
+    "image": "assets/images/skyline.jpg",
+    "date": "29/06/2027"
+  },
+  {
+    "title": "Cinco sinais de que uma startup está pronta para captar investimento",
+    "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de venture capital.",
+    "href": "/artigos/recente-3",
+    "image": "assets/images/entrevistas.jpg",
+    "date": "26/06/2027"
+  },
+  {
+    "title": "Assistente de IA generativa passa a integrar planilhas e apresentações automaticamente",
+    "excerpt": "Atualização promete reduzir em até 40% o tempo gasto em tarefas repetitivas de escritório, segundo a desenvolvedora.",
+    "href": "/artigos/tech-1",
+    "image": "assets/images/inovacao.png",
+    "date": "08/08/2026"
+  },
+  {
+    "title": "Fabricante asiática lança óculos de realidade aumentada voltado ao mercado corporativo",
+    "excerpt": "Dispositivo aposta em bateria de longa duração e integração com softwares de produtividade já existentes.",
+    "href": "/artigos/tech-2",
+    "image": null,
+    "date": "05/08/2026"
+  },
+  {
+    "title": "Startup de logística automatizada capta R$ 90 milhões em rodada série B",
+    "excerpt": "Aporte deve financiar expansão para outras três capitais e contratação de equipe de engenharia.",
+    "href": "/artigos/tech-3",
+    "image": null,
+    "date": "02/08/2026"
+  },
+  {
+    "title": "Modelo brasileiro de IA generativa alcança marca de 10 milhões de usuários ativos",
+    "excerpt": "Ferramenta nacional voltada a atendimento e produtividade corporativa acelera adoção em empresas de médio porte.",
+    "href": "/artigos/tech-destaque",
+    "image": "assets/images/inovacao.png",
+    "date": "10/08/2026"
+  },
+  {
+    "title": "Mercado de ações fecha semana em alta puxado por empresas de tecnologia",
+    "excerpt": "Bolsa brasileira acompanha o desempenho positivo das gigantes de tecnologia nos EUA.",
+    "href": "/artigos/trending-1",
+    "image": "assets/images/skyline.jpg",
+    "date": "28/06/2027"
+  },
+  {
+    "title": "Streaming ultrapassa TV aberta em audiência pela primeira vez",
+    "excerpt": "Pesquisa aponta mudança histórica no consumo de entretenimento no Brasil.",
+    "href": "/artigos/trending-2",
+    "image": "assets/images/blog-sofa.jpg",
+    "date": "24/06/2027"
+  },
+  {
+    "title": "Inteligência artificial já responde por 1 em cada 5 buscas no país",
+    "excerpt": "Crescimento das ferramentas de IA generativa amplia o acesso à informação em todo o território.",
+    "href": "/artigos/trending-3",
+    "image": "assets/images/inovacao.png",
+    "date": "20/06/2027"
+  },
+  {
+    "title": "Ministério da Cultura anuncia nova política de fomento ao audiovisual",
+    "excerpt": "Novos editais reforçam o investimento em produções nacionais de cinema e séries.",
+    "href": "/artigos/trending-4",
+    "image": "assets/images/mapa-brasil.svg",
+    "date": "15/06/2027"
+  }
+]

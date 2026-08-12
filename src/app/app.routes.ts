@@ -76,6 +76,11 @@ export const routes: Routes = [
     title: 'Política de Privacidade — Tribuna',
   },
   {
+    path: 'busca',
+    loadComponent: () => import('./features/search/search-page.component').then((m) => m.SearchPageComponent),
+    title: 'Busca — Tribuna',
+  },
+  {
     path: 'cadastre-se',
     loadComponent: () => import('./features/auth/create-account.component').then((m) => m.CreateAccountComponent),
     title: 'Criar nova conta — Tribuna',

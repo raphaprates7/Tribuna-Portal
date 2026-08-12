@@ -38,10 +38,16 @@
     </nav>
 
     <div class="header__actions">
-      <label class="header__search">
+      <form class="header__search" (ngSubmit)="submitSearch()">
         <app-icon name="search" [size]="16" color="var(--color-muted)"></app-icon>
-        <input type="search" placeholder="Buscar" aria-label="Buscar no portal" />
-      </label>
+        <input
+          type="search"
+          placeholder="Buscar"
+          aria-label="Buscar no portal"
+          [(ngModel)]="searchQuery"
+          name="searchQuery"
+        />
+      </form>
       <button type="button" class="header__icon-btn" aria-label="Favoritos">
         <app-icon name="bookmark" [size]="18"></app-icon>
       </button>

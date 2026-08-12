@@ -1,0 +1,37 @@
+<div class="search-page">
+  <p class="search-page__eyebrow">Busca</p>
+  <h1 class="search-page__title" *ngIf="query(); else noQuery">
+    Resultados para "{{ query() }}"
+  </h1>
+  <ng-template #noQuery>
+    <h1 class="search-page__title">Digite algo na busca</h1>
+  </ng-template>
+
+  <ng-container *ngIf="results() as items">
+    <p class="search-page__count" *ngIf="query()">
+      {{ items.length }} {{ items.length === 1 ? 'resultado encontrado' : 'resultados encontrados' }}
+    </p>
+
+    <div class="search-page__grid" *ngIf="items.length; else empty">
+      <a class="search-page__card" *ngFor="let item of items" [href]="item.href">
+        <div class="search-page__media" *ngIf="item.image; else placeholder">
+          <img [src]="item.image" [alt]="item.title" loading="lazy" />
+        </div>
+        <ng-template #placeholder>
+          <div class="search-page__media search-page__media--placeholder"></div>
+        </ng-template>
+        <div class="search-page__body">
+          <h3>{{ item.title }}</h3>
+          <p>{{ item.excerpt }}</p>
+          <span class="search-page__date">{{ item.date }}</span>
+        </div>
+      </a>
+    </div>
+
+    <ng-template #empty>
+      <p class="search-page__empty" *ngIf="query()">
+        Nenhum resultado para "{{ query() }}". Tente outro termo.
+      </p>
+    </ng-template>
+  </ng-container>
+</div>
