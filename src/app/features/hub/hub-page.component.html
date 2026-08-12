@@ -1,0 +1,69 @@
+<div class="hub">
+  <section class="hub__masthead">
+    <p class="hub__eyebrow">Tribuna&amp;Co.</p>
+    <h1 class="hub__title">Todas as verticais, em um só lugar</h1>
+    <p class="hub__intro">
+      Mídia, negócios, esportes, tecnologia e games — o melhor de cada frente da Tribuna&amp;Co., reunido aqui.
+    </p>
+  </section>
+
+  <section class="hub__top" *ngIf="home() as h">
+    <app-hero-featured [article]="h.featuredArticle"></app-hero-featured>
+
+    <aside class="hub__trending">
+      <h2 class="hub__trending-title">
+        <app-icon name="dot" [size]="14" color="var(--color-primary)"></app-icon>
+        Em alta agora
+      </h2>
+      <ol>
+        <li *ngFor="let t of h.trending">
+          <span class="hub__trending-rank">{{ t.rank.toString().padStart(2, '0') }}</span>
+          <a [href]="t.href">{{ t.title }}</a>
+        </li>
+      </ol>
+    </aside>
+  </section>
+
+  <section class="hub__rails">
+    <article class="hub__rail" *ngFor="let rail of rails()" [style.--rail-accent]="rail.accent">
+      <header class="hub__rail-head">
+        <h2>{{ rail.name }}</h2>
+        <a [href]="rail.href">
+          Ver tudo
+          <app-icon name="arrow-right" [size]="13"></app-icon>
+        </a>
+      </header>
+
+      <a class="hub__rail-media" *ngIf="rail.image" [href]="rail.href">
+        <img [src]="rail.image" [alt]="rail.name" loading="lazy" />
+      </a>
+
+      <ul class="hub__rail-list">
+        <li *ngFor="let hl of rail.headlines">
+          <a [href]="hl.href">{{ hl.title }}</a>
+        </li>
+      </ul>
+    </article>
+  </section>
+
+  <section class="hub__newsletter">
+    <div class="hub__newsletter-copy">
+      <h2>Conteúdo que importa, direto no seu e-mail.</h2>
+      <p>Receba os destaques de todas as verticais da Tribuna&amp;Co. toda semana.</p>
+    </div>
+    <app-newsletter-form placeholder="Seu melhor e-mail" ctaLabel="Quero receber"></app-newsletter-form>
+  </section>
+
+  <section class="hub__picks" *ngIf="home() as h">
+    <h2 class="hub__picks-title">Escolhas editoriais</h2>
+    <div class="hub__picks-grid">
+      <a class="hub__pick" *ngFor="let c of h.contentCards.slice(0, 4)" [href]="c.href">
+        <div class="hub__pick-media" *ngIf="c.image">
+          <img [src]="c.image" [alt]="c.title" loading="lazy" />
+        </div>
+        <span class="hub__pick-cat">{{ c.title }}</span>
+        <p>{{ c.excerpt }}</p>
+      </a>
+    </div>
+  </section>
+</div>

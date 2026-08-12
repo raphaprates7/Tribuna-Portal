@@ -2,6 +2,11 @@ import { Routes } from '@angular/router';
 
 export const routes: Routes = [
   {
+    path: 'tribunaco',
+    loadComponent: () => import('./features/hub/hub-page.component').then((m) => m.HubPageComponent),
+    title: 'Tribuna&Co. — Todas as Verticais',
+  },
+  {
     path: '',
     loadComponent: () => import('./features/home/home.component').then((m) => m.HomeComponent),
     title: 'Tribuna — Mídia. Cultura. Negócios.',

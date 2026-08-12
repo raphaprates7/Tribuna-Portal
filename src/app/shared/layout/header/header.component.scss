@@ -59,6 +59,9 @@
 .header__nav-trigger.is-open {
   background: rgba(255, 255, 255, 0.14);
 }
+.header__nav-trigger--link:hover {
+  text-decoration: none;
+}
 
 .header__mega {
   position: absolute;

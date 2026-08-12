@@ -3,10 +3,10 @@ import { CommonModule } from '@angular/common';
 
 /** Maps semantic icon names used across templates to Font Awesome classes. */
 const ICON_MAP: Record<string, string> = {
-  ring: 'fa-solid fa-heart-pulse',
+  ring: 'fa-solid fa-circle-notch',
   dot: 'fa-solid fa-circle-dot',
   cross: 'fa-solid fa-plus',
-  square: 'fa-solid fa-hospital',
+  square: 'fa-solid fa-building-columns',
   doc: 'fa-solid fa-file-lines',
   mic: 'fa-solid fa-microphone',
   play: 'fa-solid fa-circle-play',

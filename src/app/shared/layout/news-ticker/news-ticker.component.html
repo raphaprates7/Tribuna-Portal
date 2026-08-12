@@ -1,0 +1,21 @@
+<div class="ticker" *ngIf="items().length">
+  <span class="ticker__label">
+    <app-icon name="fire" [size]="13" color="#fff"></app-icon>
+    Em alta agora
+  </span>
+
+  <div class="ticker__track">
+    <div class="ticker__group">
+      <a class="ticker__item" *ngFor="let t of items()" [href]="t.href">
+        <span class="ticker__rank">{{ t.rank.toString().padStart(2, '0') }}</span>
+        {{ t.title }}
+      </a>
+    </div>
+    <div class="ticker__group" aria-hidden="true">
+      <a class="ticker__item" *ngFor="let t of items()" [href]="t.href" tabindex="-1">
+        <span class="ticker__rank">{{ t.rank.toString().padStart(2, '0') }}</span>
+        {{ t.title }}
+      </a>
+    </div>
+  </div>
+</div>

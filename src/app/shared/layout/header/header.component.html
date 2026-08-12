@@ -6,23 +6,33 @@
 
     <nav class="header__nav">
       <div class="header__nav-item" *ngFor="let item of navItems(); let i = index">
-        <button
-          type="button"
-          class="header__nav-trigger"
-          (click)="toggleMenu(i, $event)"
-          [class.is-open]="openIndex() === i"
-          [attr.aria-expanded]="openIndex() === i"
+        <a
+          *ngIf="!item.columns?.length; else dropdownTrigger"
+          class="header__nav-trigger header__nav-trigger--link"
+          [routerLink]="item.href"
         >
           {{ item.label }}
-          <app-icon name="chevron-down" [size]="14"></app-icon>
-        </button>
+        </a>
 
-        <div class="header__mega" *ngIf="openIndex() === i && item.columns?.length">
-          <div class="header__mega-col" *ngFor="let col of item.columns">
-            <h4>{{ col.title }}</h4>
-            <a *ngFor="let link of col.items" [href]="link.href">{{ link.label }}</a>
+        <ng-template #dropdownTrigger>
+          <button
+            type="button"
+            class="header__nav-trigger"
+            (click)="toggleMenu(i, $event)"
+            [class.is-open]="openIndex() === i"
+            [attr.aria-expanded]="openIndex() === i"
+          >
+            {{ item.label }}
+            <app-icon name="chevron-down" [size]="14"></app-icon>
+          </button>
+
+          <div class="header__mega" *ngIf="openIndex() === i && item.columns?.length">
+            <div class="header__mega-col" *ngFor="let col of item.columns">
+              <h4>{{ col.title }}</h4>
+              <a *ngFor="let link of col.items" [href]="link.href">{{ link.label }}</a>
+            </div>
           </div>
-        </div>
+        </ng-template>
       </div>
     </nav>
 
