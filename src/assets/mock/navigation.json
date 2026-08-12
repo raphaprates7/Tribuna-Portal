@@ -24,6 +24,10 @@
     "accent": "#a970ff"
   },
   {
+    "label": "Cultura",
+    "href": "/blog"
+  },
+  {
     "label": "Conteúdos",
     "href": "#",
     "columns": [
@@ -37,9 +41,5 @@
         ]
       }
     ]
-  },
-  {
-    "label": "Cultura",
-    "href": "/blog"
   }
 ]
