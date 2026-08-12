@@ -62,6 +62,20 @@ export const routes: Routes = [
     title: 'Tribuna GG — Tribuna',
   },
   {
+    path: 'termos-de-uso',
+    loadComponent: () =>
+      import('./features/institutional/institutional-page.component').then((m) => m.InstitutionalPageComponent),
+    data: { slug: 'termos-de-uso' },
+    title: 'Termos de Uso — Tribuna',
+  },
+  {
+    path: 'politica-de-privacidade',
+    loadComponent: () =>
+      import('./features/institutional/institutional-page.component').then((m) => m.InstitutionalPageComponent),
+    data: { slug: 'politica-de-privacidade' },
+    title: 'Política de Privacidade — Tribuna',
+  },
+  {
     path: 'cadastre-se',
     loadComponent: () => import('./features/auth/create-account.component').then((m) => m.CreateAccountComponent),
     title: 'Criar nova conta — Tribuna',

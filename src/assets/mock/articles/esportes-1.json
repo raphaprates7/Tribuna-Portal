@@ -23,9 +23,9 @@
   ],
   "categories": [
     { "label": "Cultura", "count": 35, "href": "/blog", "active": false },
-    { "label": "Negócios & Economia", "count": 9, "href": "/blog/negocios-economia", "active": false },
-    { "label": "Tecnologia", "count": 16, "href": "/blog/tecnologia", "active": false },
-    { "label": "Entretenimento", "count": 104, "href": "/blog/entretenimento", "active": false }
+    { "label": "Negócios & Economia", "count": 9, "href": "/capital", "active": false },
+    { "label": "Tecnologia", "count": 16, "href": "/tech", "active": false },
+    { "label": "Entretenimento", "count": 104, "href": "/blog", "active": false }
   ],
   "recentPosts": [
     { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },

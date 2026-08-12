@@ -1,0 +1,34 @@
+{
+  "breadcrumbs": [
+    { "label": "Home", "href": "/" },
+    { "label": "Política de Privacidade", "href": "/politica-de-privacidade" }
+  ],
+  "title": "Política de Privacidade",
+  "blocks": [
+    { "type": "lead", "segments": [
+      { "text": "A " },
+      { "text": "Tribuna", "strong": true },
+      { "text": " respeita a sua privacidade e trata os dados pessoais coletados neste site com " },
+      { "text": "transparência e responsabilidade", "strong": true },
+      { "text": "." }
+    ] },
+    { "type": "paragraph", "text": "Coletamos informações fornecidas voluntariamente, como e-mail na assinatura da newsletter ou no cadastro de conta, além de dados de navegação (páginas visitadas, tempo de sessão) usados para melhorar a experiência editorial e medir audiência de forma agregada." },
+    { "type": "paragraph", "text": "Não vendemos dados pessoais a terceiros. Informações podem ser compartilhadas com parceiros técnicos estritamente para operação do site (por exemplo, envio de newsletter), sempre sob obrigação de confidencialidade." },
+    { "type": "paragraph", "text": "Você pode solicitar a qualquer momento a atualização ou exclusão dos seus dados, além de cancelar a assinatura da newsletter pelo próprio link enviado em cada edição." },
+    { "type": "paragraph", "text": "Dúvidas sobre esta política podem ser enviadas pelo nosso canal de contato." }
+  ],
+  "categories": [
+    { "label": "Cultura", "count": 35, "href": "/blog", "active": false },
+    { "label": "Negócios & Economia", "count": 9, "href": "/capital", "active": false },
+    { "label": "Tecnologia", "count": 16, "href": "/tech", "active": false },
+    { "label": "Entretenimento", "count": 104, "href": "/blog", "active": false }
+  ],
+  "recentPosts": [
+    { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
+    { "date": "01/07/2027", "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.", "href": "/artigos/recente-2" },
+    { "date": "01/07/2027", "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.", "href": "/artigos/recente-3" }
+  ],
+  "extras": [
+    { "kind": "ad", "title": "Soluções financeiras sob medida para o seu negócio crescer.", "ctaLabel": "Saiba mais", "href": "/artigos/medicamentos-qualidade" }
+  ]
+}

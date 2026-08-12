@@ -4,25 +4,25 @@
     {
       "title": "Editorial",
       "links": [
-        { "label": "Cultura", "href": "/blog/cultura" },
-        { "label": "Tecnologia", "href": "/tecnologia" },
-        { "label": "Negócios & Economia", "href": "/negocios-economia" }
+        { "label": "Cultura", "href": "/blog" },
+        { "label": "Tecnologia", "href": "/tech" },
+        { "label": "Negócios & Economia", "href": "/capital" }
       ]
     },
     {
       "title": "Observatório",
       "links": [
-        { "label": "Economia Corporativa", "href": "/economia-corporativa" },
-        { "label": "Mercado de Mídia", "href": "/mercado-de-midia" },
-        { "label": "Tribuna em Números", "href": "/tribuna-em-numeros" }
+        { "label": "Economia Corporativa", "href": "/capital" },
+        { "label": "Mercado de Mídia", "href": "/capital" },
+        { "label": "Tribuna em Números", "href": "/tribunaco" }
       ]
     },
     {
       "title": "Conteúdos",
       "links": [
-        { "label": "Entrevistas", "href": "/entrevistas" },
-        { "label": "Vídeos", "href": "/videos" },
-        { "label": "Inovação", "href": "/inovacao" }
+        { "label": "Entrevistas", "href": "/blog" },
+        { "label": "Vídeos", "href": "/blog" },
+        { "label": "Inovação", "href": "/blog" }
       ]
     },
     {
@@ -33,7 +33,7 @@
         { "label": "Linha Editorial", "href": "/linha-editorial" },
         { "label": "Termos de Uso", "href": "/termos-de-uso" },
         { "label": "Política de Privacidade", "href": "/politica-de-privacidade" },
-        { "label": "Fale Conosco", "href": "/fale-conosco" }
+        { "label": "Fale Conosco", "href": "/contato" }
       ]
     }
   ],
@@ -50,9 +50,9 @@
     "ctaLabel": "Inscrever"
   },
   "specialProjects": [
-    { "icon": "ring", "title": "Tribuna Investiga", "description": "Jornalismo investigativo e apuração aprofundada", "href": "/projetos/tribuna-investiga" },
-    { "icon": "dot", "title": "Prêmio Tribuna de Cultura", "description": "Reconhecendo o melhor da produção cultural brasileira", "href": "/projetos/premio-tribuna-cultura" },
-    { "icon": "square", "title": "Ranking Tribuna 500", "description": "As empresas que mais crescem no país", "href": "/projetos/ranking-tribuna-500" },
-    { "icon": "cross", "title": "Tribuna Next", "description": "Inovação, startups e o futuro dos negócios", "href": "/projetos/tribuna-next" }
+    { "icon": "ring", "title": "Tribuna Investiga", "description": "Jornalismo investigativo e apuração aprofundada", "href": "/blog" },
+    { "icon": "dot", "title": "Prêmio Tribuna de Cultura", "description": "Reconhecendo o melhor da produção cultural brasileira", "href": "/blog" },
+    { "icon": "square", "title": "Ranking Tribuna 500", "description": "As empresas que mais crescem no país", "href": "/blog" },
+    { "icon": "cross", "title": "Tribuna Next", "description": "Inovação, startups e o futuro dos negócios", "href": "/blog" }
   ]
 }

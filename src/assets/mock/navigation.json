@@ -11,8 +11,8 @@
         "title": "Editorial",
         "items": [
           { "label": "Cultura", "href": "/blog" },
-          { "label": "Negócios & Economia", "href": "/negocios-economia" },
-          { "label": "Tecnologia", "href": "/tecnologia" }
+          { "label": "Negócios & Economia", "href": "/capital" },
+          { "label": "Tecnologia", "href": "/tech" }
         ]
       }
     ]
@@ -24,9 +24,9 @@
       {
         "title": "O Mercado",
         "items": [
-          { "label": "Economia Corporativa", "href": "/economia-corporativa" },
-          { "label": "Mercado de Mídia", "href": "/mercado-de-midia" },
-          { "label": "Tribuna em Números", "href": "/tribuna-em-numeros" }
+          { "label": "Economia Corporativa", "href": "/capital" },
+          { "label": "Mercado de Mídia", "href": "/capital" },
+          { "label": "Tribuna em Números", "href": "/tribunaco" }
         ]
       }
     ]
@@ -38,9 +38,9 @@
       {
         "title": "Conteúdos",
         "items": [
-          { "label": "Inovação", "href": "/inovacao" },
-          { "label": "Entrevistas", "href": "/entrevistas" },
-          { "label": "Vídeos", "href": "/videos" },
+          { "label": "Inovação", "href": "/blog" },
+          { "label": "Entrevistas", "href": "/blog" },
+          { "label": "Vídeos", "href": "/blog" },
           { "label": "Linha Editorial", "href": "/linha-editorial" }
         ]
       }

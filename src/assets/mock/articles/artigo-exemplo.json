@@ -24,9 +24,9 @@
   ],
   "categories": [
     { "label": "Cultura", "count": 35, "href": "/blog", "active": true },
-    { "label": "Negócios & Economia", "count": 9, "href": "/blog/negocios-economia", "active": false },
-    { "label": "Tecnologia", "count": 16, "href": "/blog/tecnologia", "active": false },
-    { "label": "Entretenimento", "count": 104, "href": "/blog/entretenimento", "active": false }
+    { "label": "Negócios & Economia", "count": 9, "href": "/capital", "active": false },
+    { "label": "Tecnologia", "count": 16, "href": "/tech", "active": false },
+    { "label": "Entretenimento", "count": 104, "href": "/blog", "active": false }
   ],
   "recentPosts": [
     { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
@@ -35,7 +35,7 @@
   ],
   "extras": [
     { "kind": "ad", "title": "Soluções financeiras sob medida para o seu negócio crescer.", "ctaLabel": "Saiba mais", "href": "#" },
-    { "kind": "sponsor", "icon": "ring", "title": "Vantis Capital", "image": null, "description": "Vantis Capital anuncia parceria estratégica para acelerar startups de tecnologia financeira no país.", "linkLabel": "Ler notícia", "href": "/noticias/dasa" }
+    { "kind": "sponsor", "icon": "ring", "title": "Vantis Capital", "image": null, "description": "Vantis Capital anuncia parceria estratégica para acelerar startups de tecnologia financeira no país.", "linkLabel": "Ler notícia", "href": "/artigos/dasa" }
   ],
   "comments": [
     { "name": "Marcelo Dutra", "date": "Julho 2026", "text": "Muito bom o texto, ajudou a repensar como eu acompanho as notícias no dia a dia. Vou aplicar algumas dessas ideias." },
