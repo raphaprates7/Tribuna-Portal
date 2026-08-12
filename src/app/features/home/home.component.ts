@@ -2,6 +2,7 @@ import { Component, OnInit, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HomeService } from '../../core/services/home.service';
 import { HomePageData } from '../../core/models/home.model';
+import { SeoService } from '../../core/services/seo.service';
 import { HeroFeaturedComponent } from './components/hero-featured/hero-featured.component';
 import { TrendingPanelComponent } from './components/trending-panel/trending-panel.component';
 import { CategoryCardComponent } from '../../shared/components/category-card/category-card.component';
@@ -25,9 +26,16 @@ import { SponsoredSectionComponent } from './components/sponsored-section/sponso
 export class HomeComponent implements OnInit {
   data = signal<HomePageData | null>(null);
 
-  constructor(private homeService: HomeService) {}
+  constructor(private homeService: HomeService, private seo: SeoService) {}
 
   ngOnInit(): void {
-    this.homeService.getHomePage().subscribe((data) => this.data.set(data));
+    this.homeService.getHomePage().subscribe((data) => {
+      this.data.set(data);
+      this.seo.update({
+        title: 'Tribuna — Mídia. Cultura. Negócios.',
+        description: data.featuredArticle.excerpt,
+        path: '/',
+      });
+    });
   }
 }

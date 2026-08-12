@@ -2,6 +2,7 @@ import { Component, OnInit, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { BlogService } from '../../core/services/blog.service';
 import { BlogPageData } from '../../core/models/blog.model';
+import { SeoService } from '../../core/services/seo.service';
 import { BreadcrumbComponent } from '../../shared/components/breadcrumb/breadcrumb.component';
 import { ArticleCardComponent } from './components/article-card/article-card.component';
 import { ContentSidebarComponent } from '../../shared/components/content-sidebar/content-sidebar.component';
@@ -17,10 +18,17 @@ import { PaginationComponent } from './components/pagination/pagination.componen
 export class BlogComponent implements OnInit {
   data = signal<BlogPageData | null>(null);
 
-  constructor(private blogService: BlogService) {}
+  constructor(private blogService: BlogService, private seo: SeoService) {}
 
   ngOnInit(): void {
-    this.blogService.getBlogPage().subscribe((data) => this.data.set(data));
+    this.blogService.getBlogPage().subscribe((data) => {
+      this.data.set(data);
+      this.seo.update({
+        title: `${data.pageTitle} — Tribuna`,
+        description: 'Últimas notícias e artigos da Tribuna sobre mídia, cultura e negócios.',
+        path: '/blog',
+      });
+    });
   }
 
   onPageChange(page: number): void {

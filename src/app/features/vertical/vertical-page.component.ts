@@ -4,6 +4,7 @@ import { ActivatedRoute } from '@angular/router';
 import { switchMap } from 'rxjs';
 import { VerticalPageService } from '../../core/services/vertical-page.service';
 import { VerticalPageData } from '../../core/models/vertical.model';
+import { SeoService } from '../../core/services/seo.service';
 import { BreadcrumbComponent } from '../../shared/components/breadcrumb/breadcrumb.component';
 import { HeroFeaturedComponent } from '../home/components/hero-featured/hero-featured.component';
 import { CategoryCardComponent } from '../../shared/components/category-card/category-card.component';
@@ -18,11 +19,23 @@ import { CategoryCardComponent } from '../../shared/components/category-card/cat
 export class VerticalPageComponent implements OnInit {
   data = signal<VerticalPageData | null>(null);
 
-  constructor(private route: ActivatedRoute, private verticalService: VerticalPageService) {}
+  constructor(
+    private route: ActivatedRoute,
+    private verticalService: VerticalPageService,
+    private seo: SeoService
+  ) {}
 
   ngOnInit(): void {
     this.route.data
       .pipe(switchMap((routeData) => this.verticalService.getPage(routeData['slug'])))
-      .subscribe((data) => this.data.set(data));
+      .subscribe((data) => {
+        this.data.set(data);
+        this.seo.update({
+          title: `${data.name} — Tribuna`,
+          description: data.intro,
+          image: data.cards.find((c) => c.image)?.image,
+          path: `/${data.slug}`,
+        });
+      });
   }
 }

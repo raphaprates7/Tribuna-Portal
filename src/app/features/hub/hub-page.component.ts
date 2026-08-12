@@ -8,6 +8,7 @@ import { VerticalPageData } from '../../core/models/vertical.model';
 import { HeroFeaturedComponent } from '../home/components/hero-featured/hero-featured.component';
 import { NewsletterFormComponent } from '../../shared/components/newsletter-form/newsletter-form.component';
 import { IconComponent } from '../../shared/components/icon/icon.component';
+import { SeoService } from '../../core/services/seo.service';
 
 interface HubHeadline {
   title: string;
@@ -34,9 +35,19 @@ export class HubPageComponent implements OnInit {
   home = signal<HomePageData | null>(null);
   rails = signal<HubRail[]>([]);
 
-  constructor(private homeService: HomeService, private verticalService: VerticalPageService) {}
+  constructor(
+    private homeService: HomeService,
+    private verticalService: VerticalPageService,
+    private seo: SeoService
+  ) {}
 
   ngOnInit(): void {
+    this.seo.update({
+      title: 'Tribuna&Co. — Todas as Verticais',
+      description: 'Mídia, negócios, esportes, tecnologia e games — o melhor de cada frente da Tribuna&Co., reunido em um só lugar.',
+      path: '/tribunaco',
+    });
+
     this.homeService.getHomePage().subscribe((data) => this.home.set(data));
 
     forkJoin({
