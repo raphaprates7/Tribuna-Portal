@@ -16,6 +16,7 @@ const ICON_MAP: Record<string, string> = {
   'chevron-down': 'fa-solid fa-chevron-down',
   map: 'fa-solid fa-map-location-dot',
   fire: 'fa-solid fa-fire',
+  menu: 'fa-solid fa-bars',
   user: 'fa-regular fa-user',
   facebook: 'fa-brands fa-facebook-f',
   instagram: 'fa-brands fa-instagram',

@@ -50,6 +50,46 @@
         Entrar
       </a>
       <a class="header__contact" routerLink="/contato">Contato</a>
+      <button
+        type="button"
+        class="header__burger"
+        (click)="toggleMobileMenu()"
+        [attr.aria-expanded]="mobileOpen()"
+        aria-label="Abrir menu"
+      >
+        <app-icon [name]="mobileOpen() ? 'cross' : 'menu'" [size]="20"></app-icon>
+      </button>
     </div>
+  </div>
+
+  <div class="header__mobile" *ngIf="mobileOpen()">
+    <a class="header__mobile-link" routerLink="/cadastre-se" (click)="closeMobileMenu()">Entrar</a>
+    <a class="header__mobile-link" routerLink="/contato" (click)="closeMobileMenu()">Contato</a>
+
+    <ng-container *ngFor="let item of navItems()">
+      <a
+        *ngIf="!item.columns?.length"
+        class="header__mobile-link"
+        [routerLink]="item.href"
+        [style.color]="item.accent"
+        (click)="closeMobileMenu()"
+      >
+        {{ item.label }}
+      </a>
+
+      <div class="header__mobile-group" *ngIf="item.columns?.length">
+        <span class="header__mobile-group-title">{{ item.label }}</span>
+        <ng-container *ngFor="let col of item.columns">
+          <a
+            *ngFor="let link of col.items"
+            class="header__mobile-sublink"
+            [href]="link.href"
+            (click)="closeMobileMenu()"
+          >
+            {{ link.label }}
+          </a>
+        </ng-container>
+      </div>
+    </ng-container>
   </div>
 </header>

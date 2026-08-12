@@ -75,7 +75,7 @@
 
 @media (max-width: 1000px) {
   .page {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
   .page__display {
     font-size: 44px;

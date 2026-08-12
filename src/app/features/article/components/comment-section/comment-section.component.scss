@@ -124,6 +124,6 @@ textarea:focus {
 
 @media (max-width: 600px) {
   .comments__row {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 }

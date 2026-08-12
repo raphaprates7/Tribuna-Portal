@@ -171,10 +171,10 @@
 
 @media (max-width: 700px) {
   .health-data {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
   .health-data__stats {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
   .health-data__stat:nth-child(2n) {
     border-right: none;

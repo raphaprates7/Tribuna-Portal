@@ -120,7 +120,7 @@
 
 @media (max-width: 960px) {
   .footer__top {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
   .footer__columns {
     grid-template-columns: repeat(2, 1fr);

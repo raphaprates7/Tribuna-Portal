@@ -23,3 +23,9 @@
   font-weight: 600;
   color: var(--color-primary);
 }
+
+@media (max-width: 420px) {
+  .newsletter {
+    flex-direction: column;
+  }
+}
