@@ -4,10 +4,6 @@
     "href": "/tribunaco"
   },
   {
-    "label": "Cultura",
-    "href": "/blog"
-  },
-  {
     "label": "Capital",
     "href": "/capital",
     "accent": "#d9a441"
@@ -41,5 +37,9 @@
         ]
       }
     ]
+  },
+  {
+    "label": "Cultura",
+    "href": "/blog"
   }
 ]
