@@ -33,6 +33,30 @@ export const routes: Routes = [
     title: 'Linha Editorial — Tribuna',
   },
   {
+    path: 'capital',
+    loadComponent: () => import('./features/vertical/vertical-page.component').then((m) => m.VerticalPageComponent),
+    data: { slug: 'capital' },
+    title: 'Tribuna Capital — Tribuna',
+  },
+  {
+    path: 'esportes',
+    loadComponent: () => import('./features/vertical/vertical-page.component').then((m) => m.VerticalPageComponent),
+    data: { slug: 'esportes' },
+    title: 'Tribuna Esportes — Tribuna',
+  },
+  {
+    path: 'tech',
+    loadComponent: () => import('./features/vertical/vertical-page.component').then((m) => m.VerticalPageComponent),
+    data: { slug: 'tech' },
+    title: 'Tribuna Tech — Tribuna',
+  },
+  {
+    path: 'gg',
+    loadComponent: () => import('./features/vertical/vertical-page.component').then((m) => m.VerticalPageComponent),
+    data: { slug: 'gg' },
+    title: 'Tribuna GG — Tribuna',
+  },
+  {
     path: 'cadastre-se',
     loadComponent: () => import('./features/auth/create-account.component').then((m) => m.CreateAccountComponent),
     title: 'Criar nova conta — Tribuna',

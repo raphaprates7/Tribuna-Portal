@@ -1,0 +1,42 @@
+{
+  "breadcrumbs": [
+    { "label": "Home", "href": "/" },
+    { "label": "Tribuna Esportes", "href": "/esportes" },
+    { "label": "Corrida", "href": "/esportes" }
+  ],
+  "title": "Maratona da capital bate recorde de inscritos e libera últimas vagas",
+  "subtitle": "Prova reúne corredores amadores e profissionais em percurso de 42 km pelo centro histórico da cidade.",
+  "date": "04/08/2026",
+  "author": "Redação Tribuna",
+  "shareLinks": [
+    { "icon": "facebook", "href": "#", "label": "Compartilhar no Facebook" },
+    { "icon": "whatsapp", "href": "#", "label": "Compartilhar no WhatsApp" },
+    { "icon": "linkedin", "href": "#", "label": "Compartilhar no LinkedIn" },
+    { "icon": "x", "href": "#", "label": "Compartilhar no X" }
+  ],
+  "heroImage": "assets/images/blog-corrida.jpg",
+  "paragraphs": [
+    "A maratona da capital atingiu recorde de inscrições nesta edição, com 38 mil corredores confirmados, superando em 12% o número registrado no ano anterior. A organização informou que as últimas vagas para o percurso completo de 42 km foram liberadas nesta semana, após alta procura nos primeiros dias de inscrição.",
+    "O percurso deste ano passa por pontos históricos do centro da cidade, incluindo trechos que normalmente não são abertos à circulação de pedestres, o que tem sido apontado pelos organizadores como um dos atrativos da edição.",
+    "Entre os inscritos estão desde corredores de elite, que disputam premiação em dinheiro nas categorias profissionais, até amadores que participam pela primeira vez de uma prova de longa distância. A organização também ampliou o número de pontos de hidratação ao longo do trajeto, resposta a reclamações registradas na edição anterior.",
+    "Especialistas em medicina esportiva reforçam a importância de um preparo adequado nas semanas que antecedem a prova, especialmente para os atletas que vão encarar a distância completa pela primeira vez."
+  ],
+  "categories": [
+    { "label": "Cultura", "count": 35, "href": "/blog", "active": false },
+    { "label": "Negócios & Economia", "count": 9, "href": "/blog/negocios-economia", "active": false },
+    { "label": "Tecnologia", "count": 16, "href": "/blog/tecnologia", "active": false },
+    { "label": "Entretenimento", "count": 104, "href": "/blog/entretenimento", "active": false }
+  ],
+  "recentPosts": [
+    { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
+    { "date": "01/07/2027", "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.", "href": "/artigos/recente-2" },
+    { "date": "01/07/2027", "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.", "href": "/artigos/recente-3" }
+  ],
+  "extras": [
+    { "kind": "ad", "title": "Tênis de performance para longas distâncias, com 20% de desconto.", "ctaLabel": "Conferir oferta", "href": "/artigos/esportes-1" }
+  ],
+  "comments": [
+    { "name": "Marcos Villela", "date": "Agosto 2026", "text": "Corri essa maratona ano passado, o percurso pelo centro histórico é realmente especial." },
+    { "name": "Aline Cordeiro", "date": "Agosto 2026", "text": "Que bom que aumentaram os pontos de hidratação, era mesmo um problema na edição anterior." }
+  ]
+}

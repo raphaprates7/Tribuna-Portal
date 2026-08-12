@@ -1,0 +1,42 @@
+{
+  "breadcrumbs": [
+    { "label": "Home", "href": "/" },
+    { "label": "Tribuna Esportes", "href": "/esportes" },
+    { "label": "Olimpíadas", "href": "/esportes" }
+  ],
+  "title": "Brasil garante vaga inédita em modalidade coletiva para os Jogos",
+  "subtitle": "Seleção supera adversário europeu em jogo decisivo e assegura presença no torneio pela primeira vez na história.",
+  "date": "03/08/2026",
+  "author": "Redação Tribuna",
+  "shareLinks": [
+    { "icon": "facebook", "href": "#", "label": "Compartilhar no Facebook" },
+    { "icon": "whatsapp", "href": "#", "label": "Compartilhar no WhatsApp" },
+    { "icon": "linkedin", "href": "#", "label": "Compartilhar no LinkedIn" },
+    { "icon": "x", "href": "#", "label": "Compartilhar no X" }
+  ],
+  "heroImage": null,
+  "paragraphs": [
+    "A seleção brasileira garantiu, pela primeira vez na história, vaga olímpica em uma modalidade coletiva que vinha de décadas sem representação do país no torneio. A classificação veio após vitória sobre uma seleção europeia no jogo decisivo do torneio pré-olímpico, disputado no último fim de semana.",
+    "O resultado é fruto de um trabalho de base iniciado há oito anos, quando a confederação da modalidade passou a investir em categorias de formação e intercâmbio com ligas internacionais mais consolidadas. Boa parte do elenco atual soma experiência em campeonatos fora do país.",
+    "O técnico da seleção destacou a importância simbólica da conquista para o desenvolvimento da modalidade no Brasil. 'Isso vai abrir portas para meninos e meninas que nunca imaginaram competir em uma Olimpíada nesse esporte', afirmou em entrevista após a partida.",
+    "A confederação já estuda um calendário de amistosos internacionais como preparação até a disputa dos Jogos, com foco em elevar o nível competitivo da equipe frente a seleções tradicionalmente mais fortes na modalidade."
+  ],
+  "categories": [
+    { "label": "Cultura", "count": 35, "href": "/blog", "active": false },
+    { "label": "Negócios & Economia", "count": 9, "href": "/blog/negocios-economia", "active": false },
+    { "label": "Tecnologia", "count": 16, "href": "/blog/tecnologia", "active": false },
+    { "label": "Entretenimento", "count": 104, "href": "/blog/entretenimento", "active": false }
+  ],
+  "recentPosts": [
+    { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
+    { "date": "01/07/2027", "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.", "href": "/artigos/recente-2" },
+    { "date": "01/07/2027", "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.", "href": "/artigos/recente-3" }
+  ],
+  "extras": [
+    { "kind": "ad", "title": "Camisas oficiais da seleção já disponíveis para pré-venda.", "ctaLabel": "Reservar a minha", "href": "/artigos/esportes-destaque" }
+  ],
+  "comments": [
+    { "name": "Gustavo Prates", "date": "Agosto 2026", "text": "Conquista histórica, torcida merecida depois de tanto tempo sem ver essa modalidade nos Jogos." },
+    { "name": "Fernanda Duque", "date": "Agosto 2026", "text": "O trabalho de base está dando resultado, bom ver o investimento se traduzindo em vaga olímpica." }
+  ]
+}

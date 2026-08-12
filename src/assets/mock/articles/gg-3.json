@@ -1,0 +1,42 @@
+{
+  "breadcrumbs": [
+    { "label": "Home", "href": "/" },
+    { "label": "Tribuna GG", "href": "/gg" },
+    { "label": "Cultura Gamer", "href": "/gg" }
+  ],
+  "title": "Streamers brasileiros lideram audiência global durante maratona de lançamento",
+  "subtitle": "Transmissões conjuntas somaram mais de 2 milhões de espectadores simultâneos, consolidando a cena nacional no cenário internacional.",
+  "date": "01/08/2026",
+  "author": "Redação Tribuna",
+  "shareLinks": [
+    { "icon": "facebook", "href": "#", "label": "Compartilhar no Facebook" },
+    { "icon": "whatsapp", "href": "#", "label": "Compartilhar no WhatsApp" },
+    { "icon": "linkedin", "href": "#", "label": "Compartilhar no LinkedIn" },
+    { "icon": "x", "href": "#", "label": "Compartilhar no X" }
+  ],
+  "heroImage": null,
+  "paragraphs": [
+    "Um grupo de streamers brasileiros liderou o ranking global de audiência durante a maratona de lançamento de um dos jogos mais aguardados do ano, somando mais de 2 milhões de espectadores simultâneos entre os canais nacionais participantes. O resultado supera pela primeira vez criadores de conteúdo de mercados tradicionalmente maiores, como o norte-americano e o coreano.",
+    "A maratona, organizada em parceria entre os próprios streamers, reuniu transmissões coordenadas ao longo de 12 horas, com desafios cruzados entre os canais e participação de convidados da cena competitiva nacional.",
+    "Analistas do setor de entretenimento digital apontam o crescimento da audiência como reflexo de um investimento consistente em produção de conteúdo nos últimos anos, com criadores brasileiros cada vez mais profissionalizados e organizados em coletivos.",
+    "Marcas do setor de tecnologia e bebidas energéticas já monitoram de perto o fenômeno, com negociações de patrocínio em andamento para as próximas maratonas anunciadas pelo grupo."
+  ],
+  "categories": [
+    { "label": "Cultura", "count": 35, "href": "/blog", "active": false },
+    { "label": "Negócios & Economia", "count": 9, "href": "/blog/negocios-economia", "active": false },
+    { "label": "Tecnologia", "count": 16, "href": "/blog/tecnologia", "active": false },
+    { "label": "Entretenimento", "count": 104, "href": "/blog/entretenimento", "active": false }
+  ],
+  "recentPosts": [
+    { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
+    { "date": "01/07/2027", "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.", "href": "/artigos/recente-2" },
+    { "date": "01/07/2027", "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.", "href": "/artigos/recente-3" }
+  ],
+  "extras": [
+    { "kind": "ad", "title": "Assista aos melhores momentos da maratona na íntegra.", "ctaLabel": "Assistir agora", "href": "/artigos/gg-2" }
+  ],
+  "comments": [
+    { "name": "Kaique Nardi", "date": "Agosto 2026", "text": "Acompanhei boa parte da maratona ao vivo, a produção estava realmente no nível de evento internacional." },
+    { "name": "Isadora Wenzel", "date": "Agosto 2026", "text": "Marco importante para a cena brasileira, mostra que o conteúdo nacional já compete de igual para igual lá fora." }
+  ]
+}

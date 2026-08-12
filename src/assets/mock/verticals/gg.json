@@ -1,0 +1,51 @@
+{
+  "slug": "gg",
+  "name": "Tribuna GG",
+  "tagline": "GG. Próxima partida.",
+  "intro": "Tribuna GG é a frente de games e cultura gamer da Tribuna&Co.: cena competitiva, lançamentos e os criadores que definem o jogo. Ritmo de arena, precisão de redação.",
+  "theme": {
+    "accent": "#ff2f5f",
+    "accentDark": "#c4173f",
+    "accentTint": "#3a0f18",
+    "dark": true
+  },
+  "breadcrumbs": [
+    { "label": "Home", "href": "/" },
+    { "label": "Tribuna GG", "href": "/gg" }
+  ],
+  "featuredArticle": {
+    "eyebrow": "Esports",
+    "title": "Time brasileiro vence final continental e garante vaga no mundial de MOBA",
+    "excerpt": "Campanha invicta na fase eliminatória coloca a organização entre as favoritas ao título global pela primeira vez.",
+    "ctaLabel": "Ler matéria completa",
+    "href": "/artigos/gg-destaque",
+    "slidesCount": 3,
+    "activeSlide": 0
+  },
+  "cards": [
+    {
+      "icon": "square",
+      "title": "Organização brasileira anuncia nova line-up para a temporada de FPS competitivo",
+      "image": null,
+      "excerpt": "Elenco reformulado chega com dois campeões mundiais e mira o topo do ranking já na primeira etapa da liga.",
+      "linkLabel": "Ler mais",
+      "href": "/artigos/gg-1"
+    },
+    {
+      "icon": "play",
+      "title": "Sequência de RPG de mundo aberto chega com trilha inédita e mapa três vezes maior",
+      "image": "assets/images/skyline.jpg",
+      "excerpt": "Estúdio promete até 120 horas de campanha e sistema de combate reformulado nesta que é a produção mais ambiciosa da franquia.",
+      "linkLabel": "Ler mais",
+      "href": "/artigos/gg-2"
+    },
+    {
+      "icon": "mic",
+      "title": "Streamers brasileiros lideram audiência global durante maratona de lançamento",
+      "image": null,
+      "excerpt": "Transmissões conjuntas somaram mais de 2 milhões de espectadores simultâneos, consolidando a cena nacional no cenário internacional.",
+      "linkLabel": "Ler mais",
+      "href": "/artigos/gg-3"
+    }
+  ]
+}

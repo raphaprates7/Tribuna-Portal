@@ -1,0 +1,42 @@
+{
+  "breadcrumbs": [
+    { "label": "Home", "href": "/" },
+    { "label": "Tribuna Tech", "href": "/tech" },
+    { "label": "Inteligência Artificial", "href": "/tech" }
+  ],
+  "title": "Assistente de IA generativa passa a integrar planilhas e apresentações automaticamente",
+  "subtitle": "Atualização promete reduzir em até 40% o tempo gasto em tarefas repetitivas de escritório, segundo a desenvolvedora.",
+  "date": "08/08/2026",
+  "author": "Redação Tribuna",
+  "shareLinks": [
+    { "icon": "facebook", "href": "#", "label": "Compartilhar no Facebook" },
+    { "icon": "whatsapp", "href": "#", "label": "Compartilhar no WhatsApp" },
+    { "icon": "linkedin", "href": "#", "label": "Compartilhar no LinkedIn" },
+    { "icon": "x", "href": "#", "label": "Compartilhar no X" }
+  ],
+  "heroImage": "assets/images/inovacao.png",
+  "paragraphs": [
+    "A desenvolvedora de software Cordex lançou uma atualização de seu assistente de inteligência artificial generativa que permite a criação e edição automática de planilhas e apresentações a partir de comandos em linguagem natural. A empresa afirma que a ferramenta pode reduzir em até 40% o tempo gasto em tarefas repetitivas de escritório.",
+    "Entre as novas funções está a geração automática de gráficos a partir de bases de dados brutas e a montagem de apresentações completas com base em um resumo textual fornecido pelo usuário. A companhia diz que o recurso já passou por testes em mais de 200 empresas parceiras antes do lançamento oficial.",
+    "Analistas do setor de produtividade corporativa apontam que a corrida por integrar IA generativa a ferramentas de escritório se intensificou nos últimos dois anos, com grandes fornecedores de software correndo para não ficar para trás nesse movimento.",
+    "A Cordex informou que a nova função estará disponível inicialmente para clientes corporativos, com previsão de expansão para usuários individuais até o fim do ano."
+  ],
+  "categories": [
+    { "label": "Cultura", "count": 35, "href": "/blog", "active": false },
+    { "label": "Negócios & Economia", "count": 9, "href": "/blog/negocios-economia", "active": false },
+    { "label": "Tecnologia", "count": 16, "href": "/blog/tecnologia", "active": false },
+    { "label": "Entretenimento", "count": 104, "href": "/blog/entretenimento", "active": false }
+  ],
+  "recentPosts": [
+    { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
+    { "date": "01/07/2027", "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.", "href": "/artigos/recente-2" },
+    { "date": "01/07/2027", "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.", "href": "/artigos/recente-3" }
+  ],
+  "extras": [
+    { "kind": "ad", "title": "Automatize relatórios e apresentações com um só comando.", "ctaLabel": "Experimentar agora", "href": "/artigos/tech-destaque" }
+  ],
+  "comments": [
+    { "name": "Henrique Bastos", "date": "Agosto 2026", "text": "Se realmente entregar esse ganho de tempo, muda bastante a rotina de quem trabalha com relatórios." },
+    { "name": "Priscila Andrade", "date": "Agosto 2026", "text": "Curioso ver como vai ficar a qualidade dos gráficos gerados automaticamente, isso costuma ser o ponto fraco." }
+  ]
+}

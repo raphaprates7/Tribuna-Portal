@@ -41,5 +41,20 @@
         ]
       }
     ]
+  },
+  {
+    "label": "Verticais",
+    "href": "#",
+    "columns": [
+      {
+        "title": "Tribuna&Co.",
+        "items": [
+          { "label": "Tribuna Capital", "href": "/capital" },
+          { "label": "Tribuna Esportes", "href": "/esportes" },
+          { "label": "Tribuna Tech", "href": "/tech" },
+          { "label": "Tribuna GG", "href": "/gg" }
+        ]
+      }
+    ]
   }
 ]

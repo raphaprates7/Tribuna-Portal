@@ -1,0 +1,43 @@
+{
+  "breadcrumbs": [
+    { "label": "Home", "href": "/" },
+    { "label": "Tribuna Esportes", "href": "/esportes" },
+    { "label": "Olimpíadas", "href": "/esportes" }
+  ],
+  "title": "Delegação brasileira confirma recorde de atletas para o próximo ciclo olímpico",
+  "subtitle": "Comitê Olímpico anuncia número histórico de convocados e projeta o melhor resultado do país em quadro de medalhas.",
+  "date": "09/08/2026",
+  "author": "Redação Tribuna",
+  "shareLinks": [
+    { "icon": "facebook", "href": "#", "label": "Compartilhar no Facebook" },
+    { "icon": "whatsapp", "href": "#", "label": "Compartilhar no WhatsApp" },
+    { "icon": "linkedin", "href": "#", "label": "Compartilhar no LinkedIn" },
+    { "icon": "x", "href": "#", "label": "Compartilhar no X" }
+  ],
+  "heroImage": null,
+  "paragraphs": [
+    "O Comitê Olímpico do Brasil confirmou uma delegação recorde de 412 atletas para o próximo ciclo olímpico, superando em 18% o número de convocados da edição anterior. A ampliação reflete resultados consistentes em modalidades como natação, atletismo e esportes coletivos ao longo dos últimos quatro anos.",
+    "Dirigentes do comitê apontam o investimento em centros de treinamento regionais como um dos principais fatores para a expansão da base de atletas classificados. 'Conseguimos captar talentos fora dos grandes centros, o que antes era um gargalo', afirmou o presidente da entidade em coletiva nesta semana.",
+    "Entre as modalidades com maior número de vagas conquistadas estão o atletismo, com 58 atletas, e a natação, com 41. O skate e o surfe, incorporados ao programa olímpico nas últimas edições, também apresentam crescimento expressivo na quantidade de representantes brasileiros.",
+    "A expectativa de dirigentes esportivos é de que o país supere o recorde de medalhas obtido na edição anterior, com destaque para o judô, a ginástica artística e o vôlei, tradicionalmente fortes no quadro brasileiro.",
+    "O anúncio final da delegação, incluindo o portador da bandeira na cerimônia de abertura, deve ocorrer nos próximos meses, à medida que as últimas vagas classificatórias forem definidas nas competições internacionais."
+  ],
+  "categories": [
+    { "label": "Cultura", "count": 35, "href": "/blog", "active": false },
+    { "label": "Negócios & Economia", "count": 9, "href": "/blog/negocios-economia", "active": false },
+    { "label": "Tecnologia", "count": 16, "href": "/blog/tecnologia", "active": false },
+    { "label": "Entretenimento", "count": 104, "href": "/blog/entretenimento", "active": false }
+  ],
+  "recentPosts": [
+    { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
+    { "date": "01/07/2027", "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.", "href": "/artigos/recente-2" },
+    { "date": "01/07/2027", "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.", "href": "/artigos/recente-3" }
+  ],
+  "extras": [
+    { "kind": "ad", "title": "Equipamentos de treino para quem leva o esporte a sério.", "ctaLabel": "Ver coleção", "href": "/artigos/esportes-2" }
+  ],
+  "comments": [
+    { "name": "Vinícius Amorim", "date": "Agosto 2026", "text": "Recorde de atletas é ótimo sinal, mostra que a base esportiva do país está mais forte." },
+    { "name": "Juliana Prado", "date": "Agosto 2026", "text": "Fico na torcida para o skate e o surfe manterem o nível que vêm mostrando nas últimas competições." }
+  ]
+}

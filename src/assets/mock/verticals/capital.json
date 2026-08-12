@@ -1,0 +1,50 @@
+{
+  "slug": "capital",
+  "name": "Tribuna Capital",
+  "tagline": "Mercado, negócios e o dinheiro que move o país.",
+  "intro": "Tribuna Capital é a vertical de negócios da Tribuna&Co., dedicada a mercado financeiro, fusões e aquisições, venture capital e economia. Cobertura direta, sem jargão inflado, para quem decide.",
+  "theme": {
+    "accent": "#8a6a23",
+    "accentDark": "#6b5119",
+    "accentTint": "#f2ecd9"
+  },
+  "breadcrumbs": [
+    { "label": "Home", "href": "/" },
+    { "label": "Tribuna Capital", "href": "/capital" }
+  ],
+  "featuredArticle": {
+    "eyebrow": "Mercados",
+    "title": "Fluxo estrangeiro para a bolsa brasileira atinge maior patamar em cinco anos",
+    "excerpt": "Gestoras internacionais reforçam posições em ativos locais em meio a juros em queda e reformas em andamento no Congresso.",
+    "ctaLabel": "Ler matéria completa",
+    "href": "/artigos/capital-destaque",
+    "slidesCount": 3,
+    "activeSlide": 0
+  },
+  "cards": [
+    {
+      "icon": "doc",
+      "title": "Grupo Altano compra fatia majoritária da varejista Bravante por R$ 640 milhões",
+      "image": "assets/images/skyline.jpg",
+      "excerpt": "Operação amplia presença do grupo no varejo alimentar e deve fechar no quarto trimestre, à espera do aval do Cade.",
+      "linkLabel": "Ler mais",
+      "href": "/artigos/capital-1"
+    },
+    {
+      "icon": "arrow-right",
+      "title": "Fundos de venture capital voltam a acelerar aportes em startups B2B",
+      "image": null,
+      "excerpt": "Após dois anos de cautela, gestoras retomam cheques maiores para negócios de software voltados a empresas.",
+      "linkLabel": "Ler mais",
+      "href": "/artigos/capital-2"
+    },
+    {
+      "icon": "square",
+      "title": "Bolsa brasileira encerra semana em alta puxada por bancos e commodities",
+      "image": null,
+      "excerpt": "Ibovespa acumula ganhos com resultados corporativos acima do esperado e expectativa de novo corte de juros.",
+      "linkLabel": "Ler mais",
+      "href": "/artigos/capital-3"
+    }
+  ]
+}

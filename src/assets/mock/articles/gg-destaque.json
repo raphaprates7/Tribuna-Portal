@@ -1,0 +1,44 @@
+{
+  "breadcrumbs": [
+    { "label": "Home", "href": "/" },
+    { "label": "Tribuna GG", "href": "/gg" },
+    { "label": "Esports", "href": "/gg" }
+  ],
+  "title": "Time brasileiro vence final continental e garante vaga no mundial de MOBA",
+  "subtitle": "Campanha invicta na fase eliminatória coloca a organização entre as favoritas ao título global pela primeira vez.",
+  "date": "09/08/2026",
+  "author": "Redação Tribuna",
+  "shareLinks": [
+    { "icon": "facebook", "href": "#", "label": "Compartilhar no Facebook" },
+    { "icon": "whatsapp", "href": "#", "label": "Compartilhar no WhatsApp" },
+    { "icon": "linkedin", "href": "#", "label": "Compartilhar no LinkedIn" },
+    { "icon": "x", "href": "#", "label": "Compartilhar no X" }
+  ],
+  "heroImage": "assets/images/skyline.jpg",
+  "paragraphs": [
+    "Placar fechado, arena em pé: a organização brasileira Zenith Rift venceu a final do campeonato continental de MOBA por 3 a 1 e carimbou, pela primeira vez em sua história, vaga no mundial da modalidade. A campanha na fase eliminatória foi invicta, com sete vitórias em sete confrontos.",
+    "O destaque da decisão foi o jogador de posição central, eleito MVP da final após uma sequência de jogadas decisivas no quarto mapa, quando a equipe reverteu uma desvantagem de recursos para fechar a série. A torcida, que lotou a arena, acompanhou a virada em êxtase.",
+    "Analistas da cena competitiva apontam a Zenith Rift como uma das equipes mais consistentes da temporada, com um estilo de jogo agressivo desde os minutos iniciais das partidas — características que devem ser testadas contra as favoritas asiáticas e europeias no torneio mundial.",
+    "O técnico da equipe, que assumiu o cargo há pouco mais de um ano, destacou o trabalho de bootcamp intensivo como diferencial da campanha. 'Treinamos para esse exato momento. Agora é hora de mostrar isso para o mundo', declarou após a partida.",
+    "O mundial está marcado para o próximo trimestre, e a Zenith Rift entra na fase de grupos como uma das cabeças de chave menos favoritas segundo casas de apostas internacionais — status que a equipe promete usar como combustível."
+  ],
+  "categories": [
+    { "label": "Cultura", "count": 35, "href": "/blog", "active": false },
+    { "label": "Negócios & Economia", "count": 9, "href": "/blog/negocios-economia", "active": false },
+    { "label": "Tecnologia", "count": 16, "href": "/blog/tecnologia", "active": false },
+    { "label": "Entretenimento", "count": 104, "href": "/blog/entretenimento", "active": false }
+  ],
+  "recentPosts": [
+    { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
+    { "date": "01/07/2027", "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.", "href": "/artigos/recente-2" },
+    { "date": "01/07/2027", "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.", "href": "/artigos/recente-3" }
+  ],
+  "extras": [
+    { "kind": "ad", "title": "Camisa oficial da Zenith Rift para o mundial já está à venda.", "ctaLabel": "Garantir a minha", "href": "/artigos/gg-1" },
+    { "kind": "sponsor", "icon": "ring", "title": "Zenith Rift", "image": "assets/images/skyline.jpg", "description": "Da fase de grupos à final: acompanhe a campanha completa rumo ao mundial.", "linkLabel": "Ver perfil da organização", "href": "/artigos/gg-destaque" }
+  ],
+  "comments": [
+    { "name": "Bruno Kessler", "date": "Agosto 2026", "text": "Campanha invicta na fase eliminatória impressiona, principalmente contra times tão fortes na região." },
+    { "name": "Yasmin Cortez", "date": "Agosto 2026", "text": "O mid da Zenith Rift está jogando em outro nível essa temporada, merecia mesmo o MVP da final." }
+  ]
+}

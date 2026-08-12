@@ -1,0 +1,50 @@
+{
+  "slug": "esportes",
+  "name": "Tribuna Esportes",
+  "tagline": "Cada disputa, cada recorde, cada virada.",
+  "intro": "Tribuna Esportes acompanha futebol, corrida de rua, atletismo e grandes eventos internacionais com a mesma exigência editorial de qualquer outra cobertura da Tribuna&Co.: informação checada, contexto e paixão pelo jogo.",
+  "theme": {
+    "accent": "#1f7a4d",
+    "accentDark": "#145536",
+    "accentTint": "#e6f2ea"
+  },
+  "breadcrumbs": [
+    { "label": "Home", "href": "/" },
+    { "label": "Tribuna Esportes", "href": "/esportes" }
+  ],
+  "featuredArticle": {
+    "eyebrow": "Olimpíadas",
+    "title": "Delegação brasileira confirma recorde de atletas para o próximo ciclo olímpico",
+    "excerpt": "Comitê Olímpico anuncia número histórico de convocados e projeta o melhor resultado do país em quadro de medalhas.",
+    "ctaLabel": "Ler matéria completa",
+    "href": "/artigos/esportes-destaque",
+    "slidesCount": 3,
+    "activeSlide": 0
+  },
+  "cards": [
+    {
+      "icon": "play",
+      "title": "Time paulista confirma técnico e mira retomada no returno do Brasileirão",
+      "image": null,
+      "excerpt": "Clube aposta em treinador com passagem recente por competições internacionais para reagir na tabela.",
+      "linkLabel": "Ler mais",
+      "href": "/artigos/esportes-1"
+    },
+    {
+      "icon": "dot",
+      "title": "Maratona da capital bate recorde de inscritos e libera últimas vagas",
+      "image": "assets/images/blog-corrida.jpg",
+      "excerpt": "Prova reúne corredores amadores e profissionais em percurso de 42 km pelo centro histórico da cidade.",
+      "linkLabel": "Ler mais",
+      "href": "/artigos/esportes-2"
+    },
+    {
+      "icon": "cross",
+      "title": "Brasil garante vaga inédita em modalidade coletiva para os Jogos",
+      "image": null,
+      "excerpt": "Seleção supera adversário europeu em jogo decisivo e assegura presença no torneio pela primeira vez na história.",
+      "linkLabel": "Ler mais",
+      "href": "/artigos/esportes-3"
+    }
+  ]
+}

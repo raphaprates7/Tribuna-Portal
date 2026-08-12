@@ -1,0 +1,44 @@
+{
+  "breadcrumbs": [
+    { "label": "Home", "href": "/" },
+    { "label": "Tribuna Capital", "href": "/capital" },
+    { "label": "Mercados", "href": "/capital" }
+  ],
+  "title": "Fluxo estrangeiro para a bolsa brasileira atinge maior patamar em cinco anos",
+  "subtitle": "Gestoras internacionais reforçam posições em ativos locais em meio a juros em queda e reformas em andamento no Congresso.",
+  "date": "10/08/2026",
+  "author": "Redação Tribuna",
+  "shareLinks": [
+    { "icon": "facebook", "href": "#", "label": "Compartilhar no Facebook" },
+    { "icon": "whatsapp", "href": "#", "label": "Compartilhar no WhatsApp" },
+    { "icon": "linkedin", "href": "#", "label": "Compartilhar no LinkedIn" },
+    { "icon": "x", "href": "#", "label": "Compartilhar no X" }
+  ],
+  "heroImage": "assets/images/skyline.jpg",
+  "paragraphs": [
+    "O saldo de investimento estrangeiro na bolsa brasileira somou R$ 38,4 bilhões nos últimos seis meses, o maior volume para o período desde 2021, segundo dados compilados pela B3. O movimento reflete uma combinação de juros em trajetória de queda no Brasil e a percepção de que ativos locais estão descontados frente a pares emergentes.",
+    "Gestoras internacionais ouvidas pela reportagem apontam o setor financeiro e o de infraestrutura como os principais destinos dos novos aportes. 'Há uma janela de reprecificação que não víamos desde antes da pandemia', afirma um gestor de um fundo europeu com posições relevantes em bancos brasileiros.",
+    "O apetite também é impulsionado por sinais de avanço em reformas tributárias que tramitam no Congresso, vistas como fator de previsibilidade para investidores de longo prazo. Analistas ponderam, porém, que o fluxo pode perder força caso o cenário fiscal se deteriore nos próximos trimestres.",
+    "Para gestores locais, o momento é de cautela otimista: o volume de entrada sustenta preços mais altos no curto prazo, mas a manutenção do interesse estrangeiro depende da execução de uma agenda econômica consistente até o fim do ano.",
+    "A expectativa do mercado é que o Banco Central mantenha o ciclo de cortes na próxima reunião do Copom, o que tende a reforçar ainda mais a atratividade da renda variável brasileira frente à renda fixa."
+  ],
+  "categories": [
+    { "label": "Cultura", "count": 35, "href": "/blog", "active": false },
+    { "label": "Negócios & Economia", "count": 9, "href": "/blog/negocios-economia", "active": false },
+    { "label": "Tecnologia", "count": 16, "href": "/blog/tecnologia", "active": false },
+    { "label": "Entretenimento", "count": 104, "href": "/blog/entretenimento", "active": false }
+  ],
+  "recentPosts": [
+    { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
+    { "date": "01/07/2027", "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.", "href": "/artigos/recente-2" },
+    { "date": "01/07/2027", "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.", "href": "/artigos/recente-3" }
+  ],
+  "extras": [
+    { "kind": "ad", "title": "Análises de mercado direto na sua caixa de entrada, toda manhã.", "ctaLabel": "Assinar newsletter", "href": "/artigos/capital-1" },
+    { "kind": "sponsor", "icon": "ring", "title": "Marambaia Capital", "image": "assets/images/skyline.jpg", "description": "Gestão de patrimônio para investidores que pensam em décadas, não em trimestres.", "linkLabel": "Conhecer a gestora", "href": "/artigos/capital-3" }
+  ],
+  "comments": [
+    { "name": "Eduardo Nakamura", "date": "Agosto 2026", "text": "O fluxo estrangeiro sempre é volátil, mas os fundamentos citados na matéria parecem mais sólidos dessa vez." },
+    { "name": "Patrícia Lemos", "date": "Agosto 2026", "text": "Interessante ver o setor de infraestrutura ganhando espaço nas carteiras estrangeiras, não é tão comum." }
+  ]
+}

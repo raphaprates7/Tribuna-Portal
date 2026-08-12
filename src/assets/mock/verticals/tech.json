@@ -1,0 +1,50 @@
+{
+  "slug": "tech",
+  "name": "Tribuna Tech",
+  "tagline": "O que está sendo construído agora.",
+  "intro": "Tribuna Tech cobre inteligência artificial, startups e os lançamentos que redefinem como trabalhamos e consumimos tecnologia. Análise técnica sem sensacionalismo, direto ao que importa.",
+  "theme": {
+    "accent": "#2456a6",
+    "accentDark": "#1a3f80",
+    "accentTint": "#e8eef8"
+  },
+  "breadcrumbs": [
+    { "label": "Home", "href": "/" },
+    { "label": "Tribuna Tech", "href": "/tech" }
+  ],
+  "featuredArticle": {
+    "eyebrow": "Inteligência Artificial",
+    "title": "Modelo brasileiro de IA generativa alcança marca de 10 milhões de usuários ativos",
+    "excerpt": "Ferramenta nacional voltada a atendimento e produtividade corporativa acelera adoção em empresas de médio porte.",
+    "ctaLabel": "Ler matéria completa",
+    "href": "/artigos/tech-destaque",
+    "slidesCount": 3,
+    "activeSlide": 0
+  },
+  "cards": [
+    {
+      "icon": "chevron-down",
+      "title": "Assistente de IA generativa passa a integrar planilhas e apresentações automaticamente",
+      "image": "assets/images/inovacao.png",
+      "excerpt": "Atualização promete reduzir em até 40% o tempo gasto em tarefas repetitivas de escritório, segundo a desenvolvedora.",
+      "linkLabel": "Ler mais",
+      "href": "/artigos/tech-1"
+    },
+    {
+      "icon": "square",
+      "title": "Fabricante asiática lança óculos de realidade aumentada voltado ao mercado corporativo",
+      "image": null,
+      "excerpt": "Dispositivo aposta em bateria de longa duração e integração com softwares de produtividade já existentes.",
+      "linkLabel": "Ler mais",
+      "href": "/artigos/tech-2"
+    },
+    {
+      "icon": "arrow-right",
+      "title": "Startup de logística automatizada capta R$ 90 milhões em rodada série B",
+      "image": null,
+      "excerpt": "Aporte deve financiar expansão para outras três capitais e contratação de equipe de engenharia.",
+      "linkLabel": "Ler mais",
+      "href": "/artigos/tech-3"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "breadcrumbs": [
+    { "label": "Home", "href": "/" },
+    { "label": "Tribuna Capital", "href": "/capital" },
+    { "label": "Mercado Financeiro", "href": "/capital" }
+  ],
+  "title": "Bolsa brasileira encerra semana em alta puxada por bancos e commodities",
+  "subtitle": "Ibovespa acumula ganhos com resultados corporativos acima do esperado e expectativa de novo corte de juros.",
+  "date": "08/08/2026",
+  "author": "Redação Tribuna",
+  "shareLinks": [
+    { "icon": "facebook", "href": "#", "label": "Compartilhar no Facebook" },
+    { "icon": "whatsapp", "href": "#", "label": "Compartilhar no WhatsApp" },
+    { "icon": "linkedin", "href": "#", "label": "Compartilhar no LinkedIn" },
+    { "icon": "x", "href": "#", "label": "Compartilhar no X" }
+  ],
+  "heroImage": null,
+  "paragraphs": [
+    "O Ibovespa fechou a semana com alta acumulada de 2,8%, impulsionado por resultados corporativos do setor bancário acima das projeções do mercado e pela valorização de commodities metálicas no exterior. O principal índice da bolsa brasileira encostou na máxima histórica, renovada três vezes ao longo da semana.",
+    "Os grandes bancos do país reportaram lucro líquido conjunto 11% maior que no mesmo período do ano anterior, beneficiados pela retomada do crédito e pela redução da inadimplência. As ações do setor financeiro responderam por boa parte da pontuação ganha pelo índice.",
+    "No exterior, o avanço dos preços do minério de ferro sustentou o desempenho das mineradoras listadas na bolsa local, enquanto o petróleo operou em leve alta, favorecendo papéis do setor de energia.",
+    "Investidores agora voltam a atenção para a próxima reunião do Comitê de Política Monetária, com expectativa consolidada de novo corte na taxa básica de juros, o que tende a beneficiar ainda mais os ativos de renda variável nas próximas semanas."
+  ],
+  "categories": [
+    { "label": "Cultura", "count": 35, "href": "/blog", "active": false },
+    { "label": "Negócios & Economia", "count": 9, "href": "/blog/negocios-economia", "active": false },
+    { "label": "Tecnologia", "count": 16, "href": "/blog/tecnologia", "active": false },
+    { "label": "Entretenimento", "count": 104, "href": "/blog/entretenimento", "active": false }
+  ],
+  "recentPosts": [
+    { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
+    { "date": "01/07/2027", "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.", "href": "/artigos/recente-2" },
+    { "date": "01/07/2027", "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.", "href": "/artigos/recente-3" }
+  ],
+  "extras": [
+    { "kind": "sponsor", "icon": "square", "title": "Marambaia Capital", "image": "assets/images/skyline.jpg", "description": "Carteiras diversificadas pensadas para atravessar ciclos de mercado com consistência.", "linkLabel": "Conhecer a gestora", "href": "/artigos/capital-destaque" }
+  ],
+  "comments": [
+    { "name": "Thiago Peixoto", "date": "Agosto 2026", "text": "Semana forte para os bancos, curioso ver se o ritmo se sustenta com o próximo corte de juros." },
+    { "name": "Larissa Bittencourt", "date": "Agosto 2026", "text": "O minério de ferro sempre dá esse empurrão extra no Ibovespa, comum em ciclos de alta assim." }
+  ]
+}

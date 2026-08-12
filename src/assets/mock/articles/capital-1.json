@@ -1,0 +1,42 @@
+{
+  "breadcrumbs": [
+    { "label": "Home", "href": "/" },
+    { "label": "Tribuna Capital", "href": "/capital" },
+    { "label": "Fusões & Aquisições", "href": "/capital" }
+  ],
+  "title": "Grupo Altano compra fatia majoritária da varejista Bravante por R$ 640 milhões",
+  "subtitle": "Operação amplia presença do grupo no varejo alimentar e deve fechar no quarto trimestre, à espera do aval do Cade.",
+  "date": "07/08/2026",
+  "author": "Redação Tribuna",
+  "shareLinks": [
+    { "icon": "facebook", "href": "#", "label": "Compartilhar no Facebook" },
+    { "icon": "whatsapp", "href": "#", "label": "Compartilhar no WhatsApp" },
+    { "icon": "linkedin", "href": "#", "label": "Compartilhar no LinkedIn" },
+    { "icon": "x", "href": "#", "label": "Compartilhar no X" }
+  ],
+  "heroImage": "assets/images/skyline.jpg",
+  "paragraphs": [
+    "O Grupo Altano anunciou a aquisição de 70% do capital da rede varejista Bravante em uma transação avaliada em R$ 640 milhões. O negócio, o maior do setor de varejo alimentar no ano, deve ser concluído no quarto trimestre, após aprovação do Conselho Administrativo de Defesa Econômica (Cade).",
+    "Com a compra, o Grupo Altano passa a operar mais 84 lojas em seis estados, consolidando posição entre as cinco maiores redes de supermercados do país. Executivos da companhia afirmam que a integração das operações deve ocorrer de forma gradual, mantendo a marca Bravante nos pontos de venda já existentes.",
+    "Analistas do setor avaliam a operação como parte de um movimento mais amplo de consolidação no varejo alimentar brasileiro, impulsionado pela busca por ganhos de escala em um ambiente de margens apertadas e concorrência crescente do comércio eletrônico.",
+    "Os fundadores da Bravante, que mantêm participação minoritária, permanecerão à frente da operação por um período de transição de dois anos, segundo comunicado enviado ao mercado nesta semana."
+  ],
+  "categories": [
+    { "label": "Cultura", "count": 35, "href": "/blog", "active": false },
+    { "label": "Negócios & Economia", "count": 9, "href": "/blog/negocios-economia", "active": false },
+    { "label": "Tecnologia", "count": 16, "href": "/blog/tecnologia", "active": false },
+    { "label": "Entretenimento", "count": 104, "href": "/blog/entretenimento", "active": false }
+  ],
+  "recentPosts": [
+    { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
+    { "date": "01/07/2027", "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.", "href": "/artigos/recente-2" },
+    { "date": "01/07/2027", "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.", "href": "/artigos/recente-3" }
+  ],
+  "extras": [
+    { "kind": "ad", "title": "Consultoria especializada em fusões e aquisições para médias empresas.", "ctaLabel": "Falar com um especialista", "href": "/artigos/capital-destaque" }
+  ],
+  "comments": [
+    { "name": "Rogério Vasques", "date": "Agosto 2026", "text": "Consolidação no varejo alimentar é tendência há tempos, não é surpresa ver mais uma operação desse porte." },
+    { "name": "Camila Furtado", "date": "Agosto 2026", "text": "Fico curiosa se a marca Bravante vai se manter no médio prazo ou se será incorporada ao Altano." }
+  ]
+}

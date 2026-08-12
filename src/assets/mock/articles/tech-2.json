@@ -1,0 +1,42 @@
+{
+  "breadcrumbs": [
+    { "label": "Home", "href": "/" },
+    { "label": "Tribuna Tech", "href": "/tech" },
+    { "label": "Hardware", "href": "/tech" }
+  ],
+  "title": "Fabricante asiática lança óculos de realidade aumentada voltado ao mercado corporativo",
+  "subtitle": "Dispositivo aposta em bateria de longa duração e integração com softwares de produtividade já existentes.",
+  "date": "05/08/2026",
+  "author": "Redação Tribuna",
+  "shareLinks": [
+    { "icon": "facebook", "href": "#", "label": "Compartilhar no Facebook" },
+    { "icon": "whatsapp", "href": "#", "label": "Compartilhar no WhatsApp" },
+    { "icon": "linkedin", "href": "#", "label": "Compartilhar no LinkedIn" },
+    { "icon": "x", "href": "#", "label": "Compartilhar no X" }
+  ],
+  "heroImage": null,
+  "paragraphs": [
+    "Uma fabricante asiática de eletrônicos apresentou nesta semana um novo óculos de realidade aumentada voltado especificamente para o mercado corporativo. O dispositivo, mais leve que os modelos anteriores da companhia, promete até oito horas de autonomia de bateria em uso contínuo, o dobro da geração anterior.",
+    "O produto chega com integração nativa a softwares de videoconferência e ferramentas de colaboração já usadas por empresas, permitindo que reuniões e apresentações sejam projetadas diretamente no campo de visão do usuário sem a necessidade de telas físicas adicionais.",
+    "Segundo a fabricante, o foco em produtividade corporativa é uma resposta à dificuldade de dispositivos de realidade aumentada em encontrar um público consumidor amplo nos últimos anos. A aposta agora é conquistar espaço em ambientes de trabalho híbrido, especialmente em treinamentos remotos e manutenção técnica assistida.",
+    "O lançamento chega ao mercado brasileiro no próximo trimestre, com preço ainda não divulgado, mas que deve posicionar o produto na faixa premium de dispositivos corporativos."
+  ],
+  "categories": [
+    { "label": "Cultura", "count": 35, "href": "/blog", "active": false },
+    { "label": "Negócios & Economia", "count": 9, "href": "/blog/negocios-economia", "active": false },
+    { "label": "Tecnologia", "count": 16, "href": "/blog/tecnologia", "active": false },
+    { "label": "Entretenimento", "count": 104, "href": "/blog/entretenimento", "active": false }
+  ],
+  "recentPosts": [
+    { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
+    { "date": "01/07/2027", "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.", "href": "/artigos/recente-2" },
+    { "date": "01/07/2027", "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.", "href": "/artigos/recente-3" }
+  ],
+  "extras": [
+    { "kind": "ad", "title": "Compare os principais dispositivos de realidade aumentada do mercado.", "ctaLabel": "Ver comparativo", "href": "/artigos/tech-3" }
+  ],
+  "comments": [
+    { "name": "Leonardo Xavier", "date": "Agosto 2026", "text": "Foco em corporativo parece mais sensato do que tentar competir direto no consumo, onde a adoção ainda é baixa." },
+    { "name": "Vanessa Correia", "date": "Agosto 2026", "text": "Oito horas de bateria já é um avanço e tanto para esse tipo de dispositivo, era o principal problema até agora." }
+  ]
+}

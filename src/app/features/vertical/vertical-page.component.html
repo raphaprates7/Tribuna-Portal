@@ -1,0 +1,28 @@
+<ng-container *ngIf="data() as d">
+  <div
+    class="vertical"
+    [class.vertical--dark]="d.theme.dark"
+    [style.--color-primary]="d.theme.accent"
+    [style.--color-primary-dark]="d.theme.accentDark"
+    [style.--color-primary-tint]="d.theme.accentTint"
+  >
+    <div class="vertical__bar" *ngIf="d.theme.dark"></div>
+
+    <div class="vertical__inner">
+      <app-breadcrumb [items]="d.breadcrumbs"></app-breadcrumb>
+
+      <header class="vertical__masthead">
+        <p class="vertical__eyebrow">Tribuna&amp;Co.</p>
+        <h1 class="vertical__name">{{ d.name }}</h1>
+        <p class="vertical__tagline">{{ d.tagline }}</p>
+        <p class="vertical__intro">{{ d.intro }}</p>
+      </header>
+
+      <app-hero-featured [article]="d.featuredArticle"></app-hero-featured>
+
+      <section class="vertical__grid">
+        <app-category-card *ngFor="let card of d.cards" [card]="card"></app-category-card>
+      </section>
+    </div>
+  </div>
+</ng-container>

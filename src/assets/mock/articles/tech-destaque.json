@@ -1,0 +1,44 @@
+{
+  "breadcrumbs": [
+    { "label": "Home", "href": "/" },
+    { "label": "Tribuna Tech", "href": "/tech" },
+    { "label": "Inteligência Artificial", "href": "/tech" }
+  ],
+  "title": "Modelo brasileiro de IA generativa alcança marca de 10 milhões de usuários ativos",
+  "subtitle": "Ferramenta nacional voltada a atendimento e produtividade corporativa acelera adoção em empresas de médio porte.",
+  "date": "10/08/2026",
+  "author": "Redação Tribuna",
+  "shareLinks": [
+    { "icon": "facebook", "href": "#", "label": "Compartilhar no Facebook" },
+    { "icon": "whatsapp", "href": "#", "label": "Compartilhar no WhatsApp" },
+    { "icon": "linkedin", "href": "#", "label": "Compartilhar no LinkedIn" },
+    { "icon": "x", "href": "#", "label": "Compartilhar no X" }
+  ],
+  "heroImage": "assets/images/inovacao.png",
+  "paragraphs": [
+    "A startup brasileira Fluxora anunciou que seu modelo de inteligência artificial generativa ultrapassou a marca de 10 milhões de usuários ativos mensais, um crescimento de 260% em relação ao mesmo período do ano anterior. A ferramenta, voltada principalmente para atendimento ao cliente e produtividade corporativa, já é usada por mais de 3 mil empresas no país.",
+    "Segundo a companhia, o crescimento acelerado se deve à adoção por empresas de médio porte que buscam automatizar tarefas de atendimento sem depender de soluções internacionais mais caras e com menor entendimento do português falado no Brasil.",
+    "O modelo foi treinado com foco em nuances regionais do idioma, o que a empresa aponta como diferencial competitivo frente a ferramentas globais. Executivos da Fluxora afirmam que a próxima etapa é expandir a oferta para o setor público, com pilotos já em andamento em duas prefeituras.",
+    "Especialistas em tecnologia avaliam o resultado como um sinal de amadurecimento do ecossistema brasileiro de inteligência artificial aplicada, historicamente mais focado em pesquisa acadêmica do que em produtos comerciais de larga escala.",
+    "A empresa deve anunciar uma nova rodada de investimento nas próximas semanas para acelerar a expansão internacional, com foco inicial em outros países de língua portuguesa."
+  ],
+  "categories": [
+    { "label": "Cultura", "count": 35, "href": "/blog", "active": false },
+    { "label": "Negócios & Economia", "count": 9, "href": "/blog/negocios-economia", "active": false },
+    { "label": "Tecnologia", "count": 16, "href": "/blog/tecnologia", "active": false },
+    { "label": "Entretenimento", "count": 104, "href": "/blog/entretenimento", "active": false }
+  ],
+  "recentPosts": [
+    { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
+    { "date": "01/07/2027", "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.", "href": "/artigos/recente-2" },
+    { "date": "01/07/2027", "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.", "href": "/artigos/recente-3" }
+  ],
+  "extras": [
+    { "kind": "ad", "title": "Ferramentas de IA para automatizar o atendimento da sua empresa.", "ctaLabel": "Testar gratuitamente", "href": "/artigos/tech-1" },
+    { "kind": "sponsor", "icon": "square", "title": "Fluxora", "image": "assets/images/inovacao.png", "description": "Inteligência artificial generativa pensada para o português do Brasil.", "linkLabel": "Conhecer a Fluxora", "href": "/artigos/tech-destaque" }
+  ],
+  "comments": [
+    { "name": "Daniel Aguiar", "date": "Agosto 2026", "text": "Faz sentido o foco em português regional, ferramentas internacionais ainda pecam bastante nisso." },
+    { "name": "Sabrina Kato", "date": "Agosto 2026", "text": "Bom ver uma startup brasileira crescendo nesse ritmo no setor de IA, geralmente ouvimos só sobre as gigantes." }
+  ]
+}
