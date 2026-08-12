@@ -1,0 +1,42 @@
+{
+  "breadcrumbs": [
+    { "label": "Home", "href": "/" },
+    { "label": "Tribuna Capital", "href": "/capital" },
+    { "label": "Fundos Imobiliários", "href": "/capital" }
+  ],
+  "title": "Fundos imobiliários atraem novo perfil de investidor pessoa física em 2026",
+  "subtitle": "Número de cotistas cresce impulsionado por dividendos isentos de imposto de renda e busca por renda passiva.",
+  "date": "10/08/2026",
+  "author": "Redação Tribuna",
+  "shareLinks": [
+    { "icon": "facebook", "href": "#", "label": "Compartilhar no Facebook" },
+    { "icon": "whatsapp", "href": "#", "label": "Compartilhar no WhatsApp" },
+    { "icon": "linkedin", "href": "#", "label": "Compartilhar no LinkedIn" },
+    { "icon": "x", "href": "#", "label": "Compartilhar no X" }
+  ],
+  "heroImage": null,
+  "paragraphs": [
+    "O número de investidores pessoa física em fundos de investimento imobiliário (FIIs) voltou a crescer neste ano, impulsionado por um público mais jovem em busca de renda passiva mensal isenta de imposto de renda. Dados de corretoras mostram aumento de mais de 15% na base de cotistas em relação ao mesmo período do ano anterior.",
+    "Gestoras do setor apontam que a queda gradual da taxa de juros tornou os FIIs mais atrativos frente à renda fixa tradicional, especialmente fundos de papel, que aplicam em títulos ligados ao mercado imobiliário e distribuem rendimentos mensais previsíveis aos cotistas.",
+    "Especialistas alertam, no entanto, para a importância de diversificar entre diferentes segmentos de fundos — como lajes corporativas, galpões logísticos e shoppings — para reduzir riscos associados à vacância e à concentração setorial, um erro comum entre investidores iniciantes que buscam apenas o maior dividendo disponível.",
+    "Plataformas de investimento relatam também aumento na demanda por conteúdo educativo sobre o tema, sinal de que parte desse novo público ainda está em fase de aprendizado sobre como avaliar a qualidade dos ativos por trás de cada fundo antes de investir."
+  ],
+  "categories": [
+    { "label": "Cultura", "count": 35, "href": "/blog", "active": false },
+    { "label": "Negócios & Economia", "count": 9, "href": "/capital", "active": false },
+    { "label": "Tecnologia", "count": 16, "href": "/tech", "active": false },
+    { "label": "Entretenimento", "count": 104, "href": "/blog", "active": false }
+  ],
+  "recentPosts": [
+    { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
+    { "date": "01/07/2027", "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.", "href": "/artigos/recente-2" },
+    { "date": "01/07/2027", "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.", "href": "/artigos/recente-3" }
+  ],
+  "extras": [
+    { "kind": "ad", "title": "Aprenda a montar uma carteira diversificada de fundos imobiliários.", "ctaLabel": "Saiba mais", "href": "/artigos/capital-destaque" }
+  ],
+  "comments": [
+    { "name": "Eduardo Malta", "date": "Agosto 2026", "text": "Comecei a investir em FIIs esse ano justamente pela isenção de imposto, tem feito diferença no bolso." },
+    { "name": "Patrícia Lemos", "date": "Agosto 2026", "text": "Vale o alerta sobre diversificação, muita gente entra só de olho no dividendo mais alto sem olhar a qualidade do fundo." }
+  ]
+}

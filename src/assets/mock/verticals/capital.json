@@ -45,6 +45,46 @@
       "excerpt": "Ibovespa acumula ganhos com resultados corporativos acima do esperado e expectativa de novo corte de juros.",
       "linkLabel": "Ler mais",
       "href": "/artigos/capital-3"
+    },
+    {
+      "icon": "doc",
+      "title": "Banco Central publica nova norma sobre open finance e pagamento instantâneo entre fintechs",
+      "image": "assets/images/skyline.jpg",
+      "excerpt": "Regra amplia compartilhamento de dados financeiros e promete mais competição no mercado de meios de pagamento.",
+      "linkLabel": "Ler mais",
+      "href": "/artigos/capital-4"
+    },
+    {
+      "icon": "square",
+      "title": "Fundos imobiliários atraem novo perfil de investidor pessoa física em 2026",
+      "image": null,
+      "excerpt": "Número de cotistas cresce impulsionado por dividendos isentos de imposto de renda e busca por renda passiva.",
+      "linkLabel": "Ler mais",
+      "href": "/artigos/capital-5"
+    },
+    {
+      "icon": "arrow-right",
+      "title": "Linha de crédito facilitado para pequenas empresas impulsiona setor de serviços",
+      "image": "assets/images/skyline.jpg",
+      "excerpt": "Programa reduz burocracia e juros para negócios com faturamento até R$ 4,8 milhões por ano.",
+      "linkLabel": "Ler mais",
+      "href": "/artigos/capital-6"
+    },
+    {
+      "icon": "dot",
+      "title": "Dólar em queda favorece importadoras e turismo de brasileiros no exterior",
+      "image": null,
+      "excerpt": "Moeda americana acumula recuo no ano e abre espaço para renegociação de contratos e pacotes de viagem mais baratos.",
+      "linkLabel": "Ler mais",
+      "href": "/artigos/capital-7"
+    },
+    {
+      "icon": "bookmark",
+      "title": "Empresa brasileira de tecnologia anuncia abertura de capital na bolsa local",
+      "image": "assets/images/inovacao.png",
+      "excerpt": "Oferta pública inicial deve movimentar cerca de R$ 1,2 bilhão e amplia lista de techs listadas no país.",
+      "linkLabel": "Ler mais",
+      "href": "/artigos/capital-8"
     }
   ]
 }

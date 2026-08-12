@@ -1,0 +1,42 @@
+{
+  "breadcrumbs": [
+    { "label": "Home", "href": "/" },
+    { "label": "Tribuna Tech", "href": "/tech" },
+    { "label": "Robótica", "href": "/tech" }
+  ],
+  "title": "Indústria nacional acelera automação de linhas de produção com robótica colaborativa",
+  "subtitle": "Robôs colaborativos dividem espaço com trabalhadores humanos e prometem ganhos de produtividade sem cortes de vagas, dizem fabricantes.",
+  "date": "13/08/2026",
+  "author": "Redação Tribuna",
+  "shareLinks": [
+    { "icon": "facebook", "href": "#", "label": "Compartilhar no Facebook" },
+    { "icon": "whatsapp", "href": "#", "label": "Compartilhar no WhatsApp" },
+    { "icon": "linkedin", "href": "#", "label": "Compartilhar no LinkedIn" },
+    { "icon": "x", "href": "#", "label": "Compartilhar no X" }
+  ],
+  "heroImage": null,
+  "paragraphs": [
+    "A indústria brasileira tem acelerado a adoção de robótica colaborativa em linhas de produção, com robôs projetados para operar lado a lado com trabalhadores humanos em tarefas repetitivas, como embalagem e montagem de peças menores, sem a necessidade de isolamento por grades de segurança.",
+    "Fabricantes de equipamentos afirmam que a procura por esse tipo de robô cresceu de forma significativa entre empresas de médio porte, que antes viam a automação industrial como acessível apenas a grandes corporações com orçamento robusto para investimento em maquinário.",
+    "Diferente de gerações anteriores de automação, os robôs colaborativos atuais contam com sensores que interrompem o movimento automaticamente ao detectar proximidade de uma pessoa, reduzindo o risco de acidentes e permitindo reconfiguração rápida da linha de produção conforme a demanda muda.",
+    "Sindicatos do setor acompanham de perto a expansão da tecnologia, atentos aos possíveis impactos sobre postos de trabalho, ainda que fabricantes argumentem que o objetivo declarado é elevar a produtividade e reduzir tarefas repetitivas, e não necessariamente substituir a mão de obra humana nas fábricas."
+  ],
+  "categories": [
+    { "label": "Cultura", "count": 35, "href": "/blog", "active": false },
+    { "label": "Negócios & Economia", "count": 9, "href": "/capital", "active": false },
+    { "label": "Tecnologia", "count": 16, "href": "/tech", "active": false },
+    { "label": "Entretenimento", "count": 104, "href": "/blog", "active": false }
+  ],
+  "recentPosts": [
+    { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
+    { "date": "01/07/2027", "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.", "href": "/artigos/recente-2" },
+    { "date": "01/07/2027", "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.", "href": "/artigos/recente-3" }
+  ],
+  "extras": [
+    { "kind": "ad", "title": "Conheça soluções de robótica colaborativa para pequenas e médias indústrias.", "ctaLabel": "Solicitar demonstração", "href": "/artigos/tech-destaque" }
+  ],
+  "comments": [
+    { "name": "Otacílio Bandeira", "date": "Agosto 2026", "text": "Trabalho em uma fábrica que já adotou esses robôs, a diferença na segurança da linha é bem visível." },
+    { "name": "Renata Quintão", "date": "Agosto 2026", "text": "Entendo a preocupação dos sindicatos, mas se bem implementado pode realmente aliviar tarefas repetitivas e cansativas." }
+  ]
+}

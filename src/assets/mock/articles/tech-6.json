@@ -1,0 +1,42 @@
+{
+  "breadcrumbs": [
+    { "label": "Home", "href": "/" },
+    { "label": "Tribuna Tech", "href": "/tech" },
+    { "label": "Pagamentos", "href": "/tech" }
+  ],
+  "title": "Tecnologia de pagamento por aproximação cresce entre pequenos comércios",
+  "subtitle": "Adoção do recurso reduz filas e custos operacionais para lojistas de bairro em todo o país.",
+  "date": "11/08/2026",
+  "author": "Redação Tribuna",
+  "shareLinks": [
+    { "icon": "facebook", "href": "#", "label": "Compartilhar no Facebook" },
+    { "icon": "whatsapp", "href": "#", "label": "Compartilhar no WhatsApp" },
+    { "icon": "linkedin", "href": "#", "label": "Compartilhar no LinkedIn" },
+    { "icon": "x", "href": "#", "label": "Compartilhar no X" }
+  ],
+  "heroImage": "assets/images/inovacao.png",
+  "paragraphs": [
+    "A tecnologia de pagamento por aproximação, que dispensa a inserção de cartão ou senha em transações de baixo valor, vem ganhando espaço rapidamente entre pequenos comércios de bairro, impulsionada pela popularização de maquininhas mais baratas e de aplicativos de carteira digital no celular.",
+    "Donos de padarias, farmácias e lanchonetes relatam redução perceptível no tempo médio de atendimento no caixa desde a adoção do recurso, o que ajuda a reduzir filas em horários de pico e melhora a experiência de compra para os clientes.",
+    "Fornecedores de maquininhas afirmam que o custo de manutenção também caiu para os lojistas, já que transações por aproximação registram menor índice de erro de leitura e desgastam menos os equipamentos em comparação com a leitura por tarja magnética ou chip inserido.",
+    "Associações de pequenos comerciantes avaliam que a tendência deve se consolidar nos próximos anos, à medida que consumidores mais jovens, já habituados ao pagamento por aproximação em grandes redes, passam a exigir o mesmo recurso também no comércio de vizinhança."
+  ],
+  "categories": [
+    { "label": "Cultura", "count": 35, "href": "/blog", "active": false },
+    { "label": "Negócios & Economia", "count": 9, "href": "/capital", "active": false },
+    { "label": "Tecnologia", "count": 16, "href": "/tech", "active": false },
+    { "label": "Entretenimento", "count": 104, "href": "/blog", "active": false }
+  ],
+  "recentPosts": [
+    { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
+    { "date": "01/07/2027", "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.", "href": "/artigos/recente-2" },
+    { "date": "01/07/2027", "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.", "href": "/artigos/recente-3" }
+  ],
+  "extras": [
+    { "kind": "ad", "title": "Conheça as maquininhas com melhor custo-benefício para o seu negócio.", "ctaLabel": "Comparar modelos", "href": "/artigos/tech-destaque" }
+  ],
+  "comments": [
+    { "name": "Anderson Melo", "date": "Agosto 2026", "text": "Na minha padaria a fila diminuiu muito depois que passamos a aceitar pagamento por aproximação." },
+    { "name": "Tatiane Duarte", "date": "Agosto 2026", "text": "Como cliente, é bem mais prático, principalmente em compras rápidas do dia a dia." }
+  ]
+}

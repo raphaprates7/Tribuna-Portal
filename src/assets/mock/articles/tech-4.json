@@ -1,0 +1,42 @@
+{
+  "breadcrumbs": [
+    { "label": "Home", "href": "/" },
+    { "label": "Tribuna Tech", "href": "/tech" },
+    { "label": "Cibersegurança", "href": "/tech" }
+  ],
+  "title": "Vazamento de dados expõe falha de segurança em empresas de médio porte",
+  "subtitle": "Especialistas recomendam medidas urgentes de proteção após incidente afetar milhares de registros de clientes.",
+  "date": "09/08/2026",
+  "author": "Redação Tribuna",
+  "shareLinks": [
+    { "icon": "facebook", "href": "#", "label": "Compartilhar no Facebook" },
+    { "icon": "whatsapp", "href": "#", "label": "Compartilhar no WhatsApp" },
+    { "icon": "linkedin", "href": "#", "label": "Compartilhar no LinkedIn" },
+    { "icon": "x", "href": "#", "label": "Compartilhar no X" }
+  ],
+  "heroImage": null,
+  "paragraphs": [
+    "Um vazamento de dados expôs uma falha de segurança recorrente entre empresas de médio porte, atingindo registros de clientes de pelo menos uma dezena de companhias que utilizavam um mesmo sistema de gestão comercial com brecha em sua camada de autenticação.",
+    "Especialistas em cibersegurança apontam que o incidente se originou de uma configuração incorreta em servidores de armazenamento em nuvem, deixando bancos de dados acessíveis publicamente por um período que pode ter chegado a várias semanas antes da falha ser identificada e corrigida.",
+    "Entre as informações expostas estão nomes, e-mails e números de telefone de clientes, sem indícios, até o momento, de vazamento de dados financeiros ou senhas. Ainda assim, especialistas recomendam que usuários fiquem atentos a tentativas de golpes que costumam se intensificar após esse tipo de incidente.",
+    "Consultorias de segurança da informação reforçam que empresas de médio porte costumam investir menos em auditorias de segurança do que grandes corporações, o que as torna alvos mais vulneráveis, e recomendam a adoção de revisões periódicas de configuração de infraestrutura em nuvem como medida preventiva básica."
+  ],
+  "categories": [
+    { "label": "Cultura", "count": 35, "href": "/blog", "active": false },
+    { "label": "Negócios & Economia", "count": 9, "href": "/capital", "active": false },
+    { "label": "Tecnologia", "count": 16, "href": "/tech", "active": false },
+    { "label": "Entretenimento", "count": 104, "href": "/blog", "active": false }
+  ],
+  "recentPosts": [
+    { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
+    { "date": "01/07/2027", "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.", "href": "/artigos/recente-2" },
+    { "date": "01/07/2027", "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.", "href": "/artigos/recente-3" }
+  ],
+  "extras": [
+    { "kind": "ad", "title": "Faça um diagnóstico gratuito de segurança para os sistemas da sua empresa.", "ctaLabel": "Solicitar diagnóstico", "href": "/artigos/tech-destaque" }
+  ],
+  "comments": [
+    { "name": "Rodrigo Salgado", "date": "Agosto 2026", "text": "Configuração incorreta de servidor é um erro clássico e evitável, mostra que falta investimento básico em segurança." },
+    { "name": "Fernanda Pires", "date": "Agosto 2026", "text": "Recebi um e-mail de uma dessas empresas avisando sobre o vazamento, fiquei de olho em mensagens suspeitas desde então." }
+  ]
+}

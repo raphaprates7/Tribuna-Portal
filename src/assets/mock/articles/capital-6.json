@@ -1,0 +1,42 @@
+{
+  "breadcrumbs": [
+    { "label": "Home", "href": "/" },
+    { "label": "Tribuna Capital", "href": "/capital" },
+    { "label": "Crédito & Empresas", "href": "/capital" }
+  ],
+  "title": "Linha de crédito facilitado para pequenas empresas impulsiona setor de serviços",
+  "subtitle": "Programa reduz burocracia e juros para negócios com faturamento até R$ 4,8 milhões por ano.",
+  "date": "10/08/2026",
+  "author": "Redação Tribuna",
+  "shareLinks": [
+    { "icon": "facebook", "href": "#", "label": "Compartilhar no Facebook" },
+    { "icon": "whatsapp", "href": "#", "label": "Compartilhar no WhatsApp" },
+    { "icon": "linkedin", "href": "#", "label": "Compartilhar no LinkedIn" },
+    { "icon": "x", "href": "#", "label": "Compartilhar no X" }
+  ],
+  "heroImage": "assets/images/skyline.jpg",
+  "paragraphs": [
+    "Uma nova linha de crédito facilitado voltada a pequenas e médias empresas já contratou mais de R$ 3,2 bilhões em financiamentos desde o lançamento, segundo dados divulgados por bancos parceiros do programa. O foco está em negócios com faturamento anual de até R$ 4,8 milhões, enquadrados no Simples Nacional.",
+    "O setor de serviços foi o que mais recorreu à linha até agora, respondendo por cerca de 40% dos contratos firmados. Salões de beleza, escritórios de contabilidade, clínicas e consultorias figuram entre os principais tomadores, atraídos por taxas menores e prazos de análise mais curtos do que os praticados no crédito tradicional.",
+    "Bancos participantes do programa afirmam ter simplificado a exigência de garantias, substituindo parte da documentação usual por análise de dados de faturamento vindos de maquininhas de cartão e notas fiscais eletrônicas emitidas pela própria empresa, o que reduziu o tempo médio de aprovação de semanas para poucos dias.",
+    "Para economistas, a iniciativa chega em momento oportuno, já que pequenas empresas historicamente enfrentam mais dificuldade de acesso a crédito do que grandes companhias, mesmo respondendo por parcela relevante da geração de empregos formais no país."
+  ],
+  "categories": [
+    { "label": "Cultura", "count": 35, "href": "/blog", "active": false },
+    { "label": "Negócios & Economia", "count": 9, "href": "/capital", "active": false },
+    { "label": "Tecnologia", "count": 16, "href": "/tech", "active": false },
+    { "label": "Entretenimento", "count": 104, "href": "/blog", "active": false }
+  ],
+  "recentPosts": [
+    { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
+    { "date": "01/07/2027", "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.", "href": "/artigos/recente-2" },
+    { "date": "01/07/2027", "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.", "href": "/artigos/recente-3" }
+  ],
+  "extras": [
+    { "kind": "ad", "title": "Simule agora as condições de crédito para o seu pequeno negócio.", "ctaLabel": "Simular crédito", "href": "/artigos/capital-destaque" }
+  ],
+  "comments": [
+    { "name": "Josiane Ferraz", "date": "Agosto 2026", "text": "Consegui um crédito por essa linha para minha clínica e realmente o processo foi bem mais rápido que o normal." },
+    { "name": "Wagner Peixoto", "date": "Agosto 2026", "text": "Bom ver crédito chegando de fato para quem é do Simples Nacional, geralmente essas linhas ficam só no papel." }
+  ]
+}

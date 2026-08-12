@@ -70,6 +70,41 @@
     "date": "08/08/2026"
   },
   {
+    "title": "Banco Central publica nova norma sobre open finance e pagamento instantâneo entre fintechs",
+    "excerpt": "Regra amplia compartilhamento de dados financeiros e promete mais competição no mercado de meios de pagamento.",
+    "href": "/artigos/capital-4",
+    "image": "assets/images/skyline.jpg",
+    "date": "09/08/2026"
+  },
+  {
+    "title": "Fundos imobiliários atraem novo perfil de investidor pessoa física em 2026",
+    "excerpt": "Número de cotistas cresce impulsionado por dividendos isentos de imposto de renda e busca por renda passiva.",
+    "href": "/artigos/capital-5",
+    "image": null,
+    "date": "10/08/2026"
+  },
+  {
+    "title": "Linha de crédito facilitado para pequenas empresas impulsiona setor de serviços",
+    "excerpt": "Programa reduz burocracia e juros para negócios com faturamento até R$ 4,8 milhões por ano.",
+    "href": "/artigos/capital-6",
+    "image": "assets/images/skyline.jpg",
+    "date": "10/08/2026"
+  },
+  {
+    "title": "Dólar em queda favorece importadoras e turismo de brasileiros no exterior",
+    "excerpt": "Moeda americana acumula recuo no ano e abre espaço para renegociação de contratos e pacotes de viagem mais baratos.",
+    "href": "/artigos/capital-7",
+    "image": null,
+    "date": "11/08/2026"
+  },
+  {
+    "title": "Empresa brasileira de tecnologia anuncia abertura de capital na bolsa local",
+    "excerpt": "Oferta pública inicial deve movimentar cerca de R$ 1,2 bilhão e amplia lista de techs listadas no país.",
+    "href": "/artigos/capital-8",
+    "image": "assets/images/inovacao.png",
+    "date": "12/08/2026"
+  },
+  {
     "title": "Fluxo estrangeiro para a bolsa brasileira atinge maior patamar em cinco anos",
     "excerpt": "Gestoras internacionais reforçam posições em ativos locais em meio a juros em queda e reformas em andamento no Congresso.",
     "href": "/artigos/capital-destaque",
@@ -119,6 +154,41 @@
     "date": "03/08/2026"
   },
   {
+    "title": "Janela de transferências movimenta clubes brasileiros com contratações internacionais",
+    "excerpt": "Times do Brasileirão investem em reforços vindos da Europa e do futebol sul-americano para a reta final da temporada.",
+    "href": "/artigos/esportes-4",
+    "image": null,
+    "date": "09/08/2026"
+  },
+  {
+    "title": "Seleção brasileira feminina de vôlei se prepara para torneio internacional",
+    "excerpt": "Equipe realiza treinos intensivos em busca do título inédito na competição que reúne as principais potências do esporte.",
+    "href": "/artigos/esportes-5",
+    "image": null,
+    "date": "10/08/2026"
+  },
+  {
+    "title": "Piloto brasileiro sobe ao pódio em etapa emocionante da Fórmula 1",
+    "excerpt": "Resultado é o melhor da carreira do piloto e reacende esperanças de título entre os fãs do automobilismo nacional.",
+    "href": "/artigos/esportes-6",
+    "image": null,
+    "date": "11/08/2026"
+  },
+  {
+    "title": "Recorde nacional é quebrado em campeonato de águas abertas",
+    "excerpt": "Nadador brasileiro supera marca que resistia havia quase uma década em prova disputada no litoral nordestino.",
+    "href": "/artigos/esportes-7",
+    "image": null,
+    "date": "12/08/2026"
+  },
+  {
+    "title": "Atleta paralímpico brasileiro bate marca pessoal rumo aos próximos Jogos",
+    "excerpt": "Resultado consolida vaga na equipe nacional e eleva expectativa por medalha inédita na modalidade.",
+    "href": "/artigos/esportes-8",
+    "image": "assets/images/blog-corrida.jpg",
+    "date": "13/08/2026"
+  },
+  {
     "title": "Delegação brasileira confirma recorde de atletas para o próximo ciclo olímpico",
     "excerpt": "Comitê Olímpico anuncia número histórico de convocados e projeta o melhor resultado do país em quadro de medalhas.",
     "href": "/artigos/esportes-destaque",
@@ -145,6 +215,41 @@
     "href": "/artigos/gg-3",
     "image": null,
     "date": "01/08/2026"
+  },
+  {
+    "title": "Fabricante anuncia novo console com foco em jogos nativos em 4K",
+    "excerpt": "Aparelho promete taxas de quadro mais estáveis e catálogo de lançamentos exclusivos ainda neste ano.",
+    "href": "/artigos/gg-4",
+    "image": "assets/images/tessera-bg.png",
+    "date": "09/08/2026"
+  },
+  {
+    "title": "Jogo brasileiro de celular ultrapassa marca de downloads e vira fenômeno local",
+    "excerpt": "Título desenvolvido por estúdio nacional lidera rankings de gratuitos e chama atenção de investidores internacionais.",
+    "href": "/artigos/gg-5",
+    "image": null,
+    "date": "10/08/2026"
+  },
+  {
+    "title": "Novo headset de realidade virtual promete experiências mais acessíveis ao público geral",
+    "excerpt": "Dispositivo chega com preço reduzido e biblioteca ampliada de jogos e aplicativos compatíveis.",
+    "href": "/artigos/gg-6",
+    "image": "assets/images/tessera-bg.png",
+    "date": "11/08/2026"
+  },
+  {
+    "title": "Estúdio brasileiro independente lança jogo aclamado em festival internacional",
+    "excerpt": "Produção nacional recebe elogios da crítica especializada e chama atenção de publicadoras estrangeiras.",
+    "href": "/artigos/gg-7",
+    "image": null,
+    "date": "12/08/2026"
+  },
+  {
+    "title": "Debate sobre loot boxes e microtransações ganha força entre desenvolvedores e reguladores",
+    "excerpt": "Discussão sobre limites para mecânicas de compra dentro de jogos avança em diferentes países, incluindo o Brasil.",
+    "href": "/artigos/gg-8",
+    "image": null,
+    "date": "13/08/2026"
   },
   {
     "title": "Time brasileiro vence final continental e garante vaga no mundial de MOBA",
@@ -222,6 +327,41 @@
     "href": "/artigos/tech-3",
     "image": null,
     "date": "02/08/2026"
+  },
+  {
+    "title": "Vazamento de dados expõe falha de segurança em empresas de médio porte",
+    "excerpt": "Especialistas recomendam medidas urgentes de proteção após incidente afetar milhares de registros de clientes.",
+    "href": "/artigos/tech-4",
+    "image": null,
+    "date": "09/08/2026"
+  },
+  {
+    "title": "Expansão da cobertura 5G chega a novas capitais brasileiras",
+    "excerpt": "Operadoras aceleram cronograma de instalação de antenas e ampliam acesso à tecnologia de quinta geração pelo país.",
+    "href": "/artigos/tech-5",
+    "image": "assets/images/skyline.jpg",
+    "date": "10/08/2026"
+  },
+  {
+    "title": "Tecnologia de pagamento por aproximação cresce entre pequenos comércios",
+    "excerpt": "Adoção do recurso reduz filas e custos operacionais para lojistas de bairro em todo o país.",
+    "href": "/artigos/tech-6",
+    "image": "assets/images/inovacao.png",
+    "date": "11/08/2026"
+  },
+  {
+    "title": "Montadora anuncia novo modelo de carro elétrico com foco no mercado brasileiro",
+    "excerpt": "Veículo chega com preço competitivo e rede própria de recarga para acelerar adoção da eletromobilidade no país.",
+    "href": "/artigos/tech-7",
+    "image": "assets/images/skyline.jpg",
+    "date": "12/08/2026"
+  },
+  {
+    "title": "Indústria nacional acelera automação de linhas de produção com robótica colaborativa",
+    "excerpt": "Robôs colaborativos dividem espaço com trabalhadores humanos e prometem ganhos de produtividade sem cortes de vagas, dizem fabricantes.",
+    "href": "/artigos/tech-8",
+    "image": null,
+    "date": "13/08/2026"
   },
   {
     "title": "Modelo brasileiro de IA generativa alcança marca de 10 milhões de usuários ativos",

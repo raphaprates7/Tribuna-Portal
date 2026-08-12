@@ -1,0 +1,42 @@
+{
+  "breadcrumbs": [
+    { "label": "Home", "href": "/" },
+    { "label": "Tribuna Capital", "href": "/capital" },
+    { "label": "Câmbio", "href": "/capital" }
+  ],
+  "title": "Dólar em queda favorece importadoras e turismo de brasileiros no exterior",
+  "subtitle": "Moeda americana acumula recuo no ano e abre espaço para renegociação de contratos e pacotes de viagem mais baratos.",
+  "date": "11/08/2026",
+  "author": "Redação Tribuna",
+  "shareLinks": [
+    { "icon": "facebook", "href": "#", "label": "Compartilhar no Facebook" },
+    { "icon": "whatsapp", "href": "#", "label": "Compartilhar no WhatsApp" },
+    { "icon": "linkedin", "href": "#", "label": "Compartilhar no LinkedIn" },
+    { "icon": "x", "href": "#", "label": "Compartilhar no X" }
+  ],
+  "heroImage": null,
+  "paragraphs": [
+    "O dólar acumula queda expressiva frente ao real neste ano, favorecendo empresas importadoras e brasileiros que planejam viagens internacionais. A moeda americana opera perto da menor cotação em mais de dois anos, impulsionada pelo diferencial de juros e pela entrada de capital estrangeiro na bolsa local.",
+    "Importadoras de insumos industriais e eletrônicos afirmam já ter renegociado contratos com fornecedores no exterior, aproveitando a moeda mais barata para reduzir custos de produção sem repassar aumento aos consumidores finais, o que deve ajudar a conter pressões inflacionárias em alguns setores da indústria.",
+    "Agências de viagem relatam aumento na procura por pacotes internacionais, especialmente para destinos nos Estados Unidos e na Europa, com viajantes aproveitando o câmbio mais favorável para antecipar roteiros que estavam represados desde o período de dólar mais caro.",
+    "Analistas de mercado ponderam, no entanto, que a tendência de queda pode não se sustentar por muito tempo, já que fatores externos — como decisões de política monetária nos Estados Unidos — continuam sendo o principal vetor de volatilidade para o câmbio nos próximos meses."
+  ],
+  "categories": [
+    { "label": "Cultura", "count": 35, "href": "/blog", "active": false },
+    { "label": "Negócios & Economia", "count": 9, "href": "/capital", "active": false },
+    { "label": "Tecnologia", "count": 16, "href": "/tech", "active": false },
+    { "label": "Entretenimento", "count": 104, "href": "/blog", "active": false }
+  ],
+  "recentPosts": [
+    { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
+    { "date": "01/07/2027", "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.", "href": "/artigos/recente-2" },
+    { "date": "01/07/2027", "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.", "href": "/artigos/recente-3" }
+  ],
+  "extras": [
+    { "kind": "ad", "title": "Acompanhe a cotação do dólar em tempo real e planeje sua viagem.", "ctaLabel": "Ver cotação", "href": "/artigos/capital-destaque" }
+  ],
+  "comments": [
+    { "name": "Diego Amorim", "date": "Agosto 2026", "text": "Aproveitei para fechar minha viagem de fim de ano agora que o dólar deu uma trégua." },
+    { "name": "Simone Vieira", "date": "Agosto 2026", "text": "Bom para quem viaja, mas concordo que essa queda pode não durar muito, o cenário externo muda rápido." }
+  ]
+}

@@ -45,6 +45,46 @@
       "excerpt": "Seleção supera adversário europeu em jogo decisivo e assegura presença no torneio pela primeira vez na história.",
       "linkLabel": "Ler mais",
       "href": "/artigos/esportes-3"
+    },
+    {
+      "icon": "arrow-right",
+      "title": "Janela de transferências movimenta clubes brasileiros com contratações internacionais",
+      "image": null,
+      "excerpt": "Times do Brasileirão investem em reforços vindos da Europa e do futebol sul-americano para a reta final da temporada.",
+      "linkLabel": "Ler mais",
+      "href": "/artigos/esportes-4"
+    },
+    {
+      "icon": "square",
+      "title": "Seleção brasileira feminina de vôlei se prepara para torneio internacional",
+      "image": null,
+      "excerpt": "Equipe realiza treinos intensivos em busca do título inédito na competição que reúne as principais potências do esporte.",
+      "linkLabel": "Ler mais",
+      "href": "/artigos/esportes-5"
+    },
+    {
+      "icon": "doc",
+      "title": "Piloto brasileiro sobe ao pódio em etapa emocionante da Fórmula 1",
+      "image": null,
+      "excerpt": "Resultado é o melhor da carreira do piloto e reacende esperanças de título entre os fãs do automobilismo nacional.",
+      "linkLabel": "Ler mais",
+      "href": "/artigos/esportes-6"
+    },
+    {
+      "icon": "ring",
+      "title": "Recorde nacional é quebrado em campeonato de águas abertas",
+      "image": null,
+      "excerpt": "Nadador brasileiro supera marca que resistia havia quase uma década em prova disputada no litoral nordestino.",
+      "linkLabel": "Ler mais",
+      "href": "/artigos/esportes-7"
+    },
+    {
+      "icon": "mic",
+      "title": "Atleta paralímpico brasileiro bate marca pessoal rumo aos próximos Jogos",
+      "image": "assets/images/blog-corrida.jpg",
+      "excerpt": "Resultado consolida vaga na equipe nacional e eleva expectativa por medalha inédita na modalidade.",
+      "linkLabel": "Ler mais",
+      "href": "/artigos/esportes-8"
     }
   ]
 }

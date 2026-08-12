@@ -1,0 +1,43 @@
+{
+  "breadcrumbs": [
+    { "label": "Home", "href": "/" },
+    { "label": "Tribuna Capital", "href": "/capital" },
+    { "label": "Mercado de Capitais", "href": "/capital" }
+  ],
+  "title": "Empresa brasileira de tecnologia anuncia abertura de capital na bolsa local",
+  "subtitle": "Oferta pública inicial deve movimentar cerca de R$ 1,2 bilhão e amplia lista de techs listadas no país.",
+  "date": "12/08/2026",
+  "author": "Redação Tribuna",
+  "shareLinks": [
+    { "icon": "facebook", "href": "#", "label": "Compartilhar no Facebook" },
+    { "icon": "whatsapp", "href": "#", "label": "Compartilhar no WhatsApp" },
+    { "icon": "linkedin", "href": "#", "label": "Compartilhar no LinkedIn" },
+    { "icon": "x", "href": "#", "label": "Compartilhar no X" }
+  ],
+  "heroImage": "assets/images/inovacao.png",
+  "paragraphs": [
+    "Uma companhia brasileira de software de gestão empresarial protocolou pedido de abertura de capital na bolsa local, em uma oferta que deve movimentar cerca de R$ 1,2 bilhão. Se confirmada, será uma das maiores estreias do setor de tecnologia no mercado acionário brasileiro nos últimos três anos.",
+    "Os recursos captados serão destinados, segundo o prospecto da operação, à aceleração de aquisições de empresas menores do setor e à expansão das operações para outros países da América Latina, região em que a companhia já mantém escritórios comerciais desde o ano passado.",
+    "Bancos coordenadores da oferta relatam forte interesse de investidores institucionais estrangeiros, atraídos pelo histórico de crescimento de receita da empresa e pela geração de caixa já positiva, um diferencial em relação a outras techs que abriram capital nos últimos anos ainda operando no prejuízo.",
+    "A expectativa do mercado é que a operação seja precificada nas próximas semanas, servindo como termômetro para outras empresas de tecnologia que avaliam o mesmo caminho após um período de poucas aberturas de capital no setor."
+  ],
+  "categories": [
+    { "label": "Cultura", "count": 35, "href": "/blog", "active": false },
+    { "label": "Negócios & Economia", "count": 9, "href": "/capital", "active": false },
+    { "label": "Tecnologia", "count": 16, "href": "/tech", "active": false },
+    { "label": "Entretenimento", "count": 104, "href": "/blog", "active": false }
+  ],
+  "recentPosts": [
+    { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
+    { "date": "01/07/2027", "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.", "href": "/artigos/recente-2" },
+    { "date": "01/07/2027", "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.", "href": "/artigos/recente-3" }
+  ],
+  "extras": [
+    { "kind": "ad", "title": "Entenda como participar de ofertas públicas iniciais na bolsa.", "ctaLabel": "Saiba mais", "href": "/artigos/capital-destaque" },
+    { "kind": "sponsor", "icon": "doc", "title": "Vantis Capital", "image": "assets/images/inovacao.png", "description": "Análises independentes sobre as principais ofertas públicas do mercado de capitais brasileiro.", "linkLabel": "Ler análise", "href": "/artigos/dasa" }
+  ],
+  "comments": [
+    { "name": "Fábio Guedes", "date": "Agosto 2026", "text": "Bom sinal ver uma tech com caixa positivo indo para bolsa, foge do padrão que a gente via alguns anos atrás." },
+    { "name": "Alessandra Prado", "date": "Agosto 2026", "text": "Vou acompanhar de perto essa oferta, pode reabrir a janela para outras empresas de tecnologia listarem também." }
+  ]
+}

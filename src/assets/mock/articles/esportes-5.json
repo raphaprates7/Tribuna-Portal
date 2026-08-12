@@ -1,0 +1,42 @@
+{
+  "breadcrumbs": [
+    { "label": "Home", "href": "/" },
+    { "label": "Tribuna Esportes", "href": "/esportes" },
+    { "label": "Vôlei", "href": "/esportes" }
+  ],
+  "title": "Seleção brasileira feminina de vôlei se prepara para torneio internacional",
+  "subtitle": "Equipe realiza treinos intensivos em busca do título inédito na competição que reúne as principais potências do esporte.",
+  "date": "10/08/2026",
+  "author": "Redação Tribuna",
+  "shareLinks": [
+    { "icon": "facebook", "href": "#", "label": "Compartilhar no Facebook" },
+    { "icon": "whatsapp", "href": "#", "label": "Compartilhar no WhatsApp" },
+    { "icon": "linkedin", "href": "#", "label": "Compartilhar no LinkedIn" },
+    { "icon": "x", "href": "#", "label": "Compartilhar no X" }
+  ],
+  "heroImage": null,
+  "paragraphs": [
+    "A seleção brasileira feminina de vôlei iniciou a última fase de preparação para o torneio internacional que reúne as principais potências da modalidade, com foco especial em treinos de bloqueio e recepção, pontos identificados pela comissão técnica como decisivos para o desempenho da equipe na competição.",
+    "A técnica da seleção convocou um grupo com mescla de jogadoras experientes, que já disputaram ciclos olímpicos anteriores, e atletas mais jovens reveladas recentemente no vôlei de clubes, em uma aposta declarada na renovação do time sem abrir mão da experiência necessária para disputas de alto nível.",
+    "O Brasil nunca venceu essa edição específica do torneio, o que torna a busca pelo título inédito um dos principais objetivos da equipe na temporada. As adversárias diretas incluem seleções tradicionalmente fortes da Europa e da Ásia, que também chegam embaladas por bons resultados recentes.",
+    "Os jogos da fase de grupos começam no fim deste mês, com transmissão para todo o país, e a expectativa da comissão técnica é de que a equipe já apresente o sistema de jogo consolidado logo nas primeiras partidas."
+  ],
+  "categories": [
+    { "label": "Cultura", "count": 35, "href": "/blog", "active": false },
+    { "label": "Negócios & Economia", "count": 9, "href": "/capital", "active": false },
+    { "label": "Tecnologia", "count": 16, "href": "/tech", "active": false },
+    { "label": "Entretenimento", "count": 104, "href": "/blog", "active": false }
+  ],
+  "recentPosts": [
+    { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
+    { "date": "01/07/2027", "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.", "href": "/artigos/recente-2" },
+    { "date": "01/07/2027", "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.", "href": "/artigos/recente-3" }
+  ],
+  "extras": [
+    { "kind": "ad", "title": "Garanta seu ingresso para acompanhar a seleção brasileira de vôlei.", "ctaLabel": "Comprar ingresso", "href": "/artigos/esportes-destaque" }
+  ],
+  "comments": [
+    { "name": "Beatriz Cerqueira", "date": "Agosto 2026", "text": "Time com uma mistura boa de experiência e juventude, torcendo para esse título inédito sair dessa vez." },
+    { "name": "Thiago Ramalho", "date": "Agosto 2026", "text": "O bloqueio realmente tem sido o ponto fraco em competições recentes, bom ver que a comissão técnica está de olho nisso." }
+  ]
+}
