@@ -4,32 +4,28 @@
     "href": "/tribunaco"
   },
   {
-    "label": "Tribuna",
-    "href": "#",
-    "columns": [
-      {
-        "title": "Editorial",
-        "items": [
-          { "label": "Cultura", "href": "/blog" },
-          { "label": "Negócios & Economia", "href": "/capital" },
-          { "label": "Tecnologia", "href": "/tech" }
-        ]
-      }
-    ]
+    "label": "Cultura",
+    "href": "/blog"
   },
   {
-    "label": "Observatório",
-    "href": "#",
-    "columns": [
-      {
-        "title": "O Mercado",
-        "items": [
-          { "label": "Economia Corporativa", "href": "/capital" },
-          { "label": "Mercado de Mídia", "href": "/capital" },
-          { "label": "Tribuna em Números", "href": "/tribunaco" }
-        ]
-      }
-    ]
+    "label": "Capital",
+    "href": "/capital",
+    "accent": "#d9a441"
+  },
+  {
+    "label": "Esportes",
+    "href": "/esportes",
+    "accent": "#2fbf71"
+  },
+  {
+    "label": "Tech",
+    "href": "/tech",
+    "accent": "#4d8fe0"
+  },
+  {
+    "label": "Games",
+    "href": "/gg",
+    "accent": "#a970ff"
   },
   {
     "label": "Conteúdos",
@@ -42,21 +38,6 @@
           { "label": "Entrevistas", "href": "/blog" },
           { "label": "Vídeos", "href": "/blog" },
           { "label": "Linha Editorial", "href": "/linha-editorial" }
-        ]
-      }
-    ]
-  },
-  {
-    "label": "Verticais",
-    "href": "#",
-    "columns": [
-      {
-        "title": "Tribuna&Co.",
-        "items": [
-          { "label": "Tribuna Capital", "href": "/capital" },
-          { "label": "Tribuna Esportes", "href": "/esportes" },
-          { "label": "Tribuna Tech", "href": "/tech" },
-          { "label": "Tribuna GG", "href": "/gg" }
         ]
       }
     ]

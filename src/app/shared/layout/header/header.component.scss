@@ -10,7 +10,7 @@
   padding: 16px var(--gutter);
   display: flex;
   align-items: center;
-  gap: 32px;
+  gap: 20px;
 }
 
 .header__logo {
@@ -34,12 +34,19 @@
 
 .header__nav {
   display: flex;
-  gap: 8px;
+  gap: 2px;
   flex: 1;
+  min-width: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.header__nav::-webkit-scrollbar {
+  display: none;
 }
 
 .header__nav-item {
   position: relative;
+  flex-shrink: 0;
 }
 
 .header__nav-trigger {
@@ -51,9 +58,10 @@
   color: #fff;
   font-weight: 600;
   font-size: var(--fs-body-s);
-  padding: 10px 14px;
+  padding: 9px 10px;
   border-radius: var(--radius-pill);
   cursor: pointer;
+  white-space: nowrap;
 }
 .header__nav-trigger:hover,
 .header__nav-trigger.is-open {
@@ -97,7 +105,7 @@
 .header__actions {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 8px;
   flex-shrink: 0;
 }
 
@@ -113,7 +121,7 @@
   border: none;
   outline: none;
   font-size: var(--fs-body-s);
-  width: 140px;
+  width: 110px;
 }
 
 .header__icon-btn {

@@ -10,6 +10,7 @@
           *ngIf="!item.columns?.length; else dropdownTrigger"
           class="header__nav-trigger header__nav-trigger--link"
           [routerLink]="item.href"
+          [style.color]="item.accent"
         >
           {{ item.label }}
         </a>
