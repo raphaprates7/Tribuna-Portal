@@ -1,20 +1,45 @@
 {
   "breadcrumbs": [
-    { "label": "Home", "href": "/" },
-    { "label": "Tribuna GG", "href": "/gg" },
-    { "label": "Esports", "href": "/gg" }
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Tribuna GG",
+      "href": "/gg"
+    },
+    {
+      "label": "Esports",
+      "href": "/gg"
+    }
   ],
   "title": "Organização brasileira anuncia nova line-up para a temporada de FPS competitivo",
   "subtitle": "Elenco reformulado chega com dois campeões mundiais e mira o topo do ranking já na primeira etapa da liga.",
   "date": "06/08/2026",
   "author": "Redação Tribuna",
   "shareLinks": [
-    { "icon": "facebook", "href": "#", "label": "Compartilhar no Facebook" },
-    { "icon": "whatsapp", "href": "#", "label": "Compartilhar no WhatsApp" },
-    { "icon": "linkedin", "href": "#", "label": "Compartilhar no LinkedIn" },
-    { "icon": "x", "href": "#", "label": "Compartilhar no X" }
+    {
+      "icon": "facebook",
+      "href": "#",
+      "label": "Compartilhar no Facebook"
+    },
+    {
+      "icon": "whatsapp",
+      "href": "#",
+      "label": "Compartilhar no WhatsApp"
+    },
+    {
+      "icon": "linkedin",
+      "href": "#",
+      "label": "Compartilhar no LinkedIn"
+    },
+    {
+      "icon": "x",
+      "href": "#",
+      "label": "Compartilhar no X"
+    }
   ],
-  "heroImage": null,
+  "heroImage": "assets/images/editorial-gg-1.jpg",
   "paragraphs": [
     "A organização Vórtex Gaming revelou a line-up que vai representar o clube na temporada de FPS competitivo, reunindo dois jogadores com título mundial no currículo e três promessas reveladas na base da própria equipe. A apresentação foi feita em uma live que reuniu mais de 300 mil espectadores simultâneos.",
     "O elenco chega sob o comando de um técnico com passagem por equipes europeias de ponta, contratado especificamente para elevar o nível tático do time em mapas decisivos, historicamente o ponto fraco da organização nas últimas duas temporadas.",
@@ -22,21 +47,66 @@
     "A pré-temporada de treinos começa na próxima semana, em bootcamp fechado, com os primeiros jogos oficiais previstos para o início do próximo mês."
   ],
   "categories": [
-    { "label": "Cultura", "count": 35, "href": "/blog", "active": false },
-    { "label": "Negócios & Economia", "count": 9, "href": "/capital", "active": false },
-    { "label": "Tecnologia", "count": 16, "href": "/tech", "active": false },
-    { "label": "Entretenimento", "count": 104, "href": "/blog", "active": false }
+    {
+      "label": "Cultura",
+      "count": 35,
+      "href": "/blog",
+      "active": false
+    },
+    {
+      "label": "Negócios & Economia",
+      "count": 9,
+      "href": "/capital",
+      "active": false
+    },
+    {
+      "label": "Tecnologia",
+      "count": 16,
+      "href": "/tech",
+      "active": false
+    },
+    {
+      "label": "Entretenimento",
+      "count": 104,
+      "href": "/blog",
+      "active": false
+    }
   ],
   "recentPosts": [
-    { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
-    { "date": "01/07/2027", "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.", "href": "/artigos/recente-2" },
-    { "date": "01/07/2027", "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.", "href": "/artigos/recente-3" }
+    {
+      "date": "01/07/2027",
+      "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.",
+      "href": "/artigos/recente-1"
+    },
+    {
+      "date": "01/07/2027",
+      "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.",
+      "href": "/artigos/recente-2"
+    },
+    {
+      "date": "01/07/2027",
+      "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.",
+      "href": "/artigos/recente-3"
+    }
   ],
   "extras": [
-    { "kind": "ad", "title": "Ingressos para a estreia da liga de FPS já estão disponíveis.", "ctaLabel": "Comprar ingresso", "href": "/artigos/gg-destaque" }
+    {
+      "kind": "ad",
+      "title": "Ingressos para a estreia da liga de FPS já estão disponíveis.",
+      "ctaLabel": "Comprar ingresso",
+      "href": "/artigos/gg-destaque"
+    }
   ],
   "comments": [
-    { "name": "Otávio Lins", "date": "Agosto 2026", "text": "Line-up forte no papel, mas o desempenho em mapas decisivos precisa mesmo melhorar para brigar lá em cima." },
-    { "name": "Manuela Freitas", "date": "Agosto 2026", "text": "Curioso ver as promessas da base jogando ao lado de campeões mundiais, pode ser um combo interessante." }
+    {
+      "name": "Otávio Lins",
+      "date": "Agosto 2026",
+      "text": "Line-up forte no papel, mas o desempenho em mapas decisivos precisa mesmo melhorar para brigar lá em cima."
+    },
+    {
+      "name": "Manuela Freitas",
+      "date": "Agosto 2026",
+      "text": "Curioso ver as promessas da base jogando ao lado de campeões mundiais, pode ser um combo interessante."
+    }
   ]
 }

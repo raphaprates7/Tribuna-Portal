@@ -1,20 +1,45 @@
 {
   "breadcrumbs": [
-    { "label": "Home", "href": "/" },
-    { "label": "Tribuna Esportes", "href": "/esportes" },
-    { "label": "Futebol", "href": "/esportes" }
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Tribuna Esportes",
+      "href": "/esportes"
+    },
+    {
+      "label": "Futebol",
+      "href": "/esportes"
+    }
   ],
   "title": "Janela de transferências movimenta clubes brasileiros com contratações internacionais",
   "subtitle": "Times do Brasileirão investem em reforços vindos da Europa e do futebol sul-americano para a reta final da temporada.",
   "date": "09/08/2026",
   "author": "Redação Tribuna",
   "shareLinks": [
-    { "icon": "facebook", "href": "#", "label": "Compartilhar no Facebook" },
-    { "icon": "whatsapp", "href": "#", "label": "Compartilhar no WhatsApp" },
-    { "icon": "linkedin", "href": "#", "label": "Compartilhar no LinkedIn" },
-    { "icon": "x", "href": "#", "label": "Compartilhar no X" }
+    {
+      "icon": "facebook",
+      "href": "#",
+      "label": "Compartilhar no Facebook"
+    },
+    {
+      "icon": "whatsapp",
+      "href": "#",
+      "label": "Compartilhar no WhatsApp"
+    },
+    {
+      "icon": "linkedin",
+      "href": "#",
+      "label": "Compartilhar no LinkedIn"
+    },
+    {
+      "icon": "x",
+      "href": "#",
+      "label": "Compartilhar no X"
+    }
   ],
-  "heroImage": null,
+  "heroImage": "assets/images/editorial-esportes-4.jpg",
   "paragraphs": [
     "A janela de transferências do meio do ano tem movimentado o mercado da bola no Brasil, com clubes do Brasileirão anunciando reforços vindos diretamente de ligas europeias e do futebol sul-americano. Ao menos oito contratações internacionais de peso já foram confirmadas nas últimas duas semanas.",
     "Entre os destaques está a chegada de um meio-campista argentino que disputou a última temporada em um clube espanhol de segunda divisão e de um atacante uruguaio que vinha se destacando no futebol mexicano, ambos apontados como reforços para equipes que brigam por vaga em competições continentais.",
@@ -22,21 +47,66 @@
     "A expectativa é que o mercado continue aquecido até o fechamento da janela, com outros clubes ainda negociando a chegada de jogadores estrangeiros para reforçar o elenco na disputa por títulos nacionais e vagas internacionais no segundo semestre."
   ],
   "categories": [
-    { "label": "Cultura", "count": 35, "href": "/blog", "active": false },
-    { "label": "Negócios & Economia", "count": 9, "href": "/capital", "active": false },
-    { "label": "Tecnologia", "count": 16, "href": "/tech", "active": false },
-    { "label": "Entretenimento", "count": 104, "href": "/blog", "active": false }
+    {
+      "label": "Cultura",
+      "count": 35,
+      "href": "/blog",
+      "active": false
+    },
+    {
+      "label": "Negócios & Economia",
+      "count": 9,
+      "href": "/capital",
+      "active": false
+    },
+    {
+      "label": "Tecnologia",
+      "count": 16,
+      "href": "/tech",
+      "active": false
+    },
+    {
+      "label": "Entretenimento",
+      "count": 104,
+      "href": "/blog",
+      "active": false
+    }
   ],
   "recentPosts": [
-    { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
-    { "date": "01/07/2027", "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.", "href": "/artigos/recente-2" },
-    { "date": "01/07/2027", "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.", "href": "/artigos/recente-3" }
+    {
+      "date": "01/07/2027",
+      "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.",
+      "href": "/artigos/recente-1"
+    },
+    {
+      "date": "01/07/2027",
+      "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.",
+      "href": "/artigos/recente-2"
+    },
+    {
+      "date": "01/07/2027",
+      "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.",
+      "href": "/artigos/recente-3"
+    }
   ],
   "extras": [
-    { "kind": "ad", "title": "Acompanhe todas as negociações da janela de transferências em tempo real.", "ctaLabel": "Acompanhar agora", "href": "/artigos/esportes-destaque" }
+    {
+      "kind": "ad",
+      "title": "Acompanhe todas as negociações da janela de transferências em tempo real.",
+      "ctaLabel": "Acompanhar agora",
+      "href": "/artigos/esportes-destaque"
+    }
   ],
   "comments": [
-    { "name": "Ricardo Nunes", "date": "Agosto 2026", "text": "Mercado bem movimentado esse ano, o câmbio favorável ajudou bastante nas negociações internacionais." },
-    { "name": "Vanessa Costa", "date": "Agosto 2026", "text": "Curioso ver se esses reforços vão se adaptar rápido ao ritmo do Brasileirão, nem sempre é fácil." }
+    {
+      "name": "Ricardo Nunes",
+      "date": "Agosto 2026",
+      "text": "Mercado bem movimentado esse ano, o câmbio favorável ajudou bastante nas negociações internacionais."
+    },
+    {
+      "name": "Vanessa Costa",
+      "date": "Agosto 2026",
+      "text": "Curioso ver se esses reforços vão se adaptar rápido ao ritmo do Brasileirão, nem sempre é fácil."
+    }
   ]
 }

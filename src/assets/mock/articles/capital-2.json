@@ -1,20 +1,45 @@
 {
   "breadcrumbs": [
-    { "label": "Home", "href": "/" },
-    { "label": "Tribuna Capital", "href": "/capital" },
-    { "label": "Venture Capital", "href": "/capital" }
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Tribuna Capital",
+      "href": "/capital"
+    },
+    {
+      "label": "Venture Capital",
+      "href": "/capital"
+    }
   ],
   "title": "Fundos de venture capital voltam a acelerar aportes em startups B2B",
   "subtitle": "Após dois anos de cautela, gestoras retomam cheques maiores para negócios de software voltados a empresas.",
   "date": "05/08/2026",
   "author": "Redação Tribuna",
   "shareLinks": [
-    { "icon": "facebook", "href": "#", "label": "Compartilhar no Facebook" },
-    { "icon": "whatsapp", "href": "#", "label": "Compartilhar no WhatsApp" },
-    { "icon": "linkedin", "href": "#", "label": "Compartilhar no LinkedIn" },
-    { "icon": "x", "href": "#", "label": "Compartilhar no X" }
+    {
+      "icon": "facebook",
+      "href": "#",
+      "label": "Compartilhar no Facebook"
+    },
+    {
+      "icon": "whatsapp",
+      "href": "#",
+      "label": "Compartilhar no WhatsApp"
+    },
+    {
+      "icon": "linkedin",
+      "href": "#",
+      "label": "Compartilhar no LinkedIn"
+    },
+    {
+      "icon": "x",
+      "href": "#",
+      "label": "Compartilhar no X"
+    }
   ],
-  "heroImage": null,
+  "heroImage": "assets/images/editorial-capital-2.jpg",
   "paragraphs": [
     "Depois de dois anos marcados por retração e cheques menores, fundos de venture capital voltam a acelerar investimentos em startups brasileiras de software para empresas (B2B). Levantamento de uma associação do setor aponta crescimento de 34% no volume aportado em rodadas série A e B no primeiro semestre, na comparação com igual período do ano anterior.",
     "Gestores apontam que o apetite recuperado está concentrado em negócios com receita recorrente já validada, ao contrário do ciclo anterior, quando crescimento a qualquer custo era o critério predominante. 'O mercado aprendeu a lição. Hoje o que conta é eficiência de capital', resume uma sócia de um fundo com sede em São Paulo.",
@@ -22,21 +47,66 @@
     "Para analistas, a retomada gradual reflete também a queda da taxa de juros no Brasil, que reduz o custo de oportunidade de investir em ativos de maior risco e reaquece o mercado de capital de risco como um todo."
   ],
   "categories": [
-    { "label": "Cultura", "count": 35, "href": "/blog", "active": false },
-    { "label": "Negócios & Economia", "count": 9, "href": "/capital", "active": false },
-    { "label": "Tecnologia", "count": 16, "href": "/tech", "active": false },
-    { "label": "Entretenimento", "count": 104, "href": "/blog", "active": false }
+    {
+      "label": "Cultura",
+      "count": 35,
+      "href": "/blog",
+      "active": false
+    },
+    {
+      "label": "Negócios & Economia",
+      "count": 9,
+      "href": "/capital",
+      "active": false
+    },
+    {
+      "label": "Tecnologia",
+      "count": 16,
+      "href": "/tech",
+      "active": false
+    },
+    {
+      "label": "Entretenimento",
+      "count": 104,
+      "href": "/blog",
+      "active": false
+    }
   ],
   "recentPosts": [
-    { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
-    { "date": "01/07/2027", "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.", "href": "/artigos/recente-2" },
-    { "date": "01/07/2027", "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.", "href": "/artigos/recente-3" }
+    {
+      "date": "01/07/2027",
+      "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.",
+      "href": "/artigos/recente-1"
+    },
+    {
+      "date": "01/07/2027",
+      "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.",
+      "href": "/artigos/recente-2"
+    },
+    {
+      "date": "01/07/2027",
+      "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.",
+      "href": "/artigos/recente-3"
+    }
   ],
   "extras": [
-    { "kind": "ad", "title": "Conecte sua startup aos investidores certos para a sua fase de crescimento.", "ctaLabel": "Saiba mais", "href": "/artigos/capital-destaque" }
+    {
+      "kind": "ad",
+      "title": "Conecte sua startup aos investidores certos para a sua fase de crescimento.",
+      "ctaLabel": "Saiba mais",
+      "href": "/artigos/capital-destaque"
+    }
   ],
   "comments": [
-    { "name": "Igor Salgado", "date": "Agosto 2026", "text": "Faz sentido o foco em receita recorrente, o ciclo passado ensinou isso do jeito mais difícil." },
-    { "name": "Beatriz Nogueira", "date": "Agosto 2026", "text": "Bom ver o setor B2B recebendo mais atenção, sempre fica um pouco na sombra do consumo." }
+    {
+      "name": "Igor Salgado",
+      "date": "Agosto 2026",
+      "text": "Faz sentido o foco em receita recorrente, o ciclo passado ensinou isso do jeito mais difícil."
+    },
+    {
+      "name": "Beatriz Nogueira",
+      "date": "Agosto 2026",
+      "text": "Bom ver o setor B2B recebendo mais atenção, sempre fica um pouco na sombra do consumo."
+    }
   ]
 }

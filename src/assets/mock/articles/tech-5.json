@@ -1,20 +1,45 @@
 {
   "breadcrumbs": [
-    { "label": "Home", "href": "/" },
-    { "label": "Tribuna Tech", "href": "/tech" },
-    { "label": "Infraestrutura", "href": "/tech" }
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Tribuna Tech",
+      "href": "/tech"
+    },
+    {
+      "label": "Infraestrutura",
+      "href": "/tech"
+    }
   ],
   "title": "Expansão da cobertura 5G chega a novas capitais brasileiras",
   "subtitle": "Operadoras aceleram cronograma de instalação de antenas e ampliam acesso à tecnologia de quinta geração pelo país.",
   "date": "10/08/2026",
   "author": "Redação Tribuna",
   "shareLinks": [
-    { "icon": "facebook", "href": "#", "label": "Compartilhar no Facebook" },
-    { "icon": "whatsapp", "href": "#", "label": "Compartilhar no WhatsApp" },
-    { "icon": "linkedin", "href": "#", "label": "Compartilhar no LinkedIn" },
-    { "icon": "x", "href": "#", "label": "Compartilhar no X" }
+    {
+      "icon": "facebook",
+      "href": "#",
+      "label": "Compartilhar no Facebook"
+    },
+    {
+      "icon": "whatsapp",
+      "href": "#",
+      "label": "Compartilhar no WhatsApp"
+    },
+    {
+      "icon": "linkedin",
+      "href": "#",
+      "label": "Compartilhar no LinkedIn"
+    },
+    {
+      "icon": "x",
+      "href": "#",
+      "label": "Compartilhar no X"
+    }
   ],
-  "heroImage": "assets/images/skyline.jpg",
+  "heroImage": "assets/images/editorial-tech-5.jpg",
   "paragraphs": [
     "A cobertura de internet móvel 5G chegou a novas capitais brasileiras nesta semana, resultado da aceleração do cronograma de instalação de antenas anunciado pelas operadoras no início do ano. Com isso, o número de capitais com a tecnologia disponível praticamente dobra em relação ao ano anterior.",
     "Segundo as operadoras, a expansão prioriza inicialmente bairros centrais e regiões de maior densidade populacional, com plano de ampliação gradual para áreas periféricas ao longo dos próximos dois anos, conforme metas estabelecidas em contrato com o órgão regulador do setor.",
@@ -22,21 +47,66 @@
     "Apesar do avanço, especialistas apontam que a adoção em massa da tecnologia pelos consumidores ainda depende da queda no preço de aparelhos compatíveis, hoje concentrados majoritariamente na faixa intermediária e alta do mercado de smartphones."
   ],
   "categories": [
-    { "label": "Cultura", "count": 35, "href": "/blog", "active": false },
-    { "label": "Negócios & Economia", "count": 9, "href": "/capital", "active": false },
-    { "label": "Tecnologia", "count": 16, "href": "/tech", "active": false },
-    { "label": "Entretenimento", "count": 104, "href": "/blog", "active": false }
+    {
+      "label": "Cultura",
+      "count": 35,
+      "href": "/blog",
+      "active": false
+    },
+    {
+      "label": "Negócios & Economia",
+      "count": 9,
+      "href": "/capital",
+      "active": false
+    },
+    {
+      "label": "Tecnologia",
+      "count": 16,
+      "href": "/tech",
+      "active": false
+    },
+    {
+      "label": "Entretenimento",
+      "count": 104,
+      "href": "/blog",
+      "active": false
+    }
   ],
   "recentPosts": [
-    { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
-    { "date": "01/07/2027", "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.", "href": "/artigos/recente-2" },
-    { "date": "01/07/2027", "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.", "href": "/artigos/recente-3" }
+    {
+      "date": "01/07/2027",
+      "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.",
+      "href": "/artigos/recente-1"
+    },
+    {
+      "date": "01/07/2027",
+      "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.",
+      "href": "/artigos/recente-2"
+    },
+    {
+      "date": "01/07/2027",
+      "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.",
+      "href": "/artigos/recente-3"
+    }
   ],
   "extras": [
-    { "kind": "ad", "title": "Verifique se a cobertura 5G já chegou à sua cidade.", "ctaLabel": "Verificar cobertura", "href": "/artigos/tech-destaque" }
+    {
+      "kind": "ad",
+      "title": "Verifique se a cobertura 5G já chegou à sua cidade.",
+      "ctaLabel": "Verificar cobertura",
+      "href": "/artigos/tech-destaque"
+    }
   ],
   "comments": [
-    { "name": "Caio Montenegro", "date": "Agosto 2026", "text": "Finalmente chegou na minha cidade, a diferença de velocidade em relação ao 4G é bem perceptível." },
-    { "name": "Débora Salviano", "date": "Agosto 2026", "text": "Espero que a expansão para as periferias não demore tanto quanto aconteceu com o 4G." }
+    {
+      "name": "Caio Montenegro",
+      "date": "Agosto 2026",
+      "text": "Finalmente chegou na minha cidade, a diferença de velocidade em relação ao 4G é bem perceptível."
+    },
+    {
+      "name": "Débora Salviano",
+      "date": "Agosto 2026",
+      "text": "Espero que a expansão para as periferias não demore tanto quanto aconteceu com o 4G."
+    }
   ]
 }

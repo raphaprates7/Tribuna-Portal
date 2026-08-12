@@ -1,20 +1,45 @@
 {
   "breadcrumbs": [
-    { "label": "Home", "href": "/" },
-    { "label": "Tribuna Esportes", "href": "/esportes" },
-    { "label": "Futebol", "href": "/esportes" }
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Tribuna Esportes",
+      "href": "/esportes"
+    },
+    {
+      "label": "Futebol",
+      "href": "/esportes"
+    }
   ],
   "title": "Time paulista confirma técnico e mira retomada no returno do Brasileirão",
   "subtitle": "Clube aposta em treinador com passagem recente por competições internacionais para reagir na tabela.",
   "date": "06/08/2026",
   "author": "Redação Tribuna",
   "shareLinks": [
-    { "icon": "facebook", "href": "#", "label": "Compartilhar no Facebook" },
-    { "icon": "whatsapp", "href": "#", "label": "Compartilhar no WhatsApp" },
-    { "icon": "linkedin", "href": "#", "label": "Compartilhar no LinkedIn" },
-    { "icon": "x", "href": "#", "label": "Compartilhar no X" }
+    {
+      "icon": "facebook",
+      "href": "#",
+      "label": "Compartilhar no Facebook"
+    },
+    {
+      "icon": "whatsapp",
+      "href": "#",
+      "label": "Compartilhar no WhatsApp"
+    },
+    {
+      "icon": "linkedin",
+      "href": "#",
+      "label": "Compartilhar no LinkedIn"
+    },
+    {
+      "icon": "x",
+      "href": "#",
+      "label": "Compartilhar no X"
+    }
   ],
-  "heroImage": null,
+  "heroImage": "assets/images/editorial-esportes-1.jpg",
   "paragraphs": [
     "Um dos principais clubes de São Paulo anunciou nesta semana a contratação de um novo técnico para comandar a equipe no returno do Campeonato Brasileiro. O treinador, que teve passagem recente por um clube da primeira divisão portuguesa, chega com a missão de reverter uma sequência de resultados abaixo do esperado no primeiro turno.",
     "A diretoria do clube afirmou que o novo comandante terá liberdade para promover ajustes no elenco durante a janela de transferências, com prioridade para reforços na lateral e no meio-campo, posições apontadas como pontos de fragilidade na primeira metade da competição.",
@@ -22,21 +47,66 @@
     "A torcida espera reação já na estreia do returno, marcada para o próximo fim de semana, diante de um rival direto na briga por vaga em competições continentais."
   ],
   "categories": [
-    { "label": "Cultura", "count": 35, "href": "/blog", "active": false },
-    { "label": "Negócios & Economia", "count": 9, "href": "/capital", "active": false },
-    { "label": "Tecnologia", "count": 16, "href": "/tech", "active": false },
-    { "label": "Entretenimento", "count": 104, "href": "/blog", "active": false }
+    {
+      "label": "Cultura",
+      "count": 35,
+      "href": "/blog",
+      "active": false
+    },
+    {
+      "label": "Negócios & Economia",
+      "count": 9,
+      "href": "/capital",
+      "active": false
+    },
+    {
+      "label": "Tecnologia",
+      "count": 16,
+      "href": "/tech",
+      "active": false
+    },
+    {
+      "label": "Entretenimento",
+      "count": 104,
+      "href": "/blog",
+      "active": false
+    }
   ],
   "recentPosts": [
-    { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
-    { "date": "01/07/2027", "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.", "href": "/artigos/recente-2" },
-    { "date": "01/07/2027", "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.", "href": "/artigos/recente-3" }
+    {
+      "date": "01/07/2027",
+      "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.",
+      "href": "/artigos/recente-1"
+    },
+    {
+      "date": "01/07/2027",
+      "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.",
+      "href": "/artigos/recente-2"
+    },
+    {
+      "date": "01/07/2027",
+      "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.",
+      "href": "/artigos/recente-3"
+    }
   ],
   "extras": [
-    { "kind": "ad", "title": "Acompanhe o Brasileirão com estatísticas em tempo real.", "ctaLabel": "Baixar aplicativo", "href": "/artigos/esportes-destaque" }
+    {
+      "kind": "ad",
+      "title": "Acompanhe o Brasileirão com estatísticas em tempo real.",
+      "ctaLabel": "Baixar aplicativo",
+      "href": "/artigos/esportes-destaque"
+    }
   ],
   "comments": [
-    { "name": "Felipe Rocha", "date": "Agosto 2026", "text": "Contratação interessante, mas o time precisa resolver o problema na lateral antes de qualquer coisa." },
-    { "name": "Renata Sales", "date": "Agosto 2026", "text": "Estilo propositivo é bonito de ver, mas espero que venha acompanhado de resultado também." }
+    {
+      "name": "Felipe Rocha",
+      "date": "Agosto 2026",
+      "text": "Contratação interessante, mas o time precisa resolver o problema na lateral antes de qualquer coisa."
+    },
+    {
+      "name": "Renata Sales",
+      "date": "Agosto 2026",
+      "text": "Estilo propositivo é bonito de ver, mas espero que venha acompanhado de resultado também."
+    }
   ]
 }

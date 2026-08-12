@@ -9,45 +9,211 @@
     "activeSlide": 3
   },
   "trending": [
-    { "rank": 1, "title": "Mercado de ações fecha semana em alta puxado por empresas de tecnologia", "href": "/artigos/trending-1" },
-    { "rank": 2, "title": "Streaming ultrapassa TV aberta em audiência pela primeira vez", "href": "/artigos/trending-2" },
-    { "rank": 3, "title": "Inteligência artificial já responde por 1 em cada 5 buscas no país", "href": "/artigos/trending-3" },
-    { "rank": 4, "title": "Ministério da Cultura anuncia nova política de fomento ao audiovisual", "href": "/artigos/trending-4" }
+    {
+      "rank": 1,
+      "title": "Mercado de ações fecha semana em alta puxado por empresas de tecnologia",
+      "href": "/artigos/trending-1"
+    },
+    {
+      "rank": 2,
+      "title": "Streaming ultrapassa TV aberta em audiência pela primeira vez",
+      "href": "/artigos/trending-2"
+    },
+    {
+      "rank": 3,
+      "title": "Inteligência artificial já responde por 1 em cada 5 buscas no país",
+      "href": "/artigos/trending-3"
+    },
+    {
+      "rank": 4,
+      "title": "Ministério da Cultura anuncia nova política de fomento ao audiovisual",
+      "href": "/artigos/trending-4"
+    }
   ],
   "contentCards": [
-    { "icon": "ring", "title": "Cultura", "image": "assets/images/entrevistas.jpg", "excerpt": "Cinema, música, literatura e os bastidores da produção cultural brasileira.", "linkLabel": "Ver conteúdos", "href": "/blog" },
-    { "icon": "square", "title": "Programa Impulso", "image": "assets/images/mapa-brasil.svg", "excerpt": "Governo federal lança nova etapa do programa de incentivo à economia criativa e amplia o alcance em regiões prioritárias.", "linkLabel": "Ler notícia", "href": "/artigos/cuidado-federal", "sponsored": true },
-    { "icon": "cross", "title": "Tecnologia", "image": null, "excerpt": "Inovação, startups e as ferramentas que estão mudando o mercado de trabalho.", "linkLabel": "Ver conteúdos", "href": "/blog" },
-    { "icon": "ring", "title": "Vantis Capital", "image": "assets/images/skyline.jpg", "excerpt": "Vantis Capital anuncia parceria estratégica para acelerar startups de tecnologia financeira no país.", "linkLabel": "Ler notícia", "href": "/artigos/dasa", "sponsored": true },
-    { "icon": "dot", "title": "Entretenimento", "image": null, "excerpt": "Séries, música, games e os lançamentos que estão em alta no streaming e nos palcos.", "linkLabel": "Ver conteúdos", "href": "/blog" },
-    { "icon": "square", "title": "Instituto Meridiano", "image": "assets/images/entrevistas.jpg", "excerpt": "Instituto Meridiano lança programa de fomento à cultura independente com foco em novos talentos.", "linkLabel": "Ler notícia", "href": "/artigos/hospital-sao-jose", "sponsored": true },
-    { "icon": "ring", "title": "Negócios & Economia", "image": "assets/images/skyline.jpg", "excerpt": "Mercado, empreendedorismo e as decisões econômicas que impactam o dia a dia.", "linkLabel": "Ver conteúdos", "href": "/blog" },
-    { "icon": "square", "title": "Instituto Avança", "image": "assets/images/inovacao.png", "excerpt": "Instituto Avança inaugura hub de inovação para impulsionar startups locais em Belo Horizonte.", "linkLabel": "Ler notícia", "href": "/artigos/pbh", "sponsored": true }
+    {
+      "icon": "ring",
+      "title": "Cultura",
+      "image": "assets/images/entrevistas.jpg",
+      "excerpt": "Cinema, música, literatura e os bastidores da produção cultural brasileira.",
+      "linkLabel": "Ver conteúdos",
+      "href": "/blog"
+    },
+    {
+      "icon": "square",
+      "title": "Programa Impulso",
+      "image": "assets/images/editorial-cultura-2.jpg",
+      "excerpt": "Governo federal lança nova etapa do programa de incentivo à economia criativa e amplia o alcance em regiões prioritárias.",
+      "linkLabel": "Ler notícia",
+      "href": "/artigos/cuidado-federal",
+      "sponsored": true
+    },
+    {
+      "icon": "cross",
+      "title": "Tecnologia",
+      "image": null,
+      "excerpt": "Inovação, startups e as ferramentas que estão mudando o mercado de trabalho.",
+      "linkLabel": "Ver conteúdos",
+      "href": "/blog"
+    },
+    {
+      "icon": "ring",
+      "title": "Vantis Capital",
+      "image": "assets/images/editorial-capital-5.jpg",
+      "excerpt": "Vantis Capital anuncia parceria estratégica para acelerar startups de tecnologia financeira no país.",
+      "linkLabel": "Ler notícia",
+      "href": "/artigos/dasa",
+      "sponsored": true
+    },
+    {
+      "icon": "dot",
+      "title": "Entretenimento",
+      "image": null,
+      "excerpt": "Séries, música, games e os lançamentos que estão em alta no streaming e nos palcos.",
+      "linkLabel": "Ver conteúdos",
+      "href": "/blog"
+    },
+    {
+      "icon": "square",
+      "title": "Instituto Meridiano",
+      "image": "assets/images/editorial-cultura-3.jpg",
+      "excerpt": "Instituto Meridiano lança programa de fomento à cultura independente com foco em novos talentos.",
+      "linkLabel": "Ler notícia",
+      "href": "/artigos/hospital-sao-jose",
+      "sponsored": true
+    },
+    {
+      "icon": "ring",
+      "title": "Negócios & Economia",
+      "image": "assets/images/skyline.jpg",
+      "excerpt": "Mercado, empreendedorismo e as decisões econômicas que impactam o dia a dia.",
+      "linkLabel": "Ver conteúdos",
+      "href": "/blog"
+    },
+    {
+      "icon": "square",
+      "title": "Instituto Avança",
+      "image": "assets/images/editorial-tech-5.jpg",
+      "excerpt": "Instituto Avança inaugura hub de inovação para impulsionar startups locais em Belo Horizonte.",
+      "linkLabel": "Ler notícia",
+      "href": "/artigos/pbh",
+      "sponsored": true
+    }
   ],
   "healthStats": {
     "title": "Tribuna em Números",
     "stats": [
-      { "label": "Leitores mensais", "value": "3,2M", "sublabel": "usuários únicos (Tribuna Analytics, 2026)" },
-      { "label": "Artigos publicados", "value": "18,4 mil", "sublabel": "desde o lançamento (Tribuna Analytics, 2026)" },
-      { "label": "Tempo médio de leitura", "value": "6,8", "sublabel": "minutos por visita (Tribuna Analytics, 2026)" },
-      { "label": "Cobertura editorial", "value": "92%", "sublabel": "dos estados brasileiros (Tribuna Analytics, 2026)" }
+      {
+        "label": "Leitores mensais",
+        "value": "3,2M",
+        "sublabel": "usuários únicos (Tribuna Analytics, 2026)"
+      },
+      {
+        "label": "Artigos publicados",
+        "value": "18,4 mil",
+        "sublabel": "desde o lançamento (Tribuna Analytics, 2026)"
+      },
+      {
+        "label": "Tempo médio de leitura",
+        "value": "6,8",
+        "sublabel": "minutos por visita (Tribuna Analytics, 2026)"
+      },
+      {
+        "label": "Cobertura editorial",
+        "value": "92%",
+        "sublabel": "dos estados brasileiros (Tribuna Analytics, 2026)"
+      }
     ]
   },
   "contentCategories": [
-    { "icon": "doc", "title": "Inovação", "description": "Tecnologias, startups e ideias que estão transformando negócios e cultura.", "linkLabel": "Ver conteúdos", "href": "/blog", "image": "assets/images/inovacao.png" },
-    { "icon": "mic", "title": "Entrevistas", "description": "Vozes que constroem a cultura, os negócios e a tecnologia do país.", "linkLabel": "Ver entrevistas", "href": "/blog", "image": "assets/images/entrevistas.jpg" },
-    { "icon": "play", "title": "Vídeos", "description": "Conteúdos em vídeo com análise e informação de qualidade.", "linkLabel": "Ver vídeos", "href": "/blog", "image": "assets/images/skyline.jpg" }
+    {
+      "icon": "doc",
+      "title": "Inovação",
+      "description": "Tecnologias, startups e ideias que estão transformando negócios e cultura.",
+      "linkLabel": "Ver conteúdos",
+      "href": "/blog",
+      "image": "assets/images/inovacao.png"
+    },
+    {
+      "icon": "mic",
+      "title": "Entrevistas",
+      "description": "Vozes que constroem a cultura, os negócios e a tecnologia do país.",
+      "linkLabel": "Ver entrevistas",
+      "href": "/blog",
+      "image": "assets/images/entrevistas.jpg"
+    },
+    {
+      "icon": "play",
+      "title": "Vídeos",
+      "description": "Conteúdos em vídeo com análise e informação de qualidade.",
+      "linkLabel": "Ver vídeos",
+      "href": "/blog",
+      "image": "assets/images/skyline.jpg"
+    }
   ],
   "sponsored": [
-    { "kind": "ad", "eyebrow": "PUBLICIDADE", "title": "Soluções completas para uma gestão financeira mais eficiente.", "description": "Tecnologia e inteligência integradas para o sucesso do seu negócio.", "ctaLabel": "Saiba mais", "href": "https://nexatech.com.br", "image": "assets/images/solucoes-saude.png", "theme": "light", "size": "lg", "logo": "assets/images/onmed-logo.png", "external": true },
-    { "kind": "sponsored", "eyebrow": "CONTEÚDO PATROCINADO", "title": "Eficiência e estratégia para a transformação dos negócios.", "description": "Conteúdo, tecnologia e gestão inteligente que impulsionam resultados sustentáveis.", "ctaLabel": "Leia o artigo", "href": "https://www.meridian-partners.com.br", "image": "assets/images/tessera-bg.png", "imagePosition": "center 85%", "theme": "light", "size": "md", "logo": "assets/images/tessera-logo.jpeg", "siteLabel": "www.meridian-partners.com.br", "external": true },
-    { "kind": "sponsorship", "eyebrow": "PATROCÍNIO", "title": "Soluções de investimento sob medida para o seu negócio todos os dias.", "description": "", "ctaLabel": "Saiba mais", "href": "https://orbitacapital.com.br", "image": null, "theme": "brand", "size": "sm", "logo": "assets/images/gama-logo.png", "external": true }
+    {
+      "kind": "ad",
+      "eyebrow": "PUBLICIDADE",
+      "title": "Soluções completas para uma gestão financeira mais eficiente.",
+      "description": "Tecnologia e inteligência integradas para o sucesso do seu negócio.",
+      "ctaLabel": "Saiba mais",
+      "href": "https://nexatech.com.br",
+      "image": "assets/images/solucoes-saude.png",
+      "theme": "light",
+      "size": "lg",
+      "logo": "assets/images/onmed-logo.png",
+      "external": true
+    },
+    {
+      "kind": "sponsored",
+      "eyebrow": "CONTEÚDO PATROCINADO",
+      "title": "Eficiência e estratégia para a transformação dos negócios.",
+      "description": "Conteúdo, tecnologia e gestão inteligente que impulsionam resultados sustentáveis.",
+      "ctaLabel": "Leia o artigo",
+      "href": "https://www.meridian-partners.com.br",
+      "image": "assets/images/tessera-bg.png",
+      "imagePosition": "center 85%",
+      "theme": "light",
+      "size": "md",
+      "logo": "assets/images/tessera-logo.jpeg",
+      "siteLabel": "www.meridian-partners.com.br",
+      "external": true
+    },
+    {
+      "kind": "sponsorship",
+      "eyebrow": "PATROCÍNIO",
+      "title": "Soluções de investimento sob medida para o seu negócio todos os dias.",
+      "description": "",
+      "ctaLabel": "Saiba mais",
+      "href": "https://orbitacapital.com.br",
+      "image": null,
+      "theme": "brand",
+      "size": "sm",
+      "logo": "assets/images/gama-logo.png",
+      "external": true
+    }
   ],
   "trustBadges": [
-    { "icon": "ring", "label": "Fontes nativas integradas ao conteúdo" },
-    { "icon": "dot", "label": "Audiência qualificada e engajada" },
-    { "icon": "square", "label": "Ambiente seguro e confiável" },
-    { "icon": "cross", "label": "Métricas e performance transparentes" },
-    { "icon": "ring", "label": "Conexão com marcas que fazem a diferença" }
+    {
+      "icon": "ring",
+      "label": "Fontes nativas integradas ao conteúdo"
+    },
+    {
+      "icon": "dot",
+      "label": "Audiência qualificada e engajada"
+    },
+    {
+      "icon": "square",
+      "label": "Ambiente seguro e confiável"
+    },
+    {
+      "icon": "cross",
+      "label": "Métricas e performance transparentes"
+    },
+    {
+      "icon": "ring",
+      "label": "Conexão com marcas que fazem a diferença"
+    }
   ]
 }

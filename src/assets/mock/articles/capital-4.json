@@ -1,20 +1,45 @@
 {
   "breadcrumbs": [
-    { "label": "Home", "href": "/" },
-    { "label": "Tribuna Capital", "href": "/capital" },
-    { "label": "Fintechs", "href": "/capital" }
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Tribuna Capital",
+      "href": "/capital"
+    },
+    {
+      "label": "Fintechs",
+      "href": "/capital"
+    }
   ],
   "title": "Banco Central publica nova norma sobre open finance e pagamento instantâneo entre fintechs",
   "subtitle": "Regra amplia compartilhamento de dados financeiros e promete mais competição no mercado de meios de pagamento.",
   "date": "09/08/2026",
   "author": "Redação Tribuna",
   "shareLinks": [
-    { "icon": "facebook", "href": "#", "label": "Compartilhar no Facebook" },
-    { "icon": "whatsapp", "href": "#", "label": "Compartilhar no WhatsApp" },
-    { "icon": "linkedin", "href": "#", "label": "Compartilhar no LinkedIn" },
-    { "icon": "x", "href": "#", "label": "Compartilhar no X" }
+    {
+      "icon": "facebook",
+      "href": "#",
+      "label": "Compartilhar no Facebook"
+    },
+    {
+      "icon": "whatsapp",
+      "href": "#",
+      "label": "Compartilhar no WhatsApp"
+    },
+    {
+      "icon": "linkedin",
+      "href": "#",
+      "label": "Compartilhar no LinkedIn"
+    },
+    {
+      "icon": "x",
+      "href": "#",
+      "label": "Compartilhar no X"
+    }
   ],
-  "heroImage": "assets/images/skyline.jpg",
+  "heroImage": "assets/images/editorial-capital-4.jpg",
   "paragraphs": [
     "O Banco Central publicou nesta semana uma nova norma que amplia as regras do open finance e cria padrões mais rígidos para o processamento de pagamentos instantâneos entre instituições financeiras e fintechs. A medida busca reduzir o tempo de resposta em transações e ampliar a interoperabilidade entre plataformas concorrentes.",
     "Segundo o regulador, a norma obriga bancos e fintechs de maior porte a disponibilizar interfaces padronizadas para compartilhamento de dados de clientes, mediante autorização expressa, permitindo que consumidores movimentem seu histórico financeiro entre instituições com mais facilidade na hora de contratar crédito ou serviços de investimento.",
@@ -22,21 +47,66 @@
     "A norma entra em vigor em fases ao longo dos próximos dois trimestres, com prazo maior para instituições de menor porte se adequarem aos novos requisitos técnicos e de segurança da informação exigidos pelo Banco Central."
   ],
   "categories": [
-    { "label": "Cultura", "count": 35, "href": "/blog", "active": false },
-    { "label": "Negócios & Economia", "count": 9, "href": "/capital", "active": false },
-    { "label": "Tecnologia", "count": 16, "href": "/tech", "active": false },
-    { "label": "Entretenimento", "count": 104, "href": "/blog", "active": false }
+    {
+      "label": "Cultura",
+      "count": 35,
+      "href": "/blog",
+      "active": false
+    },
+    {
+      "label": "Negócios & Economia",
+      "count": 9,
+      "href": "/capital",
+      "active": false
+    },
+    {
+      "label": "Tecnologia",
+      "count": 16,
+      "href": "/tech",
+      "active": false
+    },
+    {
+      "label": "Entretenimento",
+      "count": 104,
+      "href": "/blog",
+      "active": false
+    }
   ],
   "recentPosts": [
-    { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
-    { "date": "01/07/2027", "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.", "href": "/artigos/recente-2" },
-    { "date": "01/07/2027", "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.", "href": "/artigos/recente-3" }
+    {
+      "date": "01/07/2027",
+      "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.",
+      "href": "/artigos/recente-1"
+    },
+    {
+      "date": "01/07/2027",
+      "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.",
+      "href": "/artigos/recente-2"
+    },
+    {
+      "date": "01/07/2027",
+      "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.",
+      "href": "/artigos/recente-3"
+    }
   ],
   "extras": [
-    { "kind": "ad", "title": "Compare taxas e condições entre as principais fintechs do país.", "ctaLabel": "Comparar agora", "href": "/artigos/capital-destaque" }
+    {
+      "kind": "ad",
+      "title": "Compare taxas e condições entre as principais fintechs do país.",
+      "ctaLabel": "Comparar agora",
+      "href": "/artigos/capital-destaque"
+    }
   ],
   "comments": [
-    { "name": "Bruno Cavalcanti", "date": "Agosto 2026", "text": "Essa padronização já era esperada, deve facilitar bastante a portabilidade de dados entre bancos." },
-    { "name": "Larissa Nogueira", "date": "Agosto 2026", "text": "Boa notícia para quem usa várias fintechs ao mesmo tempo. Espero que a segurança dos dados não fique em segundo plano." }
+    {
+      "name": "Bruno Cavalcanti",
+      "date": "Agosto 2026",
+      "text": "Essa padronização já era esperada, deve facilitar bastante a portabilidade de dados entre bancos."
+    },
+    {
+      "name": "Larissa Nogueira",
+      "date": "Agosto 2026",
+      "text": "Boa notícia para quem usa várias fintechs ao mesmo tempo. Espero que a segurança dos dados não fique em segundo plano."
+    }
   ]
 }

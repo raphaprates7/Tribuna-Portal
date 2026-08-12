@@ -1,20 +1,45 @@
 {
   "breadcrumbs": [
-    { "label": "Home", "href": "/" },
-    { "label": "Artigos", "href": "/blog" },
-    { "label": "Negócios & Economia", "href": "/blog" }
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Artigos",
+      "href": "/blog"
+    },
+    {
+      "label": "Negócios & Economia",
+      "href": "/blog"
+    }
   ],
   "title": "Vantis Capital anuncia parceria estratégica para acelerar startups de tecnologia",
   "subtitle": "Gestora reforça a aposta em fintechs e negócios digitais em fase de crescimento.",
   "date": "08/07/2027",
   "author": "Redação Tribuna",
   "shareLinks": [
-    { "icon": "facebook", "href": "#", "label": "Compartilhar no Facebook" },
-    { "icon": "whatsapp", "href": "#", "label": "Compartilhar no WhatsApp" },
-    { "icon": "linkedin", "href": "#", "label": "Compartilhar no LinkedIn" },
-    { "icon": "x", "href": "#", "label": "Compartilhar no X" }
+    {
+      "icon": "facebook",
+      "href": "#",
+      "label": "Compartilhar no Facebook"
+    },
+    {
+      "icon": "whatsapp",
+      "href": "#",
+      "label": "Compartilhar no WhatsApp"
+    },
+    {
+      "icon": "linkedin",
+      "href": "#",
+      "label": "Compartilhar no LinkedIn"
+    },
+    {
+      "icon": "x",
+      "href": "#",
+      "label": "Compartilhar no X"
+    }
   ],
-  "heroImage": "assets/images/skyline.jpg",
+  "heroImage": "assets/images/editorial-capital-5.jpg",
   "paragraphs": [
     "A gestora Vantis Capital anunciou nesta semana uma parceria com um consórcio de fundos internacionais para acelerar startups brasileiras de tecnologia financeira. O aporte inicial soma R$ 180 milhões e deve beneficiar cerca de 20 empresas em fase de crescimento.",
     "Segundo a gestora, a iniciativa também passa por acompanhamento próximo das startups selecionadas. Mentoria e acesso a dados de mercado ajudam fundadores a identificar oportunidades antes que a concorrência se antecipe, tornando as decisões de expansão mais rápidas e seguras.",
@@ -22,22 +47,75 @@
     "Para a gestora, investir em tecnologia hoje é investir em competitividade amanhã — um compromisso que pretende manter nos próximos ciclos de investimento."
   ],
   "categories": [
-    { "label": "Cultura", "count": 35, "href": "/blog", "active": false },
-    { "label": "Negócios & Economia", "count": 9, "href": "/capital", "active": false },
-    { "label": "Tecnologia", "count": 16, "href": "/tech", "active": false },
-    { "label": "Entretenimento", "count": 104, "href": "/blog", "active": false }
+    {
+      "label": "Cultura",
+      "count": 35,
+      "href": "/blog",
+      "active": false
+    },
+    {
+      "label": "Negócios & Economia",
+      "count": 9,
+      "href": "/capital",
+      "active": false
+    },
+    {
+      "label": "Tecnologia",
+      "count": 16,
+      "href": "/tech",
+      "active": false
+    },
+    {
+      "label": "Entretenimento",
+      "count": 104,
+      "href": "/blog",
+      "active": false
+    }
   ],
   "recentPosts": [
-    { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
-    { "date": "01/07/2027", "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.", "href": "/artigos/recente-2" },
-    { "date": "01/07/2027", "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.", "href": "/artigos/recente-3" }
+    {
+      "date": "01/07/2027",
+      "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.",
+      "href": "/artigos/recente-1"
+    },
+    {
+      "date": "01/07/2027",
+      "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.",
+      "href": "/artigos/recente-2"
+    },
+    {
+      "date": "01/07/2027",
+      "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.",
+      "href": "/artigos/recente-3"
+    }
   ],
   "extras": [
-    { "kind": "ad", "title": "Soluções financeiras sob medida para o seu negócio crescer.", "ctaLabel": "Saiba mais", "href": "/artigos/medicamentos-qualidade" },
-    { "kind": "sponsor", "icon": "ring", "title": "Vantis Capital", "image": "assets/images/skyline.jpg", "description": "Vantis Capital anuncia parceria estratégica para acelerar startups de tecnologia financeira no país.", "linkLabel": "Ler notícia", "href": "/artigos/dasa" }
+    {
+      "kind": "ad",
+      "title": "Soluções financeiras sob medida para o seu negócio crescer.",
+      "ctaLabel": "Saiba mais",
+      "href": "/artigos/medicamentos-qualidade"
+    },
+    {
+      "kind": "sponsor",
+      "icon": "ring",
+      "title": "Vantis Capital",
+      "image": "assets/images/skyline.jpg",
+      "description": "Vantis Capital anuncia parceria estratégica para acelerar startups de tecnologia financeira no país.",
+      "linkLabel": "Ler notícia",
+      "href": "/artigos/dasa"
+    }
   ],
   "comments": [
-    { "name": "Marcelo Dutra", "date": "Julho 2026", "text": "Parceria interessante, mostra que o mercado de fintechs no Brasil ainda tem bastante espaço para crescer." },
-    { "name": "Mariana Abreu", "date": "Julho 2026", "text": "Gostei da abordagem sobre mentoria — geralmente o dinheiro sozinho não resolve, o acompanhamento faz diferença." }
+    {
+      "name": "Marcelo Dutra",
+      "date": "Julho 2026",
+      "text": "Parceria interessante, mostra que o mercado de fintechs no Brasil ainda tem bastante espaço para crescer."
+    },
+    {
+      "name": "Mariana Abreu",
+      "date": "Julho 2026",
+      "text": "Gostei da abordagem sobre mentoria — geralmente o dinheiro sozinho não resolve, o acompanhamento faz diferença."
+    }
   ]
 }

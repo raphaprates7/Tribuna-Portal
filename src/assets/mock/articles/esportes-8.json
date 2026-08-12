@@ -1,20 +1,45 @@
 {
   "breadcrumbs": [
-    { "label": "Home", "href": "/" },
-    { "label": "Tribuna Esportes", "href": "/esportes" },
-    { "label": "Paralimpíadas", "href": "/esportes" }
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Tribuna Esportes",
+      "href": "/esportes"
+    },
+    {
+      "label": "Paralimpíadas",
+      "href": "/esportes"
+    }
   ],
   "title": "Atleta paralímpico brasileiro bate marca pessoal rumo aos próximos Jogos",
   "subtitle": "Resultado consolida vaga na equipe nacional e eleva expectativa por medalha inédita na modalidade.",
   "date": "13/08/2026",
   "author": "Redação Tribuna",
   "shareLinks": [
-    { "icon": "facebook", "href": "#", "label": "Compartilhar no Facebook" },
-    { "icon": "whatsapp", "href": "#", "label": "Compartilhar no WhatsApp" },
-    { "icon": "linkedin", "href": "#", "label": "Compartilhar no LinkedIn" },
-    { "icon": "x", "href": "#", "label": "Compartilhar no X" }
+    {
+      "icon": "facebook",
+      "href": "#",
+      "label": "Compartilhar no Facebook"
+    },
+    {
+      "icon": "whatsapp",
+      "href": "#",
+      "label": "Compartilhar no WhatsApp"
+    },
+    {
+      "icon": "linkedin",
+      "href": "#",
+      "label": "Compartilhar no LinkedIn"
+    },
+    {
+      "icon": "x",
+      "href": "#",
+      "label": "Compartilhar no X"
+    }
   ],
-  "heroImage": "assets/images/blog-corrida.jpg",
+  "heroImage": "assets/images/editorial-esportes-3.jpg",
   "paragraphs": [
     "Um atleta paralímpico brasileiro bateu a marca pessoal na prova de corrida em que compete, resultado que consolida sua vaga na equipe nacional para os próximos Jogos Paralímpicos e eleva a expectativa por uma medalha inédita para o país na modalidade.",
     "O novo tempo foi registrado em uma etapa classificatória disputada em pista sintética, sob condições consideradas ideais pela comissão técnica, e coloca o atleta entre os cinco melhores do ranking mundial da categoria em que compete.",
@@ -22,21 +47,66 @@
     "Com a marca alcançada, a confederação já projeta calendário de competições internacionais para os próximos meses, com o objetivo de manter o atleta em ritmo de alto rendimento até a estreia nos Jogos Paralímpicos no ano que vem."
   ],
   "categories": [
-    { "label": "Cultura", "count": 35, "href": "/blog", "active": false },
-    { "label": "Negócios & Economia", "count": 9, "href": "/capital", "active": false },
-    { "label": "Tecnologia", "count": 16, "href": "/tech", "active": false },
-    { "label": "Entretenimento", "count": 104, "href": "/blog", "active": false }
+    {
+      "label": "Cultura",
+      "count": 35,
+      "href": "/blog",
+      "active": false
+    },
+    {
+      "label": "Negócios & Economia",
+      "count": 9,
+      "href": "/capital",
+      "active": false
+    },
+    {
+      "label": "Tecnologia",
+      "count": 16,
+      "href": "/tech",
+      "active": false
+    },
+    {
+      "label": "Entretenimento",
+      "count": 104,
+      "href": "/blog",
+      "active": false
+    }
   ],
   "recentPosts": [
-    { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
-    { "date": "01/07/2027", "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.", "href": "/artigos/recente-2" },
-    { "date": "01/07/2027", "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.", "href": "/artigos/recente-3" }
+    {
+      "date": "01/07/2027",
+      "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.",
+      "href": "/artigos/recente-1"
+    },
+    {
+      "date": "01/07/2027",
+      "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.",
+      "href": "/artigos/recente-2"
+    },
+    {
+      "date": "01/07/2027",
+      "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.",
+      "href": "/artigos/recente-3"
+    }
   ],
   "extras": [
-    { "kind": "ad", "title": "Conheça as histórias dos atletas que vão representar o Brasil nos próximos Jogos Paralímpicos.", "ctaLabel": "Conhecer histórias", "href": "/artigos/esportes-destaque" }
+    {
+      "kind": "ad",
+      "title": "Conheça as histórias dos atletas que vão representar o Brasil nos próximos Jogos Paralímpicos.",
+      "ctaLabel": "Conhecer histórias",
+      "href": "/artigos/esportes-destaque"
+    }
   ],
   "comments": [
-    { "name": "Leandro Farias", "date": "Agosto 2026", "text": "Trabalho de anos com fisioterapia e ajuste de prótese aparecendo no resultado, história muito bonita de acompanhar." },
-    { "name": "Juliana Prata", "date": "Agosto 2026", "text": "Esporte paralímpico merecia muito mais espaço na mídia, essa marca é digna de manchete principal." }
+    {
+      "name": "Leandro Farias",
+      "date": "Agosto 2026",
+      "text": "Trabalho de anos com fisioterapia e ajuste de prótese aparecendo no resultado, história muito bonita de acompanhar."
+    },
+    {
+      "name": "Juliana Prata",
+      "date": "Agosto 2026",
+      "text": "Esporte paralímpico merecia muito mais espaço na mídia, essa marca é digna de manchete principal."
+    }
   ]
 }

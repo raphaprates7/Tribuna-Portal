@@ -9,8 +9,14 @@
     "accentTint": "#e8eef8"
   },
   "breadcrumbs": [
-    { "label": "Home", "href": "/" },
-    { "label": "Tribuna Tech", "href": "/tech" }
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Tribuna Tech",
+      "href": "/tech"
+    }
   ],
   "featuredArticle": {
     "eyebrow": "Inteligência Artificial",
@@ -25,7 +31,7 @@
     {
       "icon": "chevron-down",
       "title": "Assistente de IA generativa passa a integrar planilhas e apresentações automaticamente",
-      "image": "assets/images/inovacao.png",
+      "image": "assets/images/editorial-tech-1.jpg",
       "excerpt": "Atualização promete reduzir em até 40% o tempo gasto em tarefas repetitivas de escritório, segundo a desenvolvedora.",
       "linkLabel": "Ler mais",
       "href": "/artigos/tech-1"
@@ -33,7 +39,7 @@
     {
       "icon": "square",
       "title": "Fabricante asiática lança óculos de realidade aumentada voltado ao mercado corporativo",
-      "image": null,
+      "image": "assets/images/editorial-tech-2.jpg",
       "excerpt": "Dispositivo aposta em bateria de longa duração e integração com softwares de produtividade já existentes.",
       "linkLabel": "Ler mais",
       "href": "/artigos/tech-2"
@@ -41,7 +47,7 @@
     {
       "icon": "arrow-right",
       "title": "Startup de logística automatizada capta R$ 90 milhões em rodada série B",
-      "image": null,
+      "image": "assets/images/editorial-tech-3.jpg",
       "excerpt": "Aporte deve financiar expansão para outras três capitais e contratação de equipe de engenharia.",
       "linkLabel": "Ler mais",
       "href": "/artigos/tech-3"
@@ -49,7 +55,7 @@
     {
       "icon": "doc",
       "title": "Vazamento de dados expõe falha de segurança em empresas de médio porte",
-      "image": null,
+      "image": "assets/images/editorial-tech-4.jpg",
       "excerpt": "Especialistas recomendam medidas urgentes de proteção após incidente afetar milhares de registros de clientes.",
       "linkLabel": "Ler mais",
       "href": "/artigos/tech-4"
@@ -57,7 +63,7 @@
     {
       "icon": "arrow-right",
       "title": "Expansão da cobertura 5G chega a novas capitais brasileiras",
-      "image": "assets/images/skyline.jpg",
+      "image": "assets/images/editorial-tech-5.jpg",
       "excerpt": "Operadoras aceleram cronograma de instalação de antenas e ampliam acesso à tecnologia de quinta geração pelo país.",
       "linkLabel": "Ler mais",
       "href": "/artigos/tech-5"
@@ -65,7 +71,7 @@
     {
       "icon": "dot",
       "title": "Tecnologia de pagamento por aproximação cresce entre pequenos comércios",
-      "image": "assets/images/inovacao.png",
+      "image": "assets/images/editorial-tech-1.jpg",
       "excerpt": "Adoção do recurso reduz filas e custos operacionais para lojistas de bairro em todo o país.",
       "linkLabel": "Ler mais",
       "href": "/artigos/tech-6"
@@ -73,7 +79,7 @@
     {
       "icon": "bookmark",
       "title": "Montadora anuncia novo modelo de carro elétrico com foco no mercado brasileiro",
-      "image": "assets/images/skyline.jpg",
+      "image": "assets/images/editorial-tech-2.jpg",
       "excerpt": "Veículo chega com preço competitivo e rede própria de recarga para acelerar adoção da eletromobilidade no país.",
       "linkLabel": "Ler mais",
       "href": "/artigos/tech-7"
@@ -81,7 +87,7 @@
     {
       "icon": "cross",
       "title": "Indústria nacional acelera automação de linhas de produção com robótica colaborativa",
-      "image": null,
+      "image": "assets/images/editorial-tech-3.jpg",
       "excerpt": "Robôs colaborativos dividem espaço com trabalhadores humanos e prometem ganhos de produtividade sem cortes de vagas, dizem fabricantes.",
       "linkLabel": "Ler mais",
       "href": "/artigos/tech-8"

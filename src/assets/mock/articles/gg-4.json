@@ -1,20 +1,45 @@
 {
   "breadcrumbs": [
-    { "label": "Home", "href": "/" },
-    { "label": "Tribuna GG", "href": "/gg" },
-    { "label": "Hardware", "href": "/gg" }
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Tribuna GG",
+      "href": "/gg"
+    },
+    {
+      "label": "Hardware",
+      "href": "/gg"
+    }
   ],
   "title": "Fabricante anuncia novo console com foco em jogos nativos em 4K",
   "subtitle": "Aparelho promete taxas de quadro mais estáveis e catálogo de lançamentos exclusivos ainda neste ano.",
   "date": "09/08/2026",
   "author": "Redação Tribuna",
   "shareLinks": [
-    { "icon": "facebook", "href": "#", "label": "Compartilhar no Facebook" },
-    { "icon": "whatsapp", "href": "#", "label": "Compartilhar no WhatsApp" },
-    { "icon": "linkedin", "href": "#", "label": "Compartilhar no LinkedIn" },
-    { "icon": "x", "href": "#", "label": "Compartilhar no X" }
+    {
+      "icon": "facebook",
+      "href": "#",
+      "label": "Compartilhar no Facebook"
+    },
+    {
+      "icon": "whatsapp",
+      "href": "#",
+      "label": "Compartilhar no WhatsApp"
+    },
+    {
+      "icon": "linkedin",
+      "href": "#",
+      "label": "Compartilhar no LinkedIn"
+    },
+    {
+      "icon": "x",
+      "href": "#",
+      "label": "Compartilhar no X"
+    }
   ],
-  "heroImage": "assets/images/tessera-bg.png",
+  "heroImage": "assets/images/editorial-gg-4.jpg",
   "paragraphs": [
     "Uma fabricante de consoles anunciou seu novo aparelho de nova geração com foco declarado em jogos nativos em resolução 4K, prometendo taxas de quadro mais estáveis mesmo em títulos graficamente exigentes, um dos principais pedidos da comunidade gamer nas últimas gerações.",
     "Segundo a empresa, o novo chip gráfico desenvolvido em parceria com fabricante especializado em semicondutores permite renderização nativa em 4K a 60 quadros por segundo na maioria dos jogos, sem depender de técnicas de upscaling que geravam críticas de jogadores mais exigentes na geração anterior.",
@@ -22,21 +47,66 @@
     "Pré-vendas devem começar ainda neste trimestre, com data de lançamento prevista para o fim do ano, período tradicionalmente concorrido no mercado de consoles por coincidir com as principais datas de compra de presentes no varejo."
   ],
   "categories": [
-    { "label": "Cultura", "count": 35, "href": "/blog", "active": false },
-    { "label": "Negócios & Economia", "count": 9, "href": "/capital", "active": false },
-    { "label": "Tecnologia", "count": 16, "href": "/tech", "active": false },
-    { "label": "Entretenimento", "count": 104, "href": "/blog", "active": false }
+    {
+      "label": "Cultura",
+      "count": 35,
+      "href": "/blog",
+      "active": false
+    },
+    {
+      "label": "Negócios & Economia",
+      "count": 9,
+      "href": "/capital",
+      "active": false
+    },
+    {
+      "label": "Tecnologia",
+      "count": 16,
+      "href": "/tech",
+      "active": false
+    },
+    {
+      "label": "Entretenimento",
+      "count": 104,
+      "href": "/blog",
+      "active": false
+    }
   ],
   "recentPosts": [
-    { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
-    { "date": "01/07/2027", "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.", "href": "/artigos/recente-2" },
-    { "date": "01/07/2027", "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.", "href": "/artigos/recente-3" }
+    {
+      "date": "01/07/2027",
+      "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.",
+      "href": "/artigos/recente-1"
+    },
+    {
+      "date": "01/07/2027",
+      "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.",
+      "href": "/artigos/recente-2"
+    },
+    {
+      "date": "01/07/2027",
+      "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.",
+      "href": "/artigos/recente-3"
+    }
   ],
   "extras": [
-    { "kind": "ad", "title": "Garanta sua pré-venda do novo console com foco em 4K.", "ctaLabel": "Reservar agora", "href": "/artigos/gg-destaque" }
+    {
+      "kind": "ad",
+      "title": "Garanta sua pré-venda do novo console com foco em 4K.",
+      "ctaLabel": "Reservar agora",
+      "href": "/artigos/gg-destaque"
+    }
   ],
   "comments": [
-    { "name": "Kaique Sobral", "date": "Agosto 2026", "text": "Se a promessa de 4K nativo a 60fps se confirmar mesmo, é um salto e tanto em relação à geração atual." },
-    { "name": "Yasmin Cordeiro", "date": "Agosto 2026", "text": "Compatibilidade retroativa é o que mais me interessa, não quero perder minha biblioteca de jogos." }
+    {
+      "name": "Kaique Sobral",
+      "date": "Agosto 2026",
+      "text": "Se a promessa de 4K nativo a 60fps se confirmar mesmo, é um salto e tanto em relação à geração atual."
+    },
+    {
+      "name": "Yasmin Cordeiro",
+      "date": "Agosto 2026",
+      "text": "Compatibilidade retroativa é o que mais me interessa, não quero perder minha biblioteca de jogos."
+    }
   ]
 }

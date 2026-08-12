@@ -9,8 +9,14 @@
     "accentTint": "#e6f2ea"
   },
   "breadcrumbs": [
-    { "label": "Home", "href": "/" },
-    { "label": "Tribuna Esportes", "href": "/esportes" }
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Tribuna Esportes",
+      "href": "/esportes"
+    }
   ],
   "featuredArticle": {
     "eyebrow": "Olimpíadas",
@@ -25,7 +31,7 @@
     {
       "icon": "play",
       "title": "Time paulista confirma técnico e mira retomada no returno do Brasileirão",
-      "image": null,
+      "image": "assets/images/editorial-esportes-1.jpg",
       "excerpt": "Clube aposta em treinador com passagem recente por competições internacionais para reagir na tabela.",
       "linkLabel": "Ler mais",
       "href": "/artigos/esportes-1"
@@ -33,7 +39,7 @@
     {
       "icon": "dot",
       "title": "Maratona da capital bate recorde de inscritos e libera últimas vagas",
-      "image": "assets/images/blog-corrida.jpg",
+      "image": "assets/images/editorial-esportes-2.jpg",
       "excerpt": "Prova reúne corredores amadores e profissionais em percurso de 42 km pelo centro histórico da cidade.",
       "linkLabel": "Ler mais",
       "href": "/artigos/esportes-2"
@@ -41,7 +47,7 @@
     {
       "icon": "cross",
       "title": "Brasil garante vaga inédita em modalidade coletiva para os Jogos",
-      "image": null,
+      "image": "assets/images/editorial-esportes-3.jpg",
       "excerpt": "Seleção supera adversário europeu em jogo decisivo e assegura presença no torneio pela primeira vez na história.",
       "linkLabel": "Ler mais",
       "href": "/artigos/esportes-3"
@@ -49,7 +55,7 @@
     {
       "icon": "arrow-right",
       "title": "Janela de transferências movimenta clubes brasileiros com contratações internacionais",
-      "image": null,
+      "image": "assets/images/editorial-esportes-4.jpg",
       "excerpt": "Times do Brasileirão investem em reforços vindos da Europa e do futebol sul-americano para a reta final da temporada.",
       "linkLabel": "Ler mais",
       "href": "/artigos/esportes-4"
@@ -57,7 +63,7 @@
     {
       "icon": "square",
       "title": "Seleção brasileira feminina de vôlei se prepara para torneio internacional",
-      "image": null,
+      "image": "assets/images/editorial-esportes-5.jpg",
       "excerpt": "Equipe realiza treinos intensivos em busca do título inédito na competição que reúne as principais potências do esporte.",
       "linkLabel": "Ler mais",
       "href": "/artigos/esportes-5"
@@ -65,7 +71,7 @@
     {
       "icon": "doc",
       "title": "Piloto brasileiro sobe ao pódio em etapa emocionante da Fórmula 1",
-      "image": null,
+      "image": "assets/images/editorial-esportes-1.jpg",
       "excerpt": "Resultado é o melhor da carreira do piloto e reacende esperanças de título entre os fãs do automobilismo nacional.",
       "linkLabel": "Ler mais",
       "href": "/artigos/esportes-6"
@@ -73,7 +79,7 @@
     {
       "icon": "ring",
       "title": "Recorde nacional é quebrado em campeonato de águas abertas",
-      "image": null,
+      "image": "assets/images/editorial-esportes-2.jpg",
       "excerpt": "Nadador brasileiro supera marca que resistia havia quase uma década em prova disputada no litoral nordestino.",
       "linkLabel": "Ler mais",
       "href": "/artigos/esportes-7"
@@ -81,7 +87,7 @@
     {
       "icon": "mic",
       "title": "Atleta paralímpico brasileiro bate marca pessoal rumo aos próximos Jogos",
-      "image": "assets/images/blog-corrida.jpg",
+      "image": "assets/images/editorial-esportes-3.jpg",
       "excerpt": "Resultado consolida vaga na equipe nacional e eleva expectativa por medalha inédita na modalidade.",
       "linkLabel": "Ler mais",
       "href": "/artigos/esportes-8"

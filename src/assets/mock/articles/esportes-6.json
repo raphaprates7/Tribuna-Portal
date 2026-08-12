@@ -1,20 +1,45 @@
 {
   "breadcrumbs": [
-    { "label": "Home", "href": "/" },
-    { "label": "Tribuna Esportes", "href": "/esportes" },
-    { "label": "Automobilismo", "href": "/esportes" }
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Tribuna Esportes",
+      "href": "/esportes"
+    },
+    {
+      "label": "Automobilismo",
+      "href": "/esportes"
+    }
   ],
   "title": "Piloto brasileiro sobe ao pódio em etapa emocionante da Fórmula 1",
   "subtitle": "Resultado é o melhor da carreira do piloto e reacende esperanças de título entre os fãs do automobilismo nacional.",
   "date": "11/08/2026",
   "author": "Redação Tribuna",
   "shareLinks": [
-    { "icon": "facebook", "href": "#", "label": "Compartilhar no Facebook" },
-    { "icon": "whatsapp", "href": "#", "label": "Compartilhar no WhatsApp" },
-    { "icon": "linkedin", "href": "#", "label": "Compartilhar no LinkedIn" },
-    { "icon": "x", "href": "#", "label": "Compartilhar no X" }
+    {
+      "icon": "facebook",
+      "href": "#",
+      "label": "Compartilhar no Facebook"
+    },
+    {
+      "icon": "whatsapp",
+      "href": "#",
+      "label": "Compartilhar no WhatsApp"
+    },
+    {
+      "icon": "linkedin",
+      "href": "#",
+      "label": "Compartilhar no LinkedIn"
+    },
+    {
+      "icon": "x",
+      "href": "#",
+      "label": "Compartilhar no X"
+    }
   ],
-  "heroImage": null,
+  "heroImage": "assets/images/editorial-esportes-1.jpg",
   "paragraphs": [
     "O piloto brasileiro subiu ao pódio pela primeira vez na temporada da Fórmula 1, terminando em terceiro lugar em uma corrida marcada por trocas de liderança e uma disputa acirrada nas últimas voltas. O resultado é o melhor da carreira do piloto na categoria máxima do automobilismo.",
     "A estratégia de pneus definida pela equipe se mostrou decisiva, com uma parada antecipada nos boxes que permitiu ao brasileiro ultrapassar dois rivais diretos na fase final da prova, aproveitando a degradação mais rápida dos compostos escolhidos pelos concorrentes.",
@@ -22,21 +47,66 @@
     "A equipe já projeta atualizações no carro para as próximas corridas, buscando consolidar o desempenho apresentado nesta etapa e sustentar a competitividade em pistas com características técnicas diferentes das que favoreceram o resultado deste fim de semana."
   ],
   "categories": [
-    { "label": "Cultura", "count": 35, "href": "/blog", "active": false },
-    { "label": "Negócios & Economia", "count": 9, "href": "/capital", "active": false },
-    { "label": "Tecnologia", "count": 16, "href": "/tech", "active": false },
-    { "label": "Entretenimento", "count": 104, "href": "/blog", "active": false }
+    {
+      "label": "Cultura",
+      "count": 35,
+      "href": "/blog",
+      "active": false
+    },
+    {
+      "label": "Negócios & Economia",
+      "count": 9,
+      "href": "/capital",
+      "active": false
+    },
+    {
+      "label": "Tecnologia",
+      "count": 16,
+      "href": "/tech",
+      "active": false
+    },
+    {
+      "label": "Entretenimento",
+      "count": 104,
+      "href": "/blog",
+      "active": false
+    }
   ],
   "recentPosts": [
-    { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
-    { "date": "01/07/2027", "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.", "href": "/artigos/recente-2" },
-    { "date": "01/07/2027", "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.", "href": "/artigos/recente-3" }
+    {
+      "date": "01/07/2027",
+      "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.",
+      "href": "/artigos/recente-1"
+    },
+    {
+      "date": "01/07/2027",
+      "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.",
+      "href": "/artigos/recente-2"
+    },
+    {
+      "date": "01/07/2027",
+      "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.",
+      "href": "/artigos/recente-3"
+    }
   ],
   "extras": [
-    { "kind": "ad", "title": "Reviva os melhores momentos da temporada de Fórmula 1.", "ctaLabel": "Assistir agora", "href": "/artigos/esportes-destaque" }
+    {
+      "kind": "ad",
+      "title": "Reviva os melhores momentos da temporada de Fórmula 1.",
+      "ctaLabel": "Assistir agora",
+      "href": "/artigos/esportes-destaque"
+    }
   ],
   "comments": [
-    { "name": "Gustavo Rezende", "date": "Agosto 2026", "text": "Que corrida emocionante, a estratégia de pneus fez toda diferença no final." },
-    { "name": "Aline Bezerra", "date": "Agosto 2026", "text": "Já fazia tempo que não víamos um brasileiro no pódio, torcendo para repetir isso nas próximas etapas." }
+    {
+      "name": "Gustavo Rezende",
+      "date": "Agosto 2026",
+      "text": "Que corrida emocionante, a estratégia de pneus fez toda diferença no final."
+    },
+    {
+      "name": "Aline Bezerra",
+      "date": "Agosto 2026",
+      "text": "Já fazia tempo que não víamos um brasileiro no pódio, torcendo para repetir isso nas próximas etapas."
+    }
   ]
 }

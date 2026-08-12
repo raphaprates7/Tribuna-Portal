@@ -1,20 +1,45 @@
 {
   "breadcrumbs": [
-    { "label": "Home", "href": "/" },
-    { "label": "Tribuna GG", "href": "/gg" },
-    { "label": "Regulação", "href": "/gg" }
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Tribuna GG",
+      "href": "/gg"
+    },
+    {
+      "label": "Regulação",
+      "href": "/gg"
+    }
   ],
   "title": "Debate sobre loot boxes e microtransações ganha força entre desenvolvedores e reguladores",
   "subtitle": "Discussão sobre limites para mecânicas de compra dentro de jogos avança em diferentes países, incluindo o Brasil.",
   "date": "13/08/2026",
   "author": "Redação Tribuna",
   "shareLinks": [
-    { "icon": "facebook", "href": "#", "label": "Compartilhar no Facebook" },
-    { "icon": "whatsapp", "href": "#", "label": "Compartilhar no WhatsApp" },
-    { "icon": "linkedin", "href": "#", "label": "Compartilhar no LinkedIn" },
-    { "icon": "x", "href": "#", "label": "Compartilhar no X" }
+    {
+      "icon": "facebook",
+      "href": "#",
+      "label": "Compartilhar no Facebook"
+    },
+    {
+      "icon": "whatsapp",
+      "href": "#",
+      "label": "Compartilhar no WhatsApp"
+    },
+    {
+      "icon": "linkedin",
+      "href": "#",
+      "label": "Compartilhar no LinkedIn"
+    },
+    {
+      "icon": "x",
+      "href": "#",
+      "label": "Compartilhar no X"
+    }
   ],
-  "heroImage": null,
+  "heroImage": "assets/images/editorial-gg-3.jpg",
   "paragraphs": [
     "O debate sobre loot boxes e outras formas de microtransação dentro de jogos ganhou força nas últimas semanas, com desenvolvedores, associações de defesa do consumidor e reguladores discutindo limites para esse tipo de mecânica, especialmente em jogos voltados a um público mais jovem.",
     "No centro da discussão está a semelhança entre loot boxes e mecanismos de apostas, já que ambos envolvem pagamento por um resultado aleatório e incerto. Alguns países já adotaram regras específicas para o tema, exigindo divulgação clara das probabilidades de cada item ou até proibindo a venda para menores de idade.",
@@ -22,21 +47,66 @@
     "Desenvolvedoras nacionais afirmam acompanhar o movimento internacional de perto e dizem já estudar ajustes em seus próprios jogos, como a divulgação voluntária de probabilidades, buscando se antecipar a uma eventual regulamentação mais rígida por parte das autoridades brasileiras."
   ],
   "categories": [
-    { "label": "Cultura", "count": 35, "href": "/blog", "active": false },
-    { "label": "Negócios & Economia", "count": 9, "href": "/capital", "active": false },
-    { "label": "Tecnologia", "count": 16, "href": "/tech", "active": false },
-    { "label": "Entretenimento", "count": 104, "href": "/blog", "active": false }
+    {
+      "label": "Cultura",
+      "count": 35,
+      "href": "/blog",
+      "active": false
+    },
+    {
+      "label": "Negócios & Economia",
+      "count": 9,
+      "href": "/capital",
+      "active": false
+    },
+    {
+      "label": "Tecnologia",
+      "count": 16,
+      "href": "/tech",
+      "active": false
+    },
+    {
+      "label": "Entretenimento",
+      "count": 104,
+      "href": "/blog",
+      "active": false
+    }
   ],
   "recentPosts": [
-    { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
-    { "date": "01/07/2027", "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.", "href": "/artigos/recente-2" },
-    { "date": "01/07/2027", "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.", "href": "/artigos/recente-3" }
+    {
+      "date": "01/07/2027",
+      "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.",
+      "href": "/artigos/recente-1"
+    },
+    {
+      "date": "01/07/2027",
+      "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.",
+      "href": "/artigos/recente-2"
+    },
+    {
+      "date": "01/07/2027",
+      "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.",
+      "href": "/artigos/recente-3"
+    }
   ],
   "extras": [
-    { "kind": "ad", "title": "Entenda como funcionam as probabilidades em loot boxes dos principais jogos.", "ctaLabel": "Saiba mais", "href": "/artigos/gg-destaque" }
+    {
+      "kind": "ad",
+      "title": "Entenda como funcionam as probabilidades em loot boxes dos principais jogos.",
+      "ctaLabel": "Saiba mais",
+      "href": "/artigos/gg-destaque"
+    }
   ],
   "comments": [
-    { "name": "Danilo Prestes", "date": "Agosto 2026", "text": "Já era hora desse debate avançar por aqui também, transparência nas probabilidades é o mínimo." },
-    { "name": "Estela Vidal", "date": "Agosto 2026", "text": "Como mãe de jogador mirim, fico bem mais tranquila sabendo que esse tema está sendo discutido a sério." }
+    {
+      "name": "Danilo Prestes",
+      "date": "Agosto 2026",
+      "text": "Já era hora desse debate avançar por aqui também, transparência nas probabilidades é o mínimo."
+    },
+    {
+      "name": "Estela Vidal",
+      "date": "Agosto 2026",
+      "text": "Como mãe de jogador mirim, fico bem mais tranquila sabendo que esse tema está sendo discutido a sério."
+    }
   ]
 }

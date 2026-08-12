@@ -1,20 +1,45 @@
 {
   "breadcrumbs": [
-    { "label": "Home", "href": "/" },
-    { "label": "Artigos", "href": "/blog" },
-    { "label": "Conteúdo Patrocinado", "href": "/blog" }
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Artigos",
+      "href": "/blog"
+    },
+    {
+      "label": "Conteúdo Patrocinado",
+      "href": "/blog"
+    }
   ],
   "title": "Eficiência e estratégia para a transformação dos negócios",
   "subtitle": "Conteúdo, tecnologia e gestão inteligente que impulsionam resultados sustentáveis.",
   "date": "30/06/2027",
   "author": "Redação Tribuna",
   "shareLinks": [
-    { "icon": "facebook", "href": "#", "label": "Compartilhar no Facebook" },
-    { "icon": "whatsapp", "href": "#", "label": "Compartilhar no WhatsApp" },
-    { "icon": "linkedin", "href": "#", "label": "Compartilhar no LinkedIn" },
-    { "icon": "x", "href": "#", "label": "Compartilhar no X" }
+    {
+      "icon": "facebook",
+      "href": "#",
+      "label": "Compartilhar no Facebook"
+    },
+    {
+      "icon": "whatsapp",
+      "href": "#",
+      "label": "Compartilhar no WhatsApp"
+    },
+    {
+      "icon": "linkedin",
+      "href": "#",
+      "label": "Compartilhar no LinkedIn"
+    },
+    {
+      "icon": "x",
+      "href": "#",
+      "label": "Compartilhar no X"
+    }
   ],
-  "heroImage": "assets/images/tessera-bg.png",
+  "heroImage": "assets/images/editorial-capital-1.jpg",
   "paragraphs": [
     "A Meridian Partners reforça que a transformação dos negócios passa por decisões orientadas a dados. Pequenas mudanças de processo, sustentadas com consistência, têm impacto real sobre a eficiência operacional ao longo do tempo.",
     "A consultoria também defende o acompanhamento constante do mercado. Indicadores atualizados ajudam gestores a identificar oportunidades antes que a concorrência se antecipe, tornando a tomada de decisão mais ágil e assertiva.",
@@ -22,22 +47,75 @@
     "Para a consultoria, investir em estratégia hoje é investir em resultados sustentáveis amanhã — um compromisso que a Meridian Partners reforça em cada projeto."
   ],
   "categories": [
-    { "label": "Cultura", "count": 35, "href": "/blog", "active": false },
-    { "label": "Negócios & Economia", "count": 9, "href": "/capital", "active": false },
-    { "label": "Tecnologia", "count": 16, "href": "/tech", "active": false },
-    { "label": "Entretenimento", "count": 104, "href": "/blog", "active": false }
+    {
+      "label": "Cultura",
+      "count": 35,
+      "href": "/blog",
+      "active": false
+    },
+    {
+      "label": "Negócios & Economia",
+      "count": 9,
+      "href": "/capital",
+      "active": false
+    },
+    {
+      "label": "Tecnologia",
+      "count": 16,
+      "href": "/tech",
+      "active": false
+    },
+    {
+      "label": "Entretenimento",
+      "count": 104,
+      "href": "/blog",
+      "active": false
+    }
   ],
   "recentPosts": [
-    { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
-    { "date": "01/07/2027", "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.", "href": "/artigos/recente-2" },
-    { "date": "01/07/2027", "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.", "href": "/artigos/recente-3" }
+    {
+      "date": "01/07/2027",
+      "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.",
+      "href": "/artigos/recente-1"
+    },
+    {
+      "date": "01/07/2027",
+      "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.",
+      "href": "/artigos/recente-2"
+    },
+    {
+      "date": "01/07/2027",
+      "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.",
+      "href": "/artigos/recente-3"
+    }
   ],
   "extras": [
-    { "kind": "ad", "title": "Soluções financeiras sob medida para o seu negócio crescer.", "ctaLabel": "Saiba mais", "href": "/artigos/medicamentos-qualidade" },
-    { "kind": "sponsor", "icon": "ring", "title": "Vantis Capital", "image": "assets/images/skyline.jpg", "description": "Vantis Capital anuncia parceria estratégica para acelerar startups de tecnologia financeira no país.", "linkLabel": "Ler notícia", "href": "/artigos/dasa" }
+    {
+      "kind": "ad",
+      "title": "Soluções financeiras sob medida para o seu negócio crescer.",
+      "ctaLabel": "Saiba mais",
+      "href": "/artigos/medicamentos-qualidade"
+    },
+    {
+      "kind": "sponsor",
+      "icon": "ring",
+      "title": "Vantis Capital",
+      "image": "assets/images/skyline.jpg",
+      "description": "Vantis Capital anuncia parceria estratégica para acelerar startups de tecnologia financeira no país.",
+      "linkLabel": "Ler notícia",
+      "href": "/artigos/dasa"
+    }
   ],
   "comments": [
-    { "name": "Marcelo Dutra", "date": "Julho 2026", "text": "Conteúdo sólido, gostei da ênfase em cultura organizacional além dos números." },
-    { "name": "Mariana Abreu", "date": "Julho 2026", "text": "Muito bom ver consultoria falando sobre dados de forma acessível, sem jargão excessivo." }
+    {
+      "name": "Marcelo Dutra",
+      "date": "Julho 2026",
+      "text": "Conteúdo sólido, gostei da ênfase em cultura organizacional além dos números."
+    },
+    {
+      "name": "Mariana Abreu",
+      "date": "Julho 2026",
+      "text": "Muito bom ver consultoria falando sobre dados de forma acessível, sem jargão excessivo."
+    }
   ]
 }

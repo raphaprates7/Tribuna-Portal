@@ -1,20 +1,45 @@
 {
   "breadcrumbs": [
-    { "label": "Home", "href": "/" },
-    { "label": "Tribuna GG", "href": "/gg" },
-    { "label": "Mobile Gaming", "href": "/gg" }
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Tribuna GG",
+      "href": "/gg"
+    },
+    {
+      "label": "Mobile Gaming",
+      "href": "/gg"
+    }
   ],
   "title": "Jogo brasileiro de celular ultrapassa marca de downloads e vira fenômeno local",
   "subtitle": "Título desenvolvido por estúdio nacional lidera rankings de gratuitos e chama atenção de investidores internacionais.",
   "date": "10/08/2026",
   "author": "Redação Tribuna",
   "shareLinks": [
-    { "icon": "facebook", "href": "#", "label": "Compartilhar no Facebook" },
-    { "icon": "whatsapp", "href": "#", "label": "Compartilhar no WhatsApp" },
-    { "icon": "linkedin", "href": "#", "label": "Compartilhar no LinkedIn" },
-    { "icon": "x", "href": "#", "label": "Compartilhar no X" }
+    {
+      "icon": "facebook",
+      "href": "#",
+      "label": "Compartilhar no Facebook"
+    },
+    {
+      "icon": "whatsapp",
+      "href": "#",
+      "label": "Compartilhar no WhatsApp"
+    },
+    {
+      "icon": "linkedin",
+      "href": "#",
+      "label": "Compartilhar no LinkedIn"
+    },
+    {
+      "icon": "x",
+      "href": "#",
+      "label": "Compartilhar no X"
+    }
   ],
-  "heroImage": null,
+  "heroImage": "assets/images/editorial-gg-5.jpg",
   "paragraphs": [
     "Um jogo brasileiro de celular ultrapassou a marca de 10 milhões de downloads e se tornou fenômeno local, liderando os rankings de jogos gratuitos mais baixados nas principais lojas de aplicativos do país nas últimas semanas.",
     "Desenvolvido por um estúdio independente sediado no Brasil, o título mistura elementos de estratégia por turnos com personagens inspirados no folclore nacional, aposta que os desenvolvedores afirmam ter sido decisiva para conquistar um público que se identifica com referências culturais locais.",
@@ -22,21 +47,66 @@
     "Fundadores do estúdio afirmam que pretendem manter a essência nacional do jogo mesmo diante do interesse internacional, priorizando atualizações de conteúdo que aprofundem ainda mais a mitologia brasileira presente na narrativa antes de expandir para mercados fora do país."
   ],
   "categories": [
-    { "label": "Cultura", "count": 35, "href": "/blog", "active": false },
-    { "label": "Negócios & Economia", "count": 9, "href": "/capital", "active": false },
-    { "label": "Tecnologia", "count": 16, "href": "/tech", "active": false },
-    { "label": "Entretenimento", "count": 104, "href": "/blog", "active": false }
+    {
+      "label": "Cultura",
+      "count": 35,
+      "href": "/blog",
+      "active": false
+    },
+    {
+      "label": "Negócios & Economia",
+      "count": 9,
+      "href": "/capital",
+      "active": false
+    },
+    {
+      "label": "Tecnologia",
+      "count": 16,
+      "href": "/tech",
+      "active": false
+    },
+    {
+      "label": "Entretenimento",
+      "count": 104,
+      "href": "/blog",
+      "active": false
+    }
   ],
   "recentPosts": [
-    { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
-    { "date": "01/07/2027", "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.", "href": "/artigos/recente-2" },
-    { "date": "01/07/2027", "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.", "href": "/artigos/recente-3" }
+    {
+      "date": "01/07/2027",
+      "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.",
+      "href": "/artigos/recente-1"
+    },
+    {
+      "date": "01/07/2027",
+      "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.",
+      "href": "/artigos/recente-2"
+    },
+    {
+      "date": "01/07/2027",
+      "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.",
+      "href": "/artigos/recente-3"
+    }
   ],
   "extras": [
-    { "kind": "ad", "title": "Baixe o jogo brasileiro que virou febre nas lojas de aplicativos.", "ctaLabel": "Baixar agora", "href": "/artigos/gg-destaque" }
+    {
+      "kind": "ad",
+      "title": "Baixe o jogo brasileiro que virou febre nas lojas de aplicativos.",
+      "ctaLabel": "Baixar agora",
+      "href": "/artigos/gg-destaque"
+    }
   ],
   "comments": [
-    { "name": "Igor Peralta", "date": "Agosto 2026", "text": "Jogo muito bem feito, a ambientação com folclore brasileiro é um diferencial enorme frente aos concorrentes." },
-    { "name": "Nathália Bruno", "date": "Agosto 2026", "text": "Torcendo para que o estúdio mantenha a essência mesmo depois do investimento internacional." }
+    {
+      "name": "Igor Peralta",
+      "date": "Agosto 2026",
+      "text": "Jogo muito bem feito, a ambientação com folclore brasileiro é um diferencial enorme frente aos concorrentes."
+    },
+    {
+      "name": "Nathália Bruno",
+      "date": "Agosto 2026",
+      "text": "Torcendo para que o estúdio mantenha a essência mesmo depois do investimento internacional."
+    }
   ]
 }

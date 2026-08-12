@@ -1,20 +1,45 @@
 {
   "breadcrumbs": [
-    { "label": "Home", "href": "/" },
-    { "label": "Artigos", "href": "/blog" },
-    { "label": "Entretenimento", "href": "/blog" }
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Artigos",
+      "href": "/blog"
+    },
+    {
+      "label": "Entretenimento",
+      "href": "/blog"
+    }
   ],
   "title": "Corrida de rua vive boom no Brasil e movimenta nova economia esportiva",
   "subtitle": "Provas lotadas e patrocínios milionários transformam a corrida em um dos setores que mais crescem no país.",
   "date": "15/07/2027",
   "author": "Redação Tribuna",
   "shareLinks": [
-    { "icon": "facebook", "href": "#", "label": "Compartilhar no Facebook" },
-    { "icon": "whatsapp", "href": "#", "label": "Compartilhar no WhatsApp" },
-    { "icon": "linkedin", "href": "#", "label": "Compartilhar no LinkedIn" },
-    { "icon": "x", "href": "#", "label": "Compartilhar no X" }
+    {
+      "icon": "facebook",
+      "href": "#",
+      "label": "Compartilhar no Facebook"
+    },
+    {
+      "icon": "whatsapp",
+      "href": "#",
+      "label": "Compartilhar no WhatsApp"
+    },
+    {
+      "icon": "linkedin",
+      "href": "#",
+      "label": "Compartilhar no LinkedIn"
+    },
+    {
+      "icon": "x",
+      "href": "#",
+      "label": "Compartilhar no X"
+    }
   ],
-  "heroImage": "assets/images/blog-corrida.jpg",
+  "heroImage": "assets/images/editorial-esportes-5.jpg",
   "paragraphs": [
     "Pequenas mudanças de comportamento, sustentadas com consistência, têm impacto real sobre os negócios e a cultura ao longo do tempo. Investir em conteúdo de qualidade, acompanhar tendências com regularidade e cultivar uma marca sólida são passos simples que, somados, reduzem riscos e ampliam resultados.",
     "A boa estratégia também passa por acompanhamento constante do mercado. Dados atualizados ajudam a identificar oportunidades antes que a concorrência se antecipe, tornando a tomada de decisão mais simples e eficaz quando necessário.",
@@ -22,22 +47,75 @@
     "Investir em informação de qualidade hoje é investir em decisões melhores amanhã — um compromisso que vale a pena manter todos os dias."
   ],
   "categories": [
-    { "label": "Cultura", "count": 35, "href": "/blog", "active": false },
-    { "label": "Negócios & Economia", "count": 9, "href": "/capital", "active": false },
-    { "label": "Tecnologia", "count": 16, "href": "/tech", "active": false },
-    { "label": "Entretenimento", "count": 104, "href": "/blog", "active": true }
+    {
+      "label": "Cultura",
+      "count": 35,
+      "href": "/blog",
+      "active": false
+    },
+    {
+      "label": "Negócios & Economia",
+      "count": 9,
+      "href": "/capital",
+      "active": false
+    },
+    {
+      "label": "Tecnologia",
+      "count": 16,
+      "href": "/tech",
+      "active": false
+    },
+    {
+      "label": "Entretenimento",
+      "count": 104,
+      "href": "/blog",
+      "active": true
+    }
   ],
   "recentPosts": [
-    { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
-    { "date": "01/07/2027", "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.", "href": "/artigos/recente-2" },
-    { "date": "01/07/2027", "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.", "href": "/artigos/recente-3" }
+    {
+      "date": "01/07/2027",
+      "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.",
+      "href": "/artigos/recente-1"
+    },
+    {
+      "date": "01/07/2027",
+      "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.",
+      "href": "/artigos/recente-2"
+    },
+    {
+      "date": "01/07/2027",
+      "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.",
+      "href": "/artigos/recente-3"
+    }
   ],
   "extras": [
-    { "kind": "ad", "title": "Soluções financeiras sob medida para o seu negócio crescer.", "ctaLabel": "Saiba mais", "href": "/artigos/medicamentos-qualidade" },
-    { "kind": "sponsor", "icon": "ring", "title": "Vantis Capital", "image": "assets/images/skyline.jpg", "description": "Vantis Capital anuncia parceria estratégica para acelerar startups de tecnologia financeira no país.", "linkLabel": "Ler notícia", "href": "/artigos/dasa" }
+    {
+      "kind": "ad",
+      "title": "Soluções financeiras sob medida para o seu negócio crescer.",
+      "ctaLabel": "Saiba mais",
+      "href": "/artigos/medicamentos-qualidade"
+    },
+    {
+      "kind": "sponsor",
+      "icon": "ring",
+      "title": "Vantis Capital",
+      "image": "assets/images/skyline.jpg",
+      "description": "Vantis Capital anuncia parceria estratégica para acelerar startups de tecnologia financeira no país.",
+      "linkLabel": "Ler notícia",
+      "href": "/artigos/dasa"
+    }
   ],
   "comments": [
-    { "name": "Marcelo Dutra", "date": "Julho 2026", "text": "Muito bom o texto, ajudou a repensar como eu acompanho as notícias no dia a dia. Vou aplicar algumas dessas ideias." },
-    { "name": "Mariana Abreu", "date": "Julho 2026", "text": "Gostei bastante da parte sobre tendências de mercado — é um assunto que a gente costuma deixar de lado no dia a dia." }
+    {
+      "name": "Marcelo Dutra",
+      "date": "Julho 2026",
+      "text": "Muito bom o texto, ajudou a repensar como eu acompanho as notícias no dia a dia. Vou aplicar algumas dessas ideias."
+    },
+    {
+      "name": "Mariana Abreu",
+      "date": "Julho 2026",
+      "text": "Gostei bastante da parte sobre tendências de mercado — é um assunto que a gente costuma deixar de lado no dia a dia."
+    }
   ]
 }

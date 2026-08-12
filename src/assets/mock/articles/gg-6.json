@@ -1,20 +1,45 @@
 {
   "breadcrumbs": [
-    { "label": "Home", "href": "/" },
-    { "label": "Tribuna GG", "href": "/gg" },
-    { "label": "Realidade Virtual", "href": "/gg" }
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Tribuna GG",
+      "href": "/gg"
+    },
+    {
+      "label": "Realidade Virtual",
+      "href": "/gg"
+    }
   ],
   "title": "Novo headset de realidade virtual promete experiências mais acessíveis ao público geral",
   "subtitle": "Dispositivo chega com preço reduzido e biblioteca ampliada de jogos e aplicativos compatíveis.",
   "date": "11/08/2026",
   "author": "Redação Tribuna",
   "shareLinks": [
-    { "icon": "facebook", "href": "#", "label": "Compartilhar no Facebook" },
-    { "icon": "whatsapp", "href": "#", "label": "Compartilhar no WhatsApp" },
-    { "icon": "linkedin", "href": "#", "label": "Compartilhar no LinkedIn" },
-    { "icon": "x", "href": "#", "label": "Compartilhar no X" }
+    {
+      "icon": "facebook",
+      "href": "#",
+      "label": "Compartilhar no Facebook"
+    },
+    {
+      "icon": "whatsapp",
+      "href": "#",
+      "label": "Compartilhar no WhatsApp"
+    },
+    {
+      "icon": "linkedin",
+      "href": "#",
+      "label": "Compartilhar no LinkedIn"
+    },
+    {
+      "icon": "x",
+      "href": "#",
+      "label": "Compartilhar no X"
+    }
   ],
-  "heroImage": "assets/images/tessera-bg.png",
+  "heroImage": "assets/images/editorial-gg-1.jpg",
   "paragraphs": [
     "Um novo headset de realidade virtual chegou ao mercado prometendo tornar a tecnologia mais acessível ao público geral, com preço bem abaixo do praticado pelos modelos mais avançados da categoria, sem abrir mão de recursos considerados essenciais, como rastreamento de mãos sem controles.",
     "A fabricante afirma que o dispositivo já nasce com biblioteca ampliada de jogos e aplicativos compatíveis, resultado de parcerias firmadas com estúdios independentes ao longo do último ano, em uma estratégia para evitar o problema de catálogo enxuto que travou a adoção de gerações anteriores de headsets.",
@@ -22,21 +47,66 @@
     "Além de jogos, o fabricante destaca aplicações do headset em fitness, educação e treinamentos corporativos como frentes de crescimento para os próximos anos, apostando que o uso da realidade virtual vai se diversificar para além do entretenimento puro."
   ],
   "categories": [
-    { "label": "Cultura", "count": 35, "href": "/blog", "active": false },
-    { "label": "Negócios & Economia", "count": 9, "href": "/capital", "active": false },
-    { "label": "Tecnologia", "count": 16, "href": "/tech", "active": false },
-    { "label": "Entretenimento", "count": 104, "href": "/blog", "active": false }
+    {
+      "label": "Cultura",
+      "count": 35,
+      "href": "/blog",
+      "active": false
+    },
+    {
+      "label": "Negócios & Economia",
+      "count": 9,
+      "href": "/capital",
+      "active": false
+    },
+    {
+      "label": "Tecnologia",
+      "count": 16,
+      "href": "/tech",
+      "active": false
+    },
+    {
+      "label": "Entretenimento",
+      "count": 104,
+      "href": "/blog",
+      "active": false
+    }
   ],
   "recentPosts": [
-    { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
-    { "date": "01/07/2027", "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.", "href": "/artigos/recente-2" },
-    { "date": "01/07/2027", "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.", "href": "/artigos/recente-3" }
+    {
+      "date": "01/07/2027",
+      "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.",
+      "href": "/artigos/recente-1"
+    },
+    {
+      "date": "01/07/2027",
+      "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.",
+      "href": "/artigos/recente-2"
+    },
+    {
+      "date": "01/07/2027",
+      "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.",
+      "href": "/artigos/recente-3"
+    }
   ],
   "extras": [
-    { "kind": "ad", "title": "Confira a lista completa de jogos compatíveis com o novo headset de VR.", "ctaLabel": "Ver catálogo", "href": "/artigos/gg-destaque" }
+    {
+      "kind": "ad",
+      "title": "Confira a lista completa de jogos compatíveis com o novo headset de VR.",
+      "ctaLabel": "Ver catálogo",
+      "href": "/artigos/gg-destaque"
+    }
   ],
   "comments": [
-    { "name": "Bernardo Xavier", "date": "Agosto 2026", "text": "Preço finalmente saindo da faixa que só entusiasta comprava, pode ser o empurrão que faltava para popularizar VR." },
-    { "name": "Camile Torquato", "date": "Agosto 2026", "text": "Curiosa para testar as aplicações de fitness, sempre achei essa uma das partes mais interessantes da realidade virtual." }
+    {
+      "name": "Bernardo Xavier",
+      "date": "Agosto 2026",
+      "text": "Preço finalmente saindo da faixa que só entusiasta comprava, pode ser o empurrão que faltava para popularizar VR."
+    },
+    {
+      "name": "Camile Torquato",
+      "date": "Agosto 2026",
+      "text": "Curiosa para testar as aplicações de fitness, sempre achei essa uma das partes mais interessantes da realidade virtual."
+    }
   ]
 }

@@ -10,8 +10,14 @@
     "dark": true
   },
   "breadcrumbs": [
-    { "label": "Home", "href": "/" },
-    { "label": "Tribuna GG", "href": "/gg" }
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Tribuna GG",
+      "href": "/gg"
+    }
   ],
   "featuredArticle": {
     "eyebrow": "Esports",
@@ -26,7 +32,7 @@
     {
       "icon": "square",
       "title": "Organização brasileira anuncia nova line-up para a temporada de FPS competitivo",
-      "image": null,
+      "image": "assets/images/editorial-gg-1.jpg",
       "excerpt": "Elenco reformulado chega com dois campeões mundiais e mira o topo do ranking já na primeira etapa da liga.",
       "linkLabel": "Ler mais",
       "href": "/artigos/gg-1"
@@ -34,7 +40,7 @@
     {
       "icon": "play",
       "title": "Sequência de RPG de mundo aberto chega com trilha inédita e mapa três vezes maior",
-      "image": "assets/images/skyline.jpg",
+      "image": "assets/images/editorial-gg-2.jpg",
       "excerpt": "Estúdio promete até 120 horas de campanha e sistema de combate reformulado nesta que é a produção mais ambiciosa da franquia.",
       "linkLabel": "Ler mais",
       "href": "/artigos/gg-2"
@@ -42,7 +48,7 @@
     {
       "icon": "mic",
       "title": "Streamers brasileiros lideram audiência global durante maratona de lançamento",
-      "image": null,
+      "image": "assets/images/editorial-gg-3.jpg",
       "excerpt": "Transmissões conjuntas somaram mais de 2 milhões de espectadores simultâneos, consolidando a cena nacional no cenário internacional.",
       "linkLabel": "Ler mais",
       "href": "/artigos/gg-3"
@@ -50,7 +56,7 @@
     {
       "icon": "doc",
       "title": "Fabricante anuncia novo console com foco em jogos nativos em 4K",
-      "image": "assets/images/tessera-bg.png",
+      "image": "assets/images/editorial-gg-4.jpg",
       "excerpt": "Aparelho promete taxas de quadro mais estáveis e catálogo de lançamentos exclusivos ainda neste ano.",
       "linkLabel": "Ler mais",
       "href": "/artigos/gg-4"
@@ -58,7 +64,7 @@
     {
       "icon": "arrow-right",
       "title": "Jogo brasileiro de celular ultrapassa marca de downloads e vira fenômeno local",
-      "image": null,
+      "image": "assets/images/editorial-gg-5.jpg",
       "excerpt": "Título desenvolvido por estúdio nacional lidera rankings de gratuitos e chama atenção de investidores internacionais.",
       "linkLabel": "Ler mais",
       "href": "/artigos/gg-5"
@@ -66,7 +72,7 @@
     {
       "icon": "cross",
       "title": "Novo headset de realidade virtual promete experiências mais acessíveis ao público geral",
-      "image": "assets/images/tessera-bg.png",
+      "image": "assets/images/editorial-gg-1.jpg",
       "excerpt": "Dispositivo chega com preço reduzido e biblioteca ampliada de jogos e aplicativos compatíveis.",
       "linkLabel": "Ler mais",
       "href": "/artigos/gg-6"
@@ -74,7 +80,7 @@
     {
       "icon": "dot",
       "title": "Estúdio brasileiro independente lança jogo aclamado em festival internacional",
-      "image": null,
+      "image": "assets/images/editorial-gg-2.jpg",
       "excerpt": "Produção nacional recebe elogios da crítica especializada e chama atenção de publicadoras estrangeiras.",
       "linkLabel": "Ler mais",
       "href": "/artigos/gg-7"
@@ -82,7 +88,7 @@
     {
       "icon": "bookmark",
       "title": "Debate sobre loot boxes e microtransações ganha força entre desenvolvedores e reguladores",
-      "image": null,
+      "image": "assets/images/editorial-gg-3.jpg",
       "excerpt": "Discussão sobre limites para mecânicas de compra dentro de jogos avança em diferentes países, incluindo o Brasil.",
       "linkLabel": "Ler mais",
       "href": "/artigos/gg-8"

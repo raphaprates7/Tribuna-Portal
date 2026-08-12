@@ -1,20 +1,45 @@
 {
   "breadcrumbs": [
-    { "label": "Home", "href": "/" },
-    { "label": "Artigos", "href": "/blog" },
-    { "label": "Cultura", "href": "/blog" }
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Artigos",
+      "href": "/blog"
+    },
+    {
+      "label": "Cultura",
+      "href": "/blog"
+    }
   ],
   "title": "Instituto Meridiano lança programa de fomento à cultura independente",
   "subtitle": "Iniciativa tem foco em novos talentos e produção cultural fora do eixo Rio-São Paulo.",
   "date": "05/07/2027",
   "author": "Redação Tribuna",
   "shareLinks": [
-    { "icon": "facebook", "href": "#", "label": "Compartilhar no Facebook" },
-    { "icon": "whatsapp", "href": "#", "label": "Compartilhar no WhatsApp" },
-    { "icon": "linkedin", "href": "#", "label": "Compartilhar no LinkedIn" },
-    { "icon": "x", "href": "#", "label": "Compartilhar no X" }
+    {
+      "icon": "facebook",
+      "href": "#",
+      "label": "Compartilhar no Facebook"
+    },
+    {
+      "icon": "whatsapp",
+      "href": "#",
+      "label": "Compartilhar no WhatsApp"
+    },
+    {
+      "icon": "linkedin",
+      "href": "#",
+      "label": "Compartilhar no LinkedIn"
+    },
+    {
+      "icon": "x",
+      "href": "#",
+      "label": "Compartilhar no X"
+    }
   ],
-  "heroImage": "assets/images/entrevistas.jpg",
+  "heroImage": "assets/images/editorial-cultura-3.jpg",
   "paragraphs": [
     "O Instituto Meridiano anunciou um novo programa de fomento voltado a artistas e produtores culturais independentes. A iniciativa vai selecionar 40 projetos em todo o país, com prioridade para propostas fora do eixo Rio-São Paulo.",
     "Segundo a organização, o edital também prevê acompanhamento próximo dos selecionados. Consultoria de captação de recursos e acesso a dados de público ajudam produtores a identificar oportunidades de circulação antes que a temporada se encerre.",
@@ -22,22 +47,75 @@
     "Para o Instituto Meridiano, investir em cultura hoje é investir em identidade nacional amanhã — um compromisso que a organização pretende manter nos próximos editais."
   ],
   "categories": [
-    { "label": "Cultura", "count": 35, "href": "/blog", "active": false },
-    { "label": "Negócios & Economia", "count": 9, "href": "/capital", "active": false },
-    { "label": "Tecnologia", "count": 16, "href": "/tech", "active": false },
-    { "label": "Entretenimento", "count": 104, "href": "/blog", "active": false }
+    {
+      "label": "Cultura",
+      "count": 35,
+      "href": "/blog",
+      "active": false
+    },
+    {
+      "label": "Negócios & Economia",
+      "count": 9,
+      "href": "/capital",
+      "active": false
+    },
+    {
+      "label": "Tecnologia",
+      "count": 16,
+      "href": "/tech",
+      "active": false
+    },
+    {
+      "label": "Entretenimento",
+      "count": 104,
+      "href": "/blog",
+      "active": false
+    }
   ],
   "recentPosts": [
-    { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
-    { "date": "01/07/2027", "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.", "href": "/artigos/recente-2" },
-    { "date": "01/07/2027", "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.", "href": "/artigos/recente-3" }
+    {
+      "date": "01/07/2027",
+      "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.",
+      "href": "/artigos/recente-1"
+    },
+    {
+      "date": "01/07/2027",
+      "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.",
+      "href": "/artigos/recente-2"
+    },
+    {
+      "date": "01/07/2027",
+      "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.",
+      "href": "/artigos/recente-3"
+    }
   ],
   "extras": [
-    { "kind": "ad", "title": "Soluções financeiras sob medida para o seu negócio crescer.", "ctaLabel": "Saiba mais", "href": "/artigos/medicamentos-qualidade" },
-    { "kind": "sponsor", "icon": "ring", "title": "Vantis Capital", "image": "assets/images/skyline.jpg", "description": "Vantis Capital anuncia parceria estratégica para acelerar startups de tecnologia financeira no país.", "linkLabel": "Ler notícia", "href": "/artigos/dasa" }
+    {
+      "kind": "ad",
+      "title": "Soluções financeiras sob medida para o seu negócio crescer.",
+      "ctaLabel": "Saiba mais",
+      "href": "/artigos/medicamentos-qualidade"
+    },
+    {
+      "kind": "sponsor",
+      "icon": "ring",
+      "title": "Vantis Capital",
+      "image": "assets/images/skyline.jpg",
+      "description": "Vantis Capital anuncia parceria estratégica para acelerar startups de tecnologia financeira no país.",
+      "linkLabel": "Ler notícia",
+      "href": "/artigos/dasa"
+    }
   ],
   "comments": [
-    { "name": "Marcelo Dutra", "date": "Julho 2026", "text": "Iniciativa muito bem-vinda, principalmente para quem produz fora dos grandes centros." },
-    { "name": "Mariana Abreu", "date": "Julho 2026", "text": "Gostei da parte sobre consultoria de captação — é um dos maiores desafios pra quem trabalha com cultura independente." }
+    {
+      "name": "Marcelo Dutra",
+      "date": "Julho 2026",
+      "text": "Iniciativa muito bem-vinda, principalmente para quem produz fora dos grandes centros."
+    },
+    {
+      "name": "Mariana Abreu",
+      "date": "Julho 2026",
+      "text": "Gostei da parte sobre consultoria de captação — é um dos maiores desafios pra quem trabalha com cultura independente."
+    }
   ]
 }

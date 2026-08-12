@@ -1,20 +1,45 @@
 {
   "breadcrumbs": [
-    { "label": "Home", "href": "/" },
-    { "label": "Tribuna GG", "href": "/gg" },
-    { "label": "Games", "href": "/gg" }
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Tribuna GG",
+      "href": "/gg"
+    },
+    {
+      "label": "Games",
+      "href": "/gg"
+    }
   ],
   "title": "Sequência de RPG de mundo aberto chega com trilha inédita e mapa três vezes maior",
   "subtitle": "Estúdio promete até 120 horas de campanha e sistema de combate reformulado nesta que é a produção mais ambiciosa da franquia.",
   "date": "04/08/2026",
   "author": "Redação Tribuna",
   "shareLinks": [
-    { "icon": "facebook", "href": "#", "label": "Compartilhar no Facebook" },
-    { "icon": "whatsapp", "href": "#", "label": "Compartilhar no WhatsApp" },
-    { "icon": "linkedin", "href": "#", "label": "Compartilhar no LinkedIn" },
-    { "icon": "x", "href": "#", "label": "Compartilhar no X" }
+    {
+      "icon": "facebook",
+      "href": "#",
+      "label": "Compartilhar no Facebook"
+    },
+    {
+      "icon": "whatsapp",
+      "href": "#",
+      "label": "Compartilhar no WhatsApp"
+    },
+    {
+      "icon": "linkedin",
+      "href": "#",
+      "label": "Compartilhar no LinkedIn"
+    },
+    {
+      "icon": "x",
+      "href": "#",
+      "label": "Compartilhar no X"
+    }
   ],
-  "heroImage": "assets/images/skyline.jpg",
+  "heroImage": "assets/images/editorial-gg-2.jpg",
   "paragraphs": [
     "O estúdio Cinderfall Studios revelou detalhes do próximo capítulo da franquia de RPG que o consagrou, com um mapa três vezes maior que o do jogo anterior e uma trilha sonora orquestral gravada especialmente para o título. A produção é apontada pela desenvolvedora como a mais ambiciosa de sua história.",
     "Entre as novidades está um sistema de combate totalmente reformulado, que combina ação em tempo real com pausas táticas para planejamento de estratégias em grupo — mudança que a equipe de desenvolvimento diz ter sido pedida pela comunidade desde o lançamento anterior.",
@@ -22,21 +47,66 @@
     "A data de lançamento ainda não foi confirmada, mas o estúdio garante uma nova rodada de gameplay revelado em evento próprio nos próximos meses, com previsão de disponibilização para as principais plataformas simultaneamente."
   ],
   "categories": [
-    { "label": "Cultura", "count": 35, "href": "/blog", "active": false },
-    { "label": "Negócios & Economia", "count": 9, "href": "/capital", "active": false },
-    { "label": "Tecnologia", "count": 16, "href": "/tech", "active": false },
-    { "label": "Entretenimento", "count": 104, "href": "/blog", "active": false }
+    {
+      "label": "Cultura",
+      "count": 35,
+      "href": "/blog",
+      "active": false
+    },
+    {
+      "label": "Negócios & Economia",
+      "count": 9,
+      "href": "/capital",
+      "active": false
+    },
+    {
+      "label": "Tecnologia",
+      "count": 16,
+      "href": "/tech",
+      "active": false
+    },
+    {
+      "label": "Entretenimento",
+      "count": 104,
+      "href": "/blog",
+      "active": false
+    }
   ],
   "recentPosts": [
-    { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
-    { "date": "01/07/2027", "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.", "href": "/artigos/recente-2" },
-    { "date": "01/07/2027", "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.", "href": "/artigos/recente-3" }
+    {
+      "date": "01/07/2027",
+      "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.",
+      "href": "/artigos/recente-1"
+    },
+    {
+      "date": "01/07/2027",
+      "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.",
+      "href": "/artigos/recente-2"
+    },
+    {
+      "date": "01/07/2027",
+      "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.",
+      "href": "/artigos/recente-3"
+    }
   ],
   "extras": [
-    { "kind": "ad", "title": "Pré-venda com bônus exclusivo por tempo limitado.", "ctaLabel": "Reservar agora", "href": "/artigos/gg-3" }
+    {
+      "kind": "ad",
+      "title": "Pré-venda com bônus exclusivo por tempo limitado.",
+      "ctaLabel": "Reservar agora",
+      "href": "/artigos/gg-3"
+    }
   ],
   "comments": [
-    { "name": "Diego Salomão", "date": "Agosto 2026", "text": "Mapa três vezes maior é ambicioso, espero que não vire só espaço vazio para preencher número." },
-    { "name": "Talita Guimarães", "date": "Agosto 2026", "text": "O sistema de combate reformulado é o que mais me chamou atenção, o anterior já era bom mas tinha espaço para evoluir." }
+    {
+      "name": "Diego Salomão",
+      "date": "Agosto 2026",
+      "text": "Mapa três vezes maior é ambicioso, espero que não vire só espaço vazio para preencher número."
+    },
+    {
+      "name": "Talita Guimarães",
+      "date": "Agosto 2026",
+      "text": "O sistema de combate reformulado é o que mais me chamou atenção, o anterior já era bom mas tinha espaço para evoluir."
+    }
   ]
 }

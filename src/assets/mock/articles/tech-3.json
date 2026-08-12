@@ -1,20 +1,45 @@
 {
   "breadcrumbs": [
-    { "label": "Home", "href": "/" },
-    { "label": "Tribuna Tech", "href": "/tech" },
-    { "label": "Startups", "href": "/tech" }
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Tribuna Tech",
+      "href": "/tech"
+    },
+    {
+      "label": "Startups",
+      "href": "/tech"
+    }
   ],
   "title": "Startup de logística automatizada capta R$ 90 milhões em rodada série B",
   "subtitle": "Aporte deve financiar expansão para outras três capitais e contratação de equipe de engenharia.",
   "date": "02/08/2026",
   "author": "Redação Tribuna",
   "shareLinks": [
-    { "icon": "facebook", "href": "#", "label": "Compartilhar no Facebook" },
-    { "icon": "whatsapp", "href": "#", "label": "Compartilhar no WhatsApp" },
-    { "icon": "linkedin", "href": "#", "label": "Compartilhar no LinkedIn" },
-    { "icon": "x", "href": "#", "label": "Compartilhar no X" }
+    {
+      "icon": "facebook",
+      "href": "#",
+      "label": "Compartilhar no Facebook"
+    },
+    {
+      "icon": "whatsapp",
+      "href": "#",
+      "label": "Compartilhar no WhatsApp"
+    },
+    {
+      "icon": "linkedin",
+      "href": "#",
+      "label": "Compartilhar no LinkedIn"
+    },
+    {
+      "icon": "x",
+      "href": "#",
+      "label": "Compartilhar no X"
+    }
   ],
-  "heroImage": null,
+  "heroImage": "assets/images/editorial-tech-3.jpg",
   "paragraphs": [
     "A startup Roteva, especializada em logística automatizada para entregas de última milha, anunciou a captação de R$ 90 milhões em uma rodada série B liderada por um fundo de venture capital com foco em tecnologia aplicada à cadeia de suprimentos. A rodada contou ainda com participação de investidores que já apoiavam a empresa desde as fases iniciais.",
     "Fundada há quatro anos, a Roteva desenvolveu um software de roteirização que utiliza aprendizado de máquina para reduzir custos de entrega e tempo de deslocamento de frotas urbanas. A empresa afirma já operar em duas capitais brasileiras, atendendo redes de varejo e empresas de e-commerce.",
@@ -22,21 +47,66 @@
     "Executivos da startup afirmam que o objetivo de longo prazo é se tornar referência em logística inteligente na América Latina, com planos de expansão internacional já em estudo para os próximos anos."
   ],
   "categories": [
-    { "label": "Cultura", "count": 35, "href": "/blog", "active": false },
-    { "label": "Negócios & Economia", "count": 9, "href": "/capital", "active": false },
-    { "label": "Tecnologia", "count": 16, "href": "/tech", "active": false },
-    { "label": "Entretenimento", "count": 104, "href": "/blog", "active": false }
+    {
+      "label": "Cultura",
+      "count": 35,
+      "href": "/blog",
+      "active": false
+    },
+    {
+      "label": "Negócios & Economia",
+      "count": 9,
+      "href": "/capital",
+      "active": false
+    },
+    {
+      "label": "Tecnologia",
+      "count": 16,
+      "href": "/tech",
+      "active": false
+    },
+    {
+      "label": "Entretenimento",
+      "count": 104,
+      "href": "/blog",
+      "active": false
+    }
   ],
   "recentPosts": [
-    { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
-    { "date": "01/07/2027", "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.", "href": "/artigos/recente-2" },
-    { "date": "01/07/2027", "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.", "href": "/artigos/recente-3" }
+    {
+      "date": "01/07/2027",
+      "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.",
+      "href": "/artigos/recente-1"
+    },
+    {
+      "date": "01/07/2027",
+      "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.",
+      "href": "/artigos/recente-2"
+    },
+    {
+      "date": "01/07/2027",
+      "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.",
+      "href": "/artigos/recente-3"
+    }
   ],
   "extras": [
-    { "kind": "ad", "title": "Vagas abertas para engenharia de software em startups de logística.", "ctaLabel": "Ver oportunidades", "href": "/artigos/tech-destaque" }
+    {
+      "kind": "ad",
+      "title": "Vagas abertas para engenharia de software em startups de logística.",
+      "ctaLabel": "Ver oportunidades",
+      "href": "/artigos/tech-destaque"
+    }
   ],
   "comments": [
-    { "name": "Rafael Monteiro", "date": "Agosto 2026", "text": "Logística de última milha ainda tem muito espaço para otimização no Brasil, faz sentido o interesse dos investidores." },
-    { "name": "Cecília Ramos", "date": "Agosto 2026", "text": "Expansão para mais três capitais em 18 meses é um plano ambicioso, vamos ver como executam." }
+    {
+      "name": "Rafael Monteiro",
+      "date": "Agosto 2026",
+      "text": "Logística de última milha ainda tem muito espaço para otimização no Brasil, faz sentido o interesse dos investidores."
+    },
+    {
+      "name": "Cecília Ramos",
+      "date": "Agosto 2026",
+      "text": "Expansão para mais três capitais em 18 meses é um plano ambicioso, vamos ver como executam."
+    }
   ]
 }

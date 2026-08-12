@@ -1,20 +1,45 @@
 {
   "breadcrumbs": [
-    { "label": "Home", "href": "/" },
-    { "label": "Tribuna GG", "href": "/gg" },
-    { "label": "Cena Indie", "href": "/gg" }
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Tribuna GG",
+      "href": "/gg"
+    },
+    {
+      "label": "Cena Indie",
+      "href": "/gg"
+    }
   ],
   "title": "Estúdio brasileiro independente lança jogo aclamado em festival internacional",
   "subtitle": "Produção nacional recebe elogios da crítica especializada e chama atenção de publicadoras estrangeiras.",
   "date": "12/08/2026",
   "author": "Redação Tribuna",
   "shareLinks": [
-    { "icon": "facebook", "href": "#", "label": "Compartilhar no Facebook" },
-    { "icon": "whatsapp", "href": "#", "label": "Compartilhar no WhatsApp" },
-    { "icon": "linkedin", "href": "#", "label": "Compartilhar no LinkedIn" },
-    { "icon": "x", "href": "#", "label": "Compartilhar no X" }
+    {
+      "icon": "facebook",
+      "href": "#",
+      "label": "Compartilhar no Facebook"
+    },
+    {
+      "icon": "whatsapp",
+      "href": "#",
+      "label": "Compartilhar no WhatsApp"
+    },
+    {
+      "icon": "linkedin",
+      "href": "#",
+      "label": "Compartilhar no LinkedIn"
+    },
+    {
+      "icon": "x",
+      "href": "#",
+      "label": "Compartilhar no X"
+    }
   ],
-  "heroImage": null,
+  "heroImage": "assets/images/editorial-gg-2.jpg",
   "paragraphs": [
     "Um estúdio brasileiro independente apresentou seu novo jogo em um dos principais festivais internacionais dedicados à cena indie, recebendo elogios da crítica especializada pela direção de arte autoral e pela trilha sonora composta por artistas nacionais.",
     "A produção, um jogo de aventura narrativa ambientado em um interior brasileiro fictício, chamou atenção justamente por fugir de fórmulas mais comuns do gênero, apostando em ritmo contemplativo e em uma história que dialoga com questões de memória afetiva e migração interna no país.",
@@ -22,21 +47,66 @@
     "O estúdio, formado por uma equipe pequena de sete pessoas, foi criado há quatro anos e financiou boa parte do desenvolvimento do jogo por meio de editais públicos de fomento à cultura, modelo que os fundadores apontam como fundamental para viabilizar produções autorais fora do circuito comercial tradicional."
   ],
   "categories": [
-    { "label": "Cultura", "count": 35, "href": "/blog", "active": false },
-    { "label": "Negócios & Economia", "count": 9, "href": "/capital", "active": false },
-    { "label": "Tecnologia", "count": 16, "href": "/tech", "active": false },
-    { "label": "Entretenimento", "count": 104, "href": "/blog", "active": false }
+    {
+      "label": "Cultura",
+      "count": 35,
+      "href": "/blog",
+      "active": false
+    },
+    {
+      "label": "Negócios & Economia",
+      "count": 9,
+      "href": "/capital",
+      "active": false
+    },
+    {
+      "label": "Tecnologia",
+      "count": 16,
+      "href": "/tech",
+      "active": false
+    },
+    {
+      "label": "Entretenimento",
+      "count": 104,
+      "href": "/blog",
+      "active": false
+    }
   ],
   "recentPosts": [
-    { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
-    { "date": "01/07/2027", "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.", "href": "/artigos/recente-2" },
-    { "date": "01/07/2027", "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.", "href": "/artigos/recente-3" }
+    {
+      "date": "01/07/2027",
+      "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.",
+      "href": "/artigos/recente-1"
+    },
+    {
+      "date": "01/07/2027",
+      "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.",
+      "href": "/artigos/recente-2"
+    },
+    {
+      "date": "01/07/2027",
+      "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.",
+      "href": "/artigos/recente-3"
+    }
   ],
   "extras": [
-    { "kind": "ad", "title": "Descubra outros jogos independentes brasileiros premiados em festivais.", "ctaLabel": "Explorar cena indie", "href": "/artigos/gg-destaque" }
+    {
+      "kind": "ad",
+      "title": "Descubra outros jogos independentes brasileiros premiados em festivais.",
+      "ctaLabel": "Explorar cena indie",
+      "href": "/artigos/gg-destaque"
+    }
   ],
   "comments": [
-    { "name": "Tomás Andrade", "date": "Agosto 2026", "text": "Trilha sonora incrível, fiquei sabendo pelo festival e já entrou na minha lista de jogos para jogar." },
-    { "name": "Isadora Menck", "date": "Agosto 2026", "text": "Muito bom ver um estúdio pequeno indo tão longe sem perder a identidade autoral do projeto." }
+    {
+      "name": "Tomás Andrade",
+      "date": "Agosto 2026",
+      "text": "Trilha sonora incrível, fiquei sabendo pelo festival e já entrou na minha lista de jogos para jogar."
+    },
+    {
+      "name": "Isadora Menck",
+      "date": "Agosto 2026",
+      "text": "Muito bom ver um estúdio pequeno indo tão longe sem perder a identidade autoral do projeto."
+    }
   ]
 }

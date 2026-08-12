@@ -1,20 +1,45 @@
 {
   "breadcrumbs": [
-    { "label": "Home", "href": "/" },
-    { "label": "Tribuna Tech", "href": "/tech" },
-    { "label": "Mobilidade", "href": "/tech" }
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Tribuna Tech",
+      "href": "/tech"
+    },
+    {
+      "label": "Mobilidade",
+      "href": "/tech"
+    }
   ],
   "title": "Montadora anuncia novo modelo de carro elétrico com foco no mercado brasileiro",
   "subtitle": "Veículo chega com preço competitivo e rede própria de recarga para acelerar adoção da eletromobilidade no país.",
   "date": "12/08/2026",
   "author": "Redação Tribuna",
   "shareLinks": [
-    { "icon": "facebook", "href": "#", "label": "Compartilhar no Facebook" },
-    { "icon": "whatsapp", "href": "#", "label": "Compartilhar no WhatsApp" },
-    { "icon": "linkedin", "href": "#", "label": "Compartilhar no LinkedIn" },
-    { "icon": "x", "href": "#", "label": "Compartilhar no X" }
+    {
+      "icon": "facebook",
+      "href": "#",
+      "label": "Compartilhar no Facebook"
+    },
+    {
+      "icon": "whatsapp",
+      "href": "#",
+      "label": "Compartilhar no WhatsApp"
+    },
+    {
+      "icon": "linkedin",
+      "href": "#",
+      "label": "Compartilhar no LinkedIn"
+    },
+    {
+      "icon": "x",
+      "href": "#",
+      "label": "Compartilhar no X"
+    }
   ],
-  "heroImage": "assets/images/skyline.jpg",
+  "heroImage": "assets/images/editorial-tech-2.jpg",
   "paragraphs": [
     "Uma montadora anunciou o lançamento de um novo modelo de carro elétrico desenvolvido com foco específico no mercado brasileiro, com preço considerado competitivo em relação aos concorrentes já disponíveis no país e autonomia estimada em mais de 400 quilômetros por recarga completa.",
     "Junto ao lançamento, a empresa confirmou investimento em uma rede própria de pontos de recarga rápida, a ser instalada ao longo de rodovias e em grandes centros urbanos, buscando reduzir um dos principais entraves apontados por consumidores na hora de considerar a troca para um veículo elétrico.",
@@ -22,21 +47,66 @@
     "Analistas do setor automotivo avaliam que o lançamento chega em momento de crescimento acelerado da demanda por veículos elétricos no Brasil, ainda que a categoria represente fatia pequena do total de vendas de automóveis no país."
   ],
   "categories": [
-    { "label": "Cultura", "count": 35, "href": "/blog", "active": false },
-    { "label": "Negócios & Economia", "count": 9, "href": "/capital", "active": false },
-    { "label": "Tecnologia", "count": 16, "href": "/tech", "active": false },
-    { "label": "Entretenimento", "count": 104, "href": "/blog", "active": false }
+    {
+      "label": "Cultura",
+      "count": 35,
+      "href": "/blog",
+      "active": false
+    },
+    {
+      "label": "Negócios & Economia",
+      "count": 9,
+      "href": "/capital",
+      "active": false
+    },
+    {
+      "label": "Tecnologia",
+      "count": 16,
+      "href": "/tech",
+      "active": false
+    },
+    {
+      "label": "Entretenimento",
+      "count": 104,
+      "href": "/blog",
+      "active": false
+    }
   ],
   "recentPosts": [
-    { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
-    { "date": "01/07/2027", "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.", "href": "/artigos/recente-2" },
-    { "date": "01/07/2027", "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.", "href": "/artigos/recente-3" }
+    {
+      "date": "01/07/2027",
+      "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.",
+      "href": "/artigos/recente-1"
+    },
+    {
+      "date": "01/07/2027",
+      "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.",
+      "href": "/artigos/recente-2"
+    },
+    {
+      "date": "01/07/2027",
+      "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.",
+      "href": "/artigos/recente-3"
+    }
   ],
   "extras": [
-    { "kind": "ad", "title": "Agende um test-drive do novo elétrico nas concessionárias participantes.", "ctaLabel": "Agendar test-drive", "href": "/artigos/tech-destaque" }
+    {
+      "kind": "ad",
+      "title": "Agende um test-drive do novo elétrico nas concessionárias participantes.",
+      "ctaLabel": "Agendar test-drive",
+      "href": "/artigos/tech-destaque"
+    }
   ],
   "comments": [
-    { "name": "Vinícius Amaral", "date": "Agosto 2026", "text": "A rede própria de recarga é o diferencial que faltava para me convencer a considerar um elétrico." },
-    { "name": "Marília Souto", "date": "Agosto 2026", "text": "Nacionalizar a produção pode realmente baixar o preço com o tempo, vamos ver se sai do papel." }
+    {
+      "name": "Vinícius Amaral",
+      "date": "Agosto 2026",
+      "text": "A rede própria de recarga é o diferencial que faltava para me convencer a considerar um elétrico."
+    },
+    {
+      "name": "Marília Souto",
+      "date": "Agosto 2026",
+      "text": "Nacionalizar a produção pode realmente baixar o preço com o tempo, vamos ver se sai do papel."
+    }
   ]
 }

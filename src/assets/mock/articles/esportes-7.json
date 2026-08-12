@@ -1,20 +1,45 @@
 {
   "breadcrumbs": [
-    { "label": "Home", "href": "/" },
-    { "label": "Tribuna Esportes", "href": "/esportes" },
-    { "label": "Natação", "href": "/esportes" }
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Tribuna Esportes",
+      "href": "/esportes"
+    },
+    {
+      "label": "Natação",
+      "href": "/esportes"
+    }
   ],
   "title": "Recorde nacional é quebrado em campeonato de águas abertas",
   "subtitle": "Nadador brasileiro supera marca que resistia havia quase uma década em prova disputada no litoral nordestino.",
   "date": "12/08/2026",
   "author": "Redação Tribuna",
   "shareLinks": [
-    { "icon": "facebook", "href": "#", "label": "Compartilhar no Facebook" },
-    { "icon": "whatsapp", "href": "#", "label": "Compartilhar no WhatsApp" },
-    { "icon": "linkedin", "href": "#", "label": "Compartilhar no LinkedIn" },
-    { "icon": "x", "href": "#", "label": "Compartilhar no X" }
+    {
+      "icon": "facebook",
+      "href": "#",
+      "label": "Compartilhar no Facebook"
+    },
+    {
+      "icon": "whatsapp",
+      "href": "#",
+      "label": "Compartilhar no WhatsApp"
+    },
+    {
+      "icon": "linkedin",
+      "href": "#",
+      "label": "Compartilhar no LinkedIn"
+    },
+    {
+      "icon": "x",
+      "href": "#",
+      "label": "Compartilhar no X"
+    }
   ],
-  "heroImage": null,
+  "heroImage": "assets/images/editorial-esportes-2.jpg",
   "paragraphs": [
     "Um nadador brasileiro quebrou o recorde nacional dos 10 km em águas abertas durante campeonato disputado no litoral nordestino, superando uma marca que resistia havia quase uma década. O novo tempo também garante ao atleta índice para o próximo torneio mundial da modalidade.",
     "A prova foi disputada em condições consideradas favoráveis pelos técnicos presentes, com mar calmo e temperatura da água dentro da faixa ideal, fatores que ajudaram o pelotão de ponta a manter um ritmo forte ao longo de todo o percurso.",
@@ -22,21 +47,66 @@
     "Com o novo recorde, a confederação da modalidade já sinaliza maior investimento na preparação do atleta para o ciclo que se encerra com o próximo torneio mundial, incluindo estágios de treinamento no exterior ao lado de equipes de referência na natação em águas abertas."
   ],
   "categories": [
-    { "label": "Cultura", "count": 35, "href": "/blog", "active": false },
-    { "label": "Negócios & Economia", "count": 9, "href": "/capital", "active": false },
-    { "label": "Tecnologia", "count": 16, "href": "/tech", "active": false },
-    { "label": "Entretenimento", "count": 104, "href": "/blog", "active": false }
+    {
+      "label": "Cultura",
+      "count": 35,
+      "href": "/blog",
+      "active": false
+    },
+    {
+      "label": "Negócios & Economia",
+      "count": 9,
+      "href": "/capital",
+      "active": false
+    },
+    {
+      "label": "Tecnologia",
+      "count": 16,
+      "href": "/tech",
+      "active": false
+    },
+    {
+      "label": "Entretenimento",
+      "count": 104,
+      "href": "/blog",
+      "active": false
+    }
   ],
   "recentPosts": [
-    { "date": "01/07/2027", "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.", "href": "/artigos/recente-1" },
-    { "date": "01/07/2027", "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.", "href": "/artigos/recente-2" },
-    { "date": "01/07/2027", "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.", "href": "/artigos/recente-3" }
+    {
+      "date": "01/07/2027",
+      "excerpt": "Veja o passo a passo para checar fontes e evitar armadilhas de desinformação.",
+      "href": "/artigos/recente-1"
+    },
+    {
+      "date": "01/07/2027",
+      "excerpt": "Ferramentas gratuitas ajudam a identificar vídeos manipulados por inteligência artificial.",
+      "href": "/artigos/recente-2"
+    },
+    {
+      "date": "01/07/2027",
+      "excerpt": "Especialistas apontam os indicadores que chamam atenção de fundos de investimento.",
+      "href": "/artigos/recente-3"
+    }
   ],
   "extras": [
-    { "kind": "ad", "title": "Confira o calendário completo de competições de águas abertas.", "ctaLabel": "Ver calendário", "href": "/artigos/esportes-destaque" }
+    {
+      "kind": "ad",
+      "title": "Confira o calendário completo de competições de águas abertas.",
+      "ctaLabel": "Ver calendário",
+      "href": "/artigos/esportes-destaque"
+    }
   ],
   "comments": [
-    { "name": "Marcos Villela", "date": "Agosto 2026", "text": "Recorde que resistia há quase dez anos, resultado e tanto para esse atleta." },
-    { "name": "Cíntia Aragão", "date": "Agosto 2026", "text": "Águas abertas é uma modalidade que merece mais atenção da mídia, feito grande esse recorde." }
+    {
+      "name": "Marcos Villela",
+      "date": "Agosto 2026",
+      "text": "Recorde que resistia há quase dez anos, resultado e tanto para esse atleta."
+    },
+    {
+      "name": "Cíntia Aragão",
+      "date": "Agosto 2026",
+      "text": "Águas abertas é uma modalidade que merece mais atenção da mídia, feito grande esse recorde."
+    }
   ]
 }
