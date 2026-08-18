@@ -129,14 +129,35 @@ export const routes: Routes = [
     title: 'Criar nova conta — Tribuna',
   },
   {
+    path: 'esqueci-senha',
+    loadComponent: () =>
+      import('./features/auth/forgot-password/forgot-password.component').then((m) => m.ForgotPasswordComponent),
+    title: 'Esqueci minha senha — Tribuna',
+  },
+  {
+    path: 'redefinir-senha',
+    loadComponent: () =>
+      import('./features/auth/reset-password/reset-password.component').then((m) => m.ResetPasswordComponent),
+    title: 'Redefinir senha — Tribuna',
+  },
+  {
     path: 'artigos/:slug',
     loadComponent: () => import('./features/article/article-page.component').then((m) => m.ArticlePageComponent),
     title: 'Artigo — Tribuna',
+  },
+  {
+    path: 'favoritos',
+    loadComponent: () => import('./features/favoritos/favoritos.component').then((m) => m.FavoritosComponent),
+    title: 'Favoritos — Tribuna',
   },
   {
     path: 'contato',
     loadComponent: () => import('./features/contact/contact.component').then((m) => m.ContactComponent),
     title: 'Contato — Tribuna',
   },
-  { path: '**', redirectTo: '' },
+  {
+    path: '**',
+    loadComponent: () => import('./features/not-found/not-found.component').then((m) => m.NotFoundComponent),
+    title: 'Página não encontrada — Tribuna',
+  },
 ];

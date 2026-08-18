@@ -3,6 +3,7 @@ import { HttpClient, HttpParams } from '@angular/common/http';
 import { Observable, map } from 'rxjs';
 import { environment } from '../../../environments/environment';
 import { SearchResult } from '../models/search.model';
+import { formatarDataBr } from '../utils/date.util';
 
 interface ArtigoListItemApi {
   slug: string;
@@ -35,7 +36,7 @@ export class SearchService {
           excerpt: a.resumo,
           href: `/artigos/${a.slug}`,
           image: a.imagemCapaUrl,
-          date: a.publicadoEm ?? '',
+          date: formatarDataBr(a.publicadoEm),
         }))
       )
     );

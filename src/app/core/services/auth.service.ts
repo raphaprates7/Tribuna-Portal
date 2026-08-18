@@ -40,6 +40,14 @@ export class AuthService {
       .pipe(tap((resposta) => this.aplicarResposta(resposta)));
   }
 
+  esqueciSenha(email: string): Observable<{ mensagem: string }> {
+    return this.http.post<{ mensagem: string }>(`${this.baseUrl}/esqueci-senha`, { email });
+  }
+
+  redefinirSenha(email: string, token: string, novaSenha: string): Observable<void> {
+    return this.http.post<void>(`${this.baseUrl}/redefinir-senha`, { email, token, novaSenha });
+  }
+
   logout(): Observable<void> {
     return this.http.post<void>(`${this.baseUrl}/logout`, {}, { withCredentials: true }).pipe(
       tap(() => {

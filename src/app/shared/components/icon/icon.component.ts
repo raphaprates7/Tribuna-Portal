@@ -13,6 +13,7 @@ const ICON_MAP: Record<string, string> = {
   'arrow-right': 'fa-solid fa-arrow-right',
   search: 'fa-solid fa-magnifying-glass',
   bookmark: 'fa-regular fa-bookmark',
+  'bookmark-filled': 'fa-solid fa-bookmark',
   'chevron-down': 'fa-solid fa-chevron-down',
   map: 'fa-solid fa-map-location-dot',
   fire: 'fa-solid fa-fire',
