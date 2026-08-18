@@ -1,36 +1,27 @@
 <section class="comments">
   <h3>Deixe um comentário</h3>
-  <p class="comments__note">Seu endereço de e-mail não será publicado. Os campos obrigatórios estão marcados com *</p>
 
-  <form class="comments__form" (ngSubmit)="onSubmit()">
-    <div class="comments__row">
-      <label>
-        Nome *
-        <input type="text" name="name" [(ngModel)]="name" required />
+  <ng-container *ngIf="usuario(); else loginPrompt">
+    <form class="comments__form" (ngSubmit)="onSubmit()">
+      <label class="comments__message">
+        Mensagem *
+        <textarea name="message" rows="6" [(ngModel)]="message" placeholder="Digite sua mensagem aqui." required></textarea>
       </label>
-      <label>
-        Seu E-mail *
-        <input type="email" name="email" [(ngModel)]="email" required />
-      </label>
-    </div>
 
-    <label class="comments__message">
-      Mensagem *
-      <textarea name="message" rows="6" [(ngModel)]="message" placeholder="Digite sua mensagem aqui." required></textarea>
-    </label>
+      <app-button type="submit" variant="primary">Postar Comentário →</app-button>
+      <p class="comments__thanks" *ngIf="posted()">Comentário enviado! Ele aparecerá após revisão.</p>
+      <p class="comments__error" *ngIf="erro()">{{ erro() }}</p>
+    </form>
+  </ng-container>
 
-    <label class="comments__checkbox">
-      <input type="checkbox" name="saveInfo" [(ngModel)]="saveInfo" />
-      Salve meu nome, e-mail e site neste navegador para a próxima vez que eu comentar.
-    </label>
-
-    <app-button type="submit" variant="primary">Postar Comentário →</app-button>
-    <p class="comments__thanks" *ngIf="posted()">Comentário enviado! Ele aparecerá após revisão.</p>
-    <p class="comments__error" *ngIf="erro()">{{ erro() }}</p>
-  </form>
+  <ng-template #loginPrompt>
+    <p class="comments__login-prompt">
+      <a href="/cadastre-se">Faça login</a> ou <a href="/criar-conta">crie uma conta</a> para comentar.
+    </p>
+  </ng-template>
 
   <h3 class="comments__heading">Comentários</h3>
-  <article class="comments__item" *ngFor="let comment of comments">
+  <article class="comments__item" *ngFor="let comment of lista()">
     <div class="comments__avatar" aria-hidden="true"></div>
     <div class="comments__body">
       <header>
@@ -38,7 +29,15 @@
         <span>{{ comment.date }}</span>
       </header>
       <p>{{ comment.text }}</p>
-      <button type="button" class="comments__reply">Responder</button>
+      <button
+        type="button"
+        class="comments__like"
+        [class.comments__like--ativo]="comment.curtidoPeloUsuarioAtual"
+        [disabled]="!usuario()"
+        (click)="curtir(comment)"
+      >
+        {{ comment.curtidoPeloUsuarioAtual ? '♥' : '♡' }} {{ comment.curtidas }}
+      </button>
     </div>
   </article>
 </section>

@@ -34,6 +34,12 @@ export class AuthService {
       .pipe(tap((resposta) => this.aplicarResposta(resposta)));
   }
 
+  cadastrar(dto: { nomeCompleto: string; email: string; senha: string }): Observable<AuthResponse> {
+    return this.http
+      .post<AuthResponse>(`${this.baseUrl}/cadastro`, dto, { withCredentials: true })
+      .pipe(tap((resposta) => this.aplicarResposta(resposta)));
+  }
+
   refresh(): Observable<AuthResponse> {
     return this.http
       .post<AuthResponse>(`${this.baseUrl}/refresh`, {}, { withCredentials: true })

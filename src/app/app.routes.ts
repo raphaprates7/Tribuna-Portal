@@ -129,6 +129,11 @@ export const routes: Routes = [
     title: 'Criar nova conta — Tribuna',
   },
   {
+    path: 'criar-conta',
+    loadComponent: () => import('./features/auth/criar-conta/criar-conta.component').then((m) => m.CriarContaComponent),
+    title: 'Criar conta — Tribuna',
+  },
+  {
     path: 'esqueci-senha',
     loadComponent: () =>
       import('./features/auth/forgot-password/forgot-password.component').then((m) => m.ForgotPasswordComponent),

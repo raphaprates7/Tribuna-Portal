@@ -5,6 +5,7 @@ import { environment } from '../../../environments/environment';
 import { ArticleComment, ArticleDetail } from '../models/article.model';
 import { BlogCategory } from '../models/blog.model';
 import { formatarDataBr } from '../utils/date.util';
+import { ComentarioApi, paraArticleComment } from './comentario.service';
 
 interface ArtigoDetailApi {
   id: number;
@@ -27,13 +28,6 @@ interface CategoriaApi {
   nome: string;
   slug: string;
   quantidadeArtigos: number;
-}
-
-interface ComentarioApi {
-  id: number;
-  nome: string;
-  texto: string;
-  criadoEm: string;
 }
 
 @Injectable({ providedIn: 'root' })
@@ -65,11 +59,7 @@ export class ArticleService {
       active: c.slug === artigo.categoriaSlug,
     }));
 
-    const comentariosDto: ArticleComment[] = comentarios.map((c) => ({
-      name: c.nome,
-      date: c.criadoEm,
-      text: c.texto,
-    }));
+    const comentariosDto: ArticleComment[] = comentarios.map(paraArticleComment);
 
     return {
       id: artigo.id,

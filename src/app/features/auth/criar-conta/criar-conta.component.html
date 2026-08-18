@@ -1,0 +1,26 @@
+<app-breadcrumb [items]="breadcrumbs"></app-breadcrumb>
+
+<div class="auth">
+  <div class="auth__card">
+    <h1>Criar conta</h1>
+    <p class="auth__subtitle">Crie sua conta pra favoritar artigos, comentar e curtir.</p>
+
+    <form class="auth__form" (ngSubmit)="onSubmit()">
+      <label class="auth__field">
+        <input type="text" name="nomeCompleto" [(ngModel)]="nomeCompleto" placeholder="Nome completo" required />
+      </label>
+      <label class="auth__field">
+        <input type="email" name="email" [(ngModel)]="email" placeholder="Digite o seu e-mail" required />
+      </label>
+      <label class="auth__field">
+        <input type="password" name="senha" [(ngModel)]="senha" placeholder="Crie uma senha (mín. 10 caracteres)" required minlength="10" />
+      </label>
+
+      <p class="auth__error" *ngIf="error()">{{ error() }}</p>
+
+      <app-button type="submit" variant="primary">{{ submitting() ? 'Criando conta…' : 'Criar conta' }}</app-button>
+    </form>
+
+    <p class="auth__footnote">Já tem uma conta? <a href="/cadastre-se">Entrar.</a></p>
+  </div>
+</div>
