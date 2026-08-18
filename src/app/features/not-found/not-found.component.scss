@@ -1,0 +1,41 @@
+:host {
+  display: block;
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 80px var(--gutter) 120px;
+}
+
+.not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 12px;
+}
+
+.not-found__code {
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--color-muted);
+}
+
+.not-found h1 {
+  font-size: var(--fs-h1);
+}
+
+.not-found p {
+  font-size: var(--fs-body-m);
+  color: var(--color-body-text);
+  max-width: 480px;
+}
+
+.not-found__cta {
+  margin-top: 16px;
+  padding: 12px 24px;
+  border-radius: var(--radius-m);
+  background: var(--color-primary, #111);
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}

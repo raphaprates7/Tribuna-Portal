@@ -39,6 +39,23 @@
   color: var(--color-ink);
 }
 
+.article__favorite-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1px solid var(--color-border);
+  background: transparent;
+  color: var(--color-primary);
+  cursor: pointer;
+}
+.article__favorite-btn[aria-pressed='true'] {
+  background: var(--color-primary-tint);
+  border-color: var(--color-primary);
+}
+
 .article__share {
   display: flex;
   align-items: center;

@@ -9,6 +9,15 @@
       <div class="article__meta">
         <span>{{ d.date }}</span>
         <span>Por: <strong>{{ d.author }}</strong></span>
+        <button
+          type="button"
+          class="article__favorite-btn"
+          (click)="alternarFavorito()"
+          [attr.aria-pressed]="isFavorito()"
+          [attr.aria-label]="isFavorito() ? 'Remover dos favoritos' : 'Salvar nos favoritos'"
+        >
+          <app-icon [name]="isFavorito() ? 'bookmark-filled' : 'bookmark'" [size]="16"></app-icon>
+        </button>
         <span class="article__share">
           Compartilhar:
           <a *ngFor="let s of d.shareLinks" [href]="s.href" [attr.aria-label]="s.label" class="article__share-btn">

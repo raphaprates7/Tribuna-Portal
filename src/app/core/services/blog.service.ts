@@ -3,6 +3,7 @@ import { HttpClient, HttpParams } from '@angular/common/http';
 import { Observable, forkJoin, map } from 'rxjs';
 import { environment } from '../../../environments/environment';
 import { BlogArticle, BlogCategory, BlogPageData, RecentPost } from '../models/blog.model';
+import { formatarDataBr } from '../utils/date.util';
 
 interface ArtigoListItemApi {
   slug: string;
@@ -51,7 +52,7 @@ export class BlogService {
     }).pipe(
       map(({ pagina: resultado, categorias, recentes }) => {
         const articles: BlogArticle[] = resultado.itens.map((a) => ({
-          date: a.publicadoEm ?? '',
+          date: formatarDataBr(a.publicadoEm),
           title: a.titulo,
           excerpt: a.resumo,
           image: a.imagemCapaUrl,
@@ -67,7 +68,7 @@ export class BlogService {
         }));
 
         const recentPosts: RecentPost[] = recentes.itens.map((a) => ({
-          date: a.publicadoEm ?? '',
+          date: formatarDataBr(a.publicadoEm),
           excerpt: a.titulo,
           href: `/artigos/${a.slug}`,
         }));

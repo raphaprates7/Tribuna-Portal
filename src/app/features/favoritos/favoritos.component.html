@@ -1,0 +1,26 @@
+<app-breadcrumb [items]="breadcrumbs"></app-breadcrumb>
+
+<div class="favoritos">
+  <h1>Favoritos</h1>
+
+  <ng-container *ngIf="favoritos().length; else vazio">
+    <div class="favoritos__lista">
+      <div class="favoritos__item" *ngFor="let item of favoritos()">
+        <a class="favoritos__link" [routerLink]="['/artigos', item.slug]">
+          <img *ngIf="item.image" [src]="item.image" [alt]="item.title" class="favoritos__img" />
+          <div class="favoritos__info">
+            <span class="favoritos__date">{{ item.date }}</span>
+            <span class="favoritos__title">{{ item.title }}</span>
+          </div>
+        </a>
+        <button type="button" class="favoritos__remove" (click)="remover(item.slug)" aria-label="Remover dos favoritos">
+          <app-icon name="cross" [size]="14"></app-icon>
+        </button>
+      </div>
+    </div>
+  </ng-container>
+
+  <ng-template #vazio>
+    <p class="favoritos__empty">Você ainda não salvou nenhum artigo. Clique no ícone de favorito em um artigo para guardá-lo aqui.</p>
+  </ng-template>
+</div>

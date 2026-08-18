@@ -4,6 +4,7 @@ import { Observable, forkJoin, map, of, switchMap } from 'rxjs';
 import { environment } from '../../../environments/environment';
 import { ArticleComment, ArticleDetail } from '../models/article.model';
 import { BlogCategory } from '../models/blog.model';
+import { formatarDataBr } from '../utils/date.util';
 
 interface ArtigoDetailApi {
   id: number;
@@ -80,7 +81,7 @@ export class ArticleService {
       title: artigo.titulo,
       subtitle: artigo.subtitulo ?? '',
       summary: artigo.resumo,
-      date: artigo.publicadoEm ?? '',
+      date: formatarDataBr(artigo.publicadoEm),
       author: artigo.autorNome,
       shareLinks: [
         { icon: 'facebook', href: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(urlArtigo)}`, label: 'Facebook' },
@@ -92,7 +93,7 @@ export class ArticleService {
       contentHtml: artigo.conteudoHtml,
       categories: categoriasDto,
       recentPosts: artigo.relacionadosMesmaVertical.map((r) => ({
-        date: r.publicadoEm ?? '',
+        date: formatarDataBr(r.publicadoEm),
         excerpt: r.resumo,
         href: `/artigos/${r.slug}`,
       })),

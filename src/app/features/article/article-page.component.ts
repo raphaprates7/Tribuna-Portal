@@ -1,10 +1,11 @@
-import { Component, OnInit, signal } from '@angular/core';
+import { Component, OnInit, computed, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
 import { switchMap, map } from 'rxjs';
 import { ArticleService } from '../../core/services/article.service';
 import { ArticleDetail } from '../../core/models/article.model';
 import { SeoService } from '../../core/services/seo.service';
+import { FavoritosService } from '../../core/services/favoritos.service';
 import { BreadcrumbComponent } from '../../shared/components/breadcrumb/breadcrumb.component';
 import { ContentSidebarComponent } from '../../shared/components/content-sidebar/content-sidebar.component';
 import { IconComponent } from '../../shared/components/icon/icon.component';
@@ -19,11 +20,15 @@ import { CommentSectionComponent } from './components/comment-section/comment-se
 })
 export class ArticlePageComponent implements OnInit {
   data = signal<ArticleDetail | null>(null);
+  private slug = signal('');
+
+  isFavorito = computed(() => this.favoritosService.favoritos().some((f) => f.slug === this.slug()));
 
   constructor(
     private route: ActivatedRoute,
     private articleService: ArticleService,
-    private seo: SeoService
+    private seo: SeoService,
+    private favoritosService: FavoritosService
   ) {}
 
   ngOnInit(): void {
@@ -36,6 +41,7 @@ export class ArticlePageComponent implements OnInit {
       )
       .subscribe(({ data, slug }) => {
         this.data.set(data);
+        this.slug.set(slug);
         this.seo.update({
           title: `${data.title} — Tribuna`,
           description: data.subtitle || data.summary,
@@ -43,5 +49,18 @@ export class ArticlePageComponent implements OnInit {
           path: `/artigos/${slug}`,
         });
       });
+  }
+
+  alternarFavorito(): void {
+    const data = this.data();
+    if (!data) {
+      return;
+    }
+    this.favoritosService.alternar({
+      slug: this.slug(),
+      title: data.title,
+      image: data.heroImage,
+      date: data.date,
+    });
   }
 }
