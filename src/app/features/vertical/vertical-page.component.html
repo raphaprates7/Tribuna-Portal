@@ -2,7 +2,7 @@
   <div
     class="vertical"
     [class.vertical--dark]="d.theme.dark"
-    [style.--color-primary]="d.theme.accent"
+    [style.--color-primary]="d.theme.dark && d.theme.accentOnDark ? d.theme.accentOnDark : d.theme.accent"
     [style.--color-primary-dark]="d.theme.accentDark"
     [style.--color-primary-tint]="d.theme.accentTint"
   >
@@ -18,7 +18,7 @@
         <p class="vertical__intro">{{ d.intro }}</p>
       </header>
 
-      <app-hero-featured [article]="d.featuredArticle"></app-hero-featured>
+      <app-hero-featured [article]="d.featuredArticle" headingTag="h2"></app-hero-featured>
 
       <section class="vertical__grid">
         <app-category-card *ngFor="let card of d.cards" [card]="card"></app-category-card>

@@ -12,6 +12,7 @@ import { FeaturedArticle } from '../../../../core/models/home.model';
 })
 export class HeroFeaturedComponent {
   @Input({ required: true }) article!: FeaturedArticle;
+  @Input() headingTag: 'h1' | 'h2' = 'h1';
 
   slides(): number[] {
     return Array.from({ length: this.article.slidesCount }, (_, i) => i);

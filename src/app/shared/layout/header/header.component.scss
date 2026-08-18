@@ -26,7 +26,7 @@
   color: var(--color-surface);
 }
 .header__logo-dot {
-  color: var(--color-primary);
+  color: var(--color-primary-on-dark);
 }
 .header__logo:hover {
   text-decoration: none;
@@ -118,6 +118,10 @@
   outline: none;
   font-size: var(--fs-body-s);
   width: 110px;
+}
+.header__search:focus-within {
+  outline: 2px solid var(--color-primary-tint);
+  outline-offset: 2px;
 }
 
 .header__icon-btn {

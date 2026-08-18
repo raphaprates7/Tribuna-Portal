@@ -2,3 +2,22 @@ main {
   display: block;
   min-height: 60vh;
 }
+
+.skip-link {
+  position: absolute;
+  top: -48px;
+  left: 8px;
+  z-index: 100;
+  background: var(--color-primary);
+  color: #fff;
+  font-weight: 700;
+  font-size: var(--fs-body-s);
+  padding: 12px 20px;
+  border-radius: var(--radius-s);
+  transition: top 0.15s ease;
+}
+.skip-link:focus {
+  top: 8px;
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}

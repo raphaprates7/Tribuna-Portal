@@ -1,7 +1,8 @@
 <section class="hero">
   <p class="hero__eyebrow">{{ article.eyebrow }}</p>
   <a class="hero__link" [href]="article.href">
-    <h1 class="hero__title">{{ article.title }}</h1>
+    <h1 *ngIf="headingTag === 'h1'" class="hero__title">{{ article.title }}</h1>
+    <h2 *ngIf="headingTag === 'h2'" class="hero__title">{{ article.title }}</h2>
     <p class="hero__excerpt">{{ article.excerpt }}</p>
   </a>
   <div class="hero__row">

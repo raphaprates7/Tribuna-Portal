@@ -6,6 +6,8 @@ export interface VerticalTheme {
   accentDark: string;
   accentTint: string;
   dark?: boolean;
+  /** Lighter accent variant for readable text on the dark ground — only needed when dark is true. */
+  accentOnDark?: string;
 }
 
 export interface VerticalPageData {
