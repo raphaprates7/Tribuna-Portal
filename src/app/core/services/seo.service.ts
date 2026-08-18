@@ -1,7 +1,7 @@
 import { Injectable, inject } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
 
-const SITE_URL = 'https://tribuna-portal.vercel.app';
+const SITE_URL = 'https://otribuna.com.br';
 const DEFAULT_IMAGE = `${SITE_URL}/assets/images/tribuna-logo.png`;
 
 export interface SeoData {
