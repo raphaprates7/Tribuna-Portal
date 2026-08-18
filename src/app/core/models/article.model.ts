@@ -14,6 +14,7 @@ export interface ArticleComment {
 }
 
 export interface ArticleDetail {
+  id: number;
   breadcrumbs: Breadcrumb[];
   title: string;
   subtitle: string;
@@ -21,7 +22,9 @@ export interface ArticleDetail {
   author: string;
   shareLinks: ShareLink[];
   heroImage: string | null;
-  paragraphs: string[];
+  // HTML rico produzido pelo editor Quill no painel admin — já sanitizado
+  // no servidor; renderizado via [innerHTML] (Angular sanitiza de novo).
+  contentHtml: string;
   categories: BlogCategory[];
   recentPosts: RecentPost[];
   extras: SidebarExtra[];

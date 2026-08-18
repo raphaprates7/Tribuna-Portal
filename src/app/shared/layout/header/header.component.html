@@ -51,7 +51,11 @@
       <button type="button" class="header__icon-btn" aria-label="Favoritos">
         <app-icon name="bookmark" [size]="18"></app-icon>
       </button>
-      <a class="header__login" routerLink="/cadastre-se">
+      <a *ngIf="isEditorial()" class="header__login" routerLink="/admin">
+        <app-icon name="user" [size]="16"></app-icon>
+        Painel
+      </a>
+      <a *ngIf="!isEditorial()" class="header__login" routerLink="/cadastre-se">
         <app-icon name="user" [size]="16"></app-icon>
         Entrar
       </a>

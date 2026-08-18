@@ -6,8 +6,7 @@ export interface FeaturedArticle {
   excerpt: string;
   ctaLabel: string;
   href: string;
-  slidesCount: number;
-  activeSlide: number;
+  image: string | null;
 }
 
 export interface TrendingItem {
@@ -63,7 +62,7 @@ export interface TrustBadge {
 }
 
 export interface HomePageData {
-  featuredArticle: FeaturedArticle;
+  featuredArticles: FeaturedArticle[];
   trending: TrendingItem[];
   contentCards: ContentCard[];
   healthStats: {

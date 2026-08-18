@@ -1,6 +1,49 @@
 import { Routes } from '@angular/router';
+import { adminGuard, adminOnlyGuard } from './core/guards/admin.guard';
 
 export const routes: Routes = [
+  {
+    path: 'admin',
+    canActivate: [adminGuard],
+    loadComponent: () => import('./features/admin/layout/admin-layout.component').then((m) => m.AdminLayoutComponent),
+    title: 'Painel Admin — Tribuna',
+    children: [
+      { path: '', redirectTo: 'artigos', pathMatch: 'full' },
+      {
+        path: 'artigos',
+        loadComponent: () => import('./features/admin/artigos/artigo-list.component').then((m) => m.ArtigoListComponent),
+      },
+      {
+        path: 'artigos/novo',
+        loadComponent: () => import('./features/admin/artigos/artigo-form.component').then((m) => m.ArtigoFormComponent),
+      },
+      {
+        path: 'artigos/:id/editar',
+        loadComponent: () => import('./features/admin/artigos/artigo-form.component').then((m) => m.ArtigoFormComponent),
+      },
+      {
+        path: 'verticais',
+        canActivate: [adminOnlyGuard],
+        loadComponent: () =>
+          import('./features/admin/verticais/vertical-list.component').then((m) => m.VerticalListComponent),
+      },
+      {
+        path: 'categorias',
+        loadComponent: () =>
+          import('./features/admin/categorias/categoria-list.component').then((m) => m.CategoriaListComponent),
+      },
+      {
+        path: 'comentarios',
+        loadComponent: () =>
+          import('./features/admin/comentarios/comentario-moderacao.component').then((m) => m.ComentarioModeracaoComponent),
+      },
+      {
+        path: 'usuarios',
+        canActivate: [adminOnlyGuard],
+        loadComponent: () => import('./features/admin/usuarios/usuario-list.component').then((m) => m.UsuarioListComponent),
+      },
+    ],
+  },
   {
     path: 'tribunaco',
     loadComponent: () => import('./features/hub/hub-page.component').then((m) => m.HubPageComponent),

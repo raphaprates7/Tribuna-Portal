@@ -63,9 +63,26 @@
   color: var(--color-body-text);
 }
 
-app-hero-featured {
-  display: block;
+.vertical__top {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 40px;
+  align-items: start;
   margin-top: 8px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+@media (max-width: 900px) {
+  .vertical__top {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.vertical__empty {
+  color: var(--color-muted);
+  font-size: var(--fs-body-m);
+  padding: 32px 0;
 }
 
 .vertical__grid {

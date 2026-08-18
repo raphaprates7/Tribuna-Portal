@@ -1,30 +1,42 @@
 import { Injectable, inject } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpParams } from '@angular/common/http';
 import { Observable, map } from 'rxjs';
+import { environment } from '../../../environments/environment';
 import { SearchResult } from '../models/search.model';
 
-function normalize(value: string): string {
-  return value.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+interface ArtigoListItemApi {
+  slug: string;
+  titulo: string;
+  resumo: string;
+  imagemCapaUrl: string | null;
+  publicadoEm: string | null;
 }
 
-/**
- * Reads from a static mock JSON today. To wire up the real API, swap
- * `endpoint` for the backend base URL — the return shape stays the same.
- */
+interface PaginaResultApi<T> {
+  itens: T[];
+}
+
 @Injectable({ providedIn: 'root' })
 export class SearchService {
   private http = inject(HttpClient);
-  private readonly endpoint = 'assets/mock/search-index.json';
+  private readonly baseUrl = environment.apiBaseUrl;
 
   search(query: string): Observable<SearchResult[]> {
-    const needle = normalize(query.trim());
-    return this.http.get<SearchResult[]>(this.endpoint).pipe(
-      map((results) =>
-        needle
-          ? results.filter(
-              (r) => normalize(r.title).includes(needle) || normalize(r.excerpt).includes(needle)
-            )
-          : results
+    let params = new HttpParams().set('pagina', 1).set('tamanhoPagina', 20);
+    const termo = query.trim();
+    if (termo) {
+      params = params.set('busca', termo);
+    }
+
+    return this.http.get<PaginaResultApi<ArtigoListItemApi>>(`${this.baseUrl}/artigos`, { params }).pipe(
+      map((resultado) =>
+        resultado.itens.map((a) => ({
+          title: a.titulo,
+          excerpt: a.resumo,
+          href: `/artigos/${a.slug}`,
+          image: a.imagemCapaUrl,
+          date: a.publicadoEm ?? '',
+        }))
       )
     );
   }

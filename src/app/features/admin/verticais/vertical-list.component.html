@@ -1,0 +1,82 @@
+<div class="page-header">
+  <h1>Verticais</h1>
+</div>
+
+<p style="color: var(--color-muted); margin-top: -12px; margin-bottom: 24px; font-size: var(--fs-body-s);">
+  Seções principais do site (Capital, Esportes, Tech, Games...) — definem em qual página o artigo aparece.
+</p>
+
+<p class="error-message" *ngIf="erro()">{{ erro() }}</p>
+
+<div class="card" style="padding: 24px; margin-bottom: 24px;">
+  <form class="form-grid" [formGroup]="form" (ngSubmit)="salvar()">
+    <div class="form-row">
+      <div class="form-field">
+        <label for="nome">Nome *</label>
+        <input id="nome" type="text" formControlName="nome" maxlength="80" />
+      </div>
+      <div class="form-field">
+        <label for="slug">Slug * (ex.: esportes)</label>
+        <input id="slug" type="text" formControlName="slug" maxlength="80" />
+      </div>
+    </div>
+
+    <div class="form-field">
+      <label for="tagline">Tagline</label>
+      <input id="tagline" type="text" formControlName="tagline" />
+    </div>
+
+    <div class="form-row">
+      <div class="form-field">
+        <label for="cor">Cor de destaque</label>
+        <input id="cor" type="color" formControlName="corAccent" style="height: 42px; padding: 4px;" />
+      </div>
+      <div class="form-field">
+        <label for="ordem">Ordem</label>
+        <input id="ordem" type="number" formControlName="ordem" />
+      </div>
+    </div>
+
+    <label class="form-check">
+      <input type="checkbox" formControlName="temaEscuro" />
+      Tema escuro na página da vertical
+    </label>
+
+    <div class="form-actions">
+      <button type="submit" class="btn btn--primary" [disabled]="salvando()">
+        {{ editandoId() ? 'Salvar alterações' : 'Criar vertical' }}
+      </button>
+      <button type="button" class="btn btn--outline" *ngIf="editandoId()" (click)="cancelarEdicao()">Cancelar</button>
+    </div>
+  </form>
+</div>
+
+<div class="table-wrap">
+  <table class="data-table" *ngIf="verticais().length; else vazio">
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Slug</th>
+        <th>Artigos</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let v of verticais()">
+        <td>{{ v.nome }}</td>
+        <td>{{ v.slug }}</td>
+        <td>{{ v.quantidadeArtigos }}</td>
+        <td>
+          <div class="row-actions">
+            <button type="button" class="btn btn--outline btn--sm" (click)="editar(v)">Editar</button>
+            <button type="button" class="btn btn--danger btn--sm" (click)="excluir(v)">Excluir</button>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <ng-template #vazio>
+    <div class="card empty-state">Nenhuma vertical cadastrada ainda.</div>
+  </ng-template>
+</div>

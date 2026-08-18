@@ -1,0 +1,26 @@
+<div class="admin">
+  <aside class="admin__sidebar">
+    <a class="admin__brand" routerLink="/admin">Tribuna <span>Admin</span></a>
+
+    <nav class="admin__nav">
+      <a routerLink="/admin/artigos" routerLinkActive="is-active">Artigos</a>
+      <a *ngIf="isAdmin()" routerLink="/admin/verticais" routerLinkActive="is-active">Verticais</a>
+      <a routerLink="/admin/categorias" routerLinkActive="is-active">Categorias</a>
+      <a routerLink="/admin/comentarios" routerLinkActive="is-active">Comentários</a>
+      <a *ngIf="isAdmin()" routerLink="/admin/usuarios" routerLinkActive="is-active">Usuários</a>
+    </nav>
+
+    <a class="admin__back" routerLink="/">← Voltar ao site</a>
+  </aside>
+
+  <div class="admin__content">
+    <header class="admin__header">
+      <span *ngIf="usuario() as u">{{ u.nomeCompleto }} · {{ u.roles.join(', ') }}</span>
+      <button type="button" class="admin__logout" (click)="sair()">Sair</button>
+    </header>
+
+    <main class="admin__main">
+      <router-outlet></router-outlet>
+    </main>
+  </div>
+</div>

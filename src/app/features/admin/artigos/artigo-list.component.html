@@ -1,0 +1,64 @@
+<div class="page-header">
+  <h1>Artigos</h1>
+  <a class="btn btn--primary" routerLink="/admin/artigos/novo">+ Novo artigo</a>
+</div>
+
+<p class="error-message" *ngIf="erro()">{{ erro() }}</p>
+
+<div class="table-wrap" *ngIf="pagina() as p">
+  <table class="data-table" *ngIf="p.itens.length; else vazio">
+    <thead>
+      <tr>
+        <th>Título</th>
+        <th>Vertical</th>
+        <th>Categoria</th>
+        <th>Autor</th>
+        <th>Status</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let artigo of p.itens">
+        <td>
+          {{ artigo.titulo }}
+          <span *ngIf="artigo.destaque" class="badge badge--muted" style="margin-left: 6px;">Destaque</span>
+        </td>
+        <td>{{ artigo.verticalNome }}</td>
+        <td>{{ artigo.categoriaNome ?? '—' }}</td>
+        <td>{{ artigo.autorNome }}</td>
+        <td>
+          <span class="badge" [class.badge--success]="artigo.publicada" [class.badge--muted]="!artigo.publicada">
+            {{ artigo.publicada ? 'Publicado' : 'Rascunho' }}
+          </span>
+        </td>
+        <td>
+          <div class="row-actions">
+            <a class="btn btn--outline btn--sm" [routerLink]="['/admin/artigos', artigo.id, 'editar']">Editar</a>
+            <button
+              type="button"
+              class="btn btn--danger btn--sm"
+              [disabled]="excluindoId() === artigo.id"
+              (click)="excluir(artigo)"
+            >
+              Excluir
+            </button>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <ng-template #vazio>
+    <div class="card empty-state">Nenhum artigo ainda. Clique em "Novo artigo" para criar o primeiro.</div>
+  </ng-template>
+
+  <div class="pagination-bar" *ngIf="p.totalPaginas > 1">
+    <button
+      *ngFor="let n of [].constructor(p.totalPaginas); let i = index"
+      [class.is-active]="p.paginaAtual === i + 1"
+      (click)="carregar(i + 1)"
+    >
+      {{ i + 1 }}
+    </button>
+  </div>
+</div>

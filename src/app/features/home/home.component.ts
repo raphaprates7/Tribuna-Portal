@@ -33,7 +33,7 @@ export class HomeComponent implements OnInit {
       this.data.set(data);
       this.seo.update({
         title: 'Tribuna — Mídia. Cultura. Negócios.',
-        description: data.featuredArticle.excerpt,
+        description: data.featuredArticles[0]?.excerpt ?? '',
         path: '/',
       });
     });
