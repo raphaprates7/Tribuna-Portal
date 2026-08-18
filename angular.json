@@ -15,11 +15,23 @@
             "outputPath": "dist/tribuna-portal",
             "index": "src/index.html",
             "browser": "src/main.ts",
-            "polyfills": ["zone.js"],
+            "polyfills": [
+              "zone.js"
+            ],
             "tsConfig": "tsconfig.app.json",
-            "assets": ["src/assets"],
-            "styles": ["src/styles.scss", "node_modules/quill/dist/quill.snow.css"],
-            "scripts": []
+            "assets": [
+              "src/assets"
+            ],
+            "styles": [
+              "src/styles.scss",
+              "node_modules/quill/dist/quill.snow.css"
+            ],
+            "scripts": [],
+            "server": "src/main.server.ts",
+            "prerender": false,
+            "ssr": {
+              "entry": "server.ts"
+            }
           },
           "configurations": {
             "production": {

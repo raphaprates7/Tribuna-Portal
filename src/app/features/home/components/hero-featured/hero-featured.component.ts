@@ -1,5 +1,5 @@
-import { Component, Input, OnChanges, OnDestroy, signal } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { Component, Input, OnChanges, OnDestroy, signal, inject, PLATFORM_ID } from '@angular/core';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { ButtonComponent } from '../../../../shared/components/button/button.component';
 import { FeaturedArticle } from '../../../../core/models/home.model';
 
@@ -15,6 +15,8 @@ const INTERVALO_AUTO_MS = 7000;
 export class HeroFeaturedComponent implements OnChanges, OnDestroy {
   @Input({ required: true }) articles!: FeaturedArticle[];
   @Input() headingTag: 'h1' | 'h2' = 'h1';
+
+  private readonly isBrowser = isPlatformBrowser(inject(PLATFORM_ID));
 
   active = signal(0);
   private timer: ReturnType<typeof setInterval> | null = null;
@@ -59,7 +61,9 @@ export class HeroFeaturedComponent implements OnChanges, OnDestroy {
 
   private reiniciarAutoAvanco(): void {
     this.pararAutoAvanco();
-    if (this.articles?.length > 1) {
+    // O timer só roda no navegador — no servidor (SSR) um setInterval nunca
+    // limpo mantém a zone "instável" pra sempre e trava a renderização.
+    if (this.isBrowser && this.articles?.length > 1) {
       this.timer = setInterval(() => this.proximo(), INTERVALO_AUTO_MS);
     }
   }
