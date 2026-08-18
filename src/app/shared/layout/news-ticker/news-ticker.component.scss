@@ -29,6 +29,11 @@
   display: flex;
   overflow: hidden;
   flex: 1;
+  // Flex items default to min-width: auto, so without this the track refuses
+  // to shrink below the ticker content's intrinsic width — the "overflow:
+  // hidden" above never gets a chance to clip, and the whole page ends up
+  // wider than the viewport (horizontal scroll on every page).
+  min-width: 0;
   mask-image: linear-gradient(90deg, transparent, #000 24px, #000 calc(100% - 24px), transparent);
 }
 
