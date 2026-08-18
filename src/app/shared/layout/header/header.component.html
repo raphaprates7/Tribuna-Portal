@@ -55,7 +55,11 @@
         <app-icon name="user" [size]="16"></app-icon>
         Painel
       </a>
-      <a *ngIf="!isEditorial()" class="header__login" routerLink="/cadastre-se">
+      <button *ngIf="usuario() && !isEditorial()" type="button" class="header__login" (click)="sair()">
+        <app-icon name="user" [size]="16"></app-icon>
+        {{ usuario()?.nomeCompleto }} · Sair
+      </button>
+      <a *ngIf="!usuario()" class="header__login" routerLink="/cadastre-se">
         <app-icon name="user" [size]="16"></app-icon>
         Entrar
       </a>

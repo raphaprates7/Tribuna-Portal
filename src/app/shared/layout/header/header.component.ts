@@ -60,6 +60,10 @@ export class HeaderComponent implements OnInit {
     this.router.navigate(['/busca'], { queryParams: q ? { q } : {} });
   }
 
+  sair(): void {
+    this.authService.logout().subscribe(() => this.router.navigateByUrl('/'));
+  }
+
   @HostListener('document:click', ['$event'])
   onDocumentClick(event: Event): void {
     if (!this.elementRef.nativeElement.contains(event.target as Node)) {

@@ -109,7 +109,7 @@ textarea:focus {
   line-height: 1.5;
   margin-bottom: 8px;
 }
-.comments__reply {
+.comments__like {
   background: none;
   border: none;
   padding: 0;
@@ -118,8 +118,25 @@ textarea:focus {
   color: var(--color-ink);
   cursor: pointer;
 }
-.comments__reply:hover {
+.comments__like:hover:not(:disabled) {
   color: var(--color-primary);
+}
+.comments__like--ativo {
+  color: var(--color-primary);
+}
+.comments__like:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.comments__login-prompt {
+  font-size: var(--fs-body-s);
+  color: var(--color-body-text);
+  margin-bottom: 40px;
+}
+.comments__login-prompt a {
+  color: var(--color-primary);
+  font-weight: 600;
 }
 
 @media (max-width: 600px) {

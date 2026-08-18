@@ -8,9 +8,12 @@ export interface ShareLink {
 }
 
 export interface ArticleComment {
+  id: number;
   name: string;
   date: string;
   text: string;
+  curtidas: number;
+  curtidoPeloUsuarioAtual: boolean;
 }
 
 export interface ArticleDetail {
