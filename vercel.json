@@ -1,7 +1,7 @@
 {
   "version": 2,
   "framework": null,
-  "buildCommand": "npm run build",
+  "buildCommand": "npm run build && mv dist/tribuna-portal/browser/index.csr.html dist/tribuna-portal/browser/admin-shell.html",
   "rewrites": [
     { "source": "/", "destination": "/api" },
     { "source": "/(.*)", "destination": "/api" }

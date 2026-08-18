@@ -29,7 +29,7 @@ export function app(): express.Express {
   // precisa ser indexado nem renderizado no servidor — serve o shell do
   // cliente direto e deixa o Angular assumir no navegador, como uma SPA normal.
   server.get(['/admin', '/admin/*'], (req, res) => {
-    res.sendFile(join(browserDistFolder, 'index.csr.html'));
+    res.sendFile(join(browserDistFolder, 'admin-shell.html'));
   });
 
   // All regular routes use the Angular engine
