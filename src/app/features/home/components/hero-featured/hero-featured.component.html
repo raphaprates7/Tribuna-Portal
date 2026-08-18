@@ -1,18 +1,32 @@
-<section class="hero">
-  <p class="hero__eyebrow">{{ article.eyebrow }}</p>
-  <a class="hero__link" [href]="article.href">
-    <h1 *ngIf="headingTag === 'h1'" class="hero__title">{{ article.title }}</h1>
-    <h2 *ngIf="headingTag === 'h2'" class="hero__title">{{ article.title }}</h2>
-    <p class="hero__excerpt">{{ article.excerpt }}</p>
+<section class="hero" *ngIf="atual as article">
+  <a class="hero__media" *ngIf="article.image" [href]="article.href">
+    <img [src]="article.image" [alt]="article.title" loading="lazy" />
   </a>
-  <div class="hero__row">
-    <app-button variant="primary" [href]="article.href" [showArrow]="true">{{ article.ctaLabel }}</app-button>
-    <div class="hero__dots">
-      <span
-        class="hero__dot"
-        *ngFor="let s of slides(); let i = index"
-        [class.is-active]="i === article.activeSlide"
-      ></span>
+
+  <div class="hero__body">
+    <p class="hero__eyebrow">{{ article.eyebrow }}</p>
+    <a class="hero__link" [href]="article.href">
+      <h1 *ngIf="headingTag === 'h1'" class="hero__title">{{ article.title }}</h1>
+      <h2 *ngIf="headingTag === 'h2'" class="hero__title">{{ article.title }}</h2>
+      <p class="hero__excerpt">{{ article.excerpt }}</p>
+    </a>
+    <div class="hero__row">
+      <app-button variant="primary" [href]="article.href" [showArrow]="true">{{ article.ctaLabel }}</app-button>
+
+      <div class="hero__nav" *ngIf="articles.length > 1">
+        <button type="button" class="hero__arrow" (click)="anterior()" aria-label="Slide anterior">‹</button>
+        <div class="hero__dots">
+          <button
+            type="button"
+            class="hero__dot"
+            *ngFor="let a of articles; let i = index"
+            [class.is-active]="i === active()"
+            [attr.aria-label]="'Ir para slide ' + (i + 1)"
+            (click)="irPara(i)"
+          ></button>
+        </div>
+        <button type="button" class="hero__arrow" (click)="onProximoClick()" aria-label="Próximo slide">›</button>
+      </div>
     </div>
   </div>
 </section>

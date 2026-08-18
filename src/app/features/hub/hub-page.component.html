@@ -8,7 +8,7 @@
   </section>
 
   <section class="hub__top" *ngIf="home() as h">
-    <app-hero-featured [article]="h.featuredArticle" headingTag="h2"></app-hero-featured>
+    <app-hero-featured *ngIf="h.featuredArticles.length" [articles]="h.featuredArticles" headingTag="h2"></app-hero-featured>
 
     <aside class="hub__trending">
       <h2 class="hub__trending-title">
@@ -34,15 +34,18 @@
         </a>
       </header>
 
-      <a class="hub__rail-media" *ngIf="rail.image" [href]="rail.href">
-        <img [src]="rail.image" [alt]="rail.name" loading="lazy" />
-      </a>
-
-      <ul class="hub__rail-list">
-        <li *ngFor="let hl of rail.headlines">
-          <a [href]="hl.href">{{ hl.title }}</a>
-        </li>
-      </ul>
+      <div class="hub__rail-items" *ngIf="rail.items.length; else railVazio">
+        <a class="hub__rail-item" *ngFor="let item of rail.items" [href]="item.href">
+          <div class="hub__rail-item-media" [class.hub__rail-item-media--empty]="!item.image">
+            <img *ngIf="item.image" [src]="item.image" [alt]="item.title" loading="lazy" />
+          </div>
+          <h3>{{ item.title }}</h3>
+          <p>{{ item.excerpt }}</p>
+        </a>
+      </div>
+      <ng-template #railVazio>
+        <p class="hub__rail-empty">Nenhum artigo publicado ainda.</p>
+      </ng-template>
     </article>
   </section>
 

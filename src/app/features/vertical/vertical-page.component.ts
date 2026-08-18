@@ -7,12 +7,13 @@ import { VerticalPageData } from '../../core/models/vertical.model';
 import { SeoService } from '../../core/services/seo.service';
 import { BreadcrumbComponent } from '../../shared/components/breadcrumb/breadcrumb.component';
 import { HeroFeaturedComponent } from '../home/components/hero-featured/hero-featured.component';
+import { TrendingPanelComponent } from '../home/components/trending-panel/trending-panel.component';
 import { CategoryCardComponent } from '../../shared/components/category-card/category-card.component';
 
 @Component({
   selector: 'app-vertical-page',
   standalone: true,
-  imports: [CommonModule, BreadcrumbComponent, HeroFeaturedComponent, CategoryCardComponent],
+  imports: [CommonModule, BreadcrumbComponent, HeroFeaturedComponent, TrendingPanelComponent, CategoryCardComponent],
   templateUrl: './vertical-page.component.html',
   styleUrl: './vertical-page.component.scss',
 })

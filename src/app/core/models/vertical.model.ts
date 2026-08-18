@@ -1,5 +1,5 @@
 import { Breadcrumb } from './blog.model';
-import { FeaturedArticle, ContentCard } from './home.model';
+import { FeaturedArticle, ContentCard, TrendingItem } from './home.model';
 
 export interface VerticalTheme {
   accent: string;
@@ -17,6 +17,7 @@ export interface VerticalPageData {
   intro: string;
   theme: VerticalTheme;
   breadcrumbs: Breadcrumb[];
-  featuredArticle: FeaturedArticle;
+  featuredArticles: FeaturedArticle[];
+  trending: TrendingItem[];
   cards: ContentCard[];
 }

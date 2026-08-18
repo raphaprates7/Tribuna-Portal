@@ -1,0 +1,62 @@
+<div class="page-header">
+  <h1>Categorias</h1>
+</div>
+
+<p style="color: var(--color-muted); margin-top: -12px; margin-bottom: 24px; font-size: var(--fs-body-s);">
+  Temas/tags livres pra filtrar artigos dentro do blog (ex.: "IA", "Futebol") — não definem a seção do site,
+  isso é papel da Vertical.
+</p>
+
+<p class="error-message" *ngIf="erro()">{{ erro() }}</p>
+
+<div class="card" style="padding: 24px; margin-bottom: 24px;">
+  <form class="form-grid" [formGroup]="form" (ngSubmit)="salvar()">
+    <div class="form-row">
+      <div class="form-field">
+        <label for="nome">Nome *</label>
+        <input id="nome" type="text" formControlName="nome" maxlength="80" />
+      </div>
+      <div class="form-field">
+        <label for="slug">Slug * (ex.: inteligencia-artificial)</label>
+        <input id="slug" type="text" formControlName="slug" maxlength="80" />
+      </div>
+    </div>
+
+    <div class="form-actions">
+      <button type="submit" class="btn btn--primary" [disabled]="salvando()">
+        {{ editandoId() ? 'Salvar alterações' : 'Criar categoria' }}
+      </button>
+      <button type="button" class="btn btn--outline" *ngIf="editandoId()" (click)="cancelarEdicao()">Cancelar</button>
+    </div>
+  </form>
+</div>
+
+<div class="table-wrap">
+  <table class="data-table" *ngIf="categorias().length; else vazio">
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Slug</th>
+        <th>Artigos</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let c of categorias()">
+        <td>{{ c.nome }}</td>
+        <td>{{ c.slug }}</td>
+        <td>{{ c.quantidadeArtigos }}</td>
+        <td>
+          <div class="row-actions">
+            <button type="button" class="btn btn--outline btn--sm" (click)="editar(c)">Editar</button>
+            <button type="button" class="btn btn--danger btn--sm" (click)="excluir(c)">Excluir</button>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <ng-template #vazio>
+    <div class="card empty-state">Nenhuma categoria cadastrada ainda.</div>
+  </ng-template>
+</div>

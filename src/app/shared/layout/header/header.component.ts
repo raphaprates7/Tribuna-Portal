@@ -1,10 +1,11 @@
-import { Component, OnInit, signal, HostListener, ElementRef } from '@angular/core';
+import { Component, OnInit, signal, HostListener, ElementRef, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Router, RouterLink } from '@angular/router';
 import { NavigationService } from '../../../core/services/navigation.service';
 import { NavItem } from '../../../core/models/navigation.model';
 import { IconComponent } from '../../components/icon/icon.component';
+import { AuthService } from '../../../core/services/auth.service';
 
 @Component({
   selector: 'app-header',
@@ -19,6 +20,11 @@ export class HeaderComponent implements OnInit {
   mobileOpen = signal(false);
   searchQuery = '';
 
+  private authService = inject(AuthService);
+
+  usuario = this.authService.usuario;
+  isEditorial = this.authService.isEditorial;
+
   constructor(
     private navigationService: NavigationService,
     private elementRef: ElementRef<HTMLElement>,
@@ -27,6 +33,8 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
     this.navigationService.getNavigation().subscribe((items) => this.navItems.set(items));
+    // Restaura a sessão via cookie de refresh (ex.: depois de um F5) sem forçar login.
+    this.authService.garantirSessao().subscribe();
   }
 
   toggleMenu(index: number, event: Event): void {

@@ -21,9 +21,9 @@
         <img [src]="d.heroImage" [alt]="d.title" />
       </div>
 
-      <p class="article__paragraph" *ngFor="let p of d.paragraphs">{{ p }}</p>
+      <div class="article__body" [innerHTML]="d.contentHtml"></div>
 
-      <app-comment-section [comments]="d.comments"></app-comment-section>
+      <app-comment-section [articleId]="d.id" [comments]="d.comments"></app-comment-section>
     </article>
 
     <app-content-sidebar

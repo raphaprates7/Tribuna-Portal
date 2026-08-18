@@ -71,10 +71,80 @@
   object-fit: cover;
 }
 
-.article__paragraph {
+// Corpo rico vindo do editor Quill (painel admin) — estiliza as tags que ele
+// produz (p, h2/h3, listas, citação, imagens inseridas no meio do texto).
+// ::ng-deep é necessário porque esse HTML entra via [innerHTML], então não
+// recebe o atributo de encapsulamento que o Angular usa para escopar estilos.
+.article__body {
   font-size: var(--fs-body-m);
   line-height: 1.7;
-  margin-bottom: 20px;
+  color: var(--color-body-text);
+
+  ::ng-deep {
+    p {
+      margin-bottom: 20px;
+    }
+
+    h2,
+    h3,
+    h4 {
+      font-family: var(--font-heading);
+      color: var(--color-ink);
+      margin: 32px 0 16px;
+    }
+
+    ul,
+    ol {
+      margin: 0 0 20px 24px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    blockquote {
+      border-left: 3px solid var(--color-primary);
+      padding-left: 20px;
+      margin: 24px 0;
+      font-style: italic;
+      color: var(--color-muted);
+    }
+
+    a {
+      color: var(--color-primary);
+      text-decoration: underline;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: var(--radius-s);
+      margin: 20px 0;
+      display: block;
+    }
+
+    pre,
+    code {
+      background: var(--color-surface);
+      border-radius: var(--radius-s);
+      padding: 2px 6px;
+      font-family: monospace;
+    }
+
+    pre {
+      padding: 16px;
+      overflow-x: auto;
+      margin-bottom: 20px;
+    }
+
+    .ql-align-center {
+      text-align: center;
+    }
+
+    .ql-align-right {
+      text-align: right;
+    }
+  }
 }
 
 @media (max-width: 1000px) {

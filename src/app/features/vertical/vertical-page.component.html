@@ -18,7 +18,14 @@
         <p class="vertical__intro">{{ d.intro }}</p>
       </header>
 
-      <app-hero-featured [article]="d.featuredArticle" headingTag="h2"></app-hero-featured>
+      <section class="vertical__top" *ngIf="d.featuredArticles.length">
+        <app-hero-featured [articles]="d.featuredArticles" headingTag="h2"></app-hero-featured>
+        <app-trending-panel *ngIf="d.trending.length" [items]="d.trending"></app-trending-panel>
+      </section>
+
+      <p class="vertical__empty" *ngIf="!d.featuredArticles.length">
+        Nenhum artigo publicado nesta editoria ainda.
+      </p>
 
       <section class="vertical__grid">
         <app-category-card *ngFor="let card of d.cards" [card]="card"></app-category-card>

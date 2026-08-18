@@ -1,0 +1,83 @@
+<div class="page-header">
+  <h1>Usuários</h1>
+  <button type="button" class="btn btn--primary" (click)="mostrarForm.set(!mostrarForm())">
+    {{ mostrarForm() ? 'Cancelar' : '+ Novo usuário' }}
+  </button>
+</div>
+
+<p class="error-message" *ngIf="erro()">{{ erro() }}</p>
+
+<div class="card" style="padding: 24px; margin-bottom: 24px;" *ngIf="mostrarForm()">
+  <form class="form-grid" [formGroup]="form" (ngSubmit)="criar()">
+    <div class="form-row">
+      <div class="form-field">
+        <label for="nomeCompleto">Nome completo *</label>
+        <input id="nomeCompleto" type="text" formControlName="nomeCompleto" />
+      </div>
+      <div class="form-field">
+        <label for="email">E-mail *</label>
+        <input id="email" type="email" formControlName="email" />
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="form-field">
+        <label for="senha">Senha temporária * (mín. 10 caracteres)</label>
+        <input id="senha" type="text" formControlName="senha" />
+      </div>
+      <div class="form-field">
+        <label for="role">Perfil *</label>
+        <select id="role" formControlName="role">
+          <option value="Editor">Editor</option>
+          <option value="Admin">Admin</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="form-actions">
+      <button type="submit" class="btn btn--primary" [disabled]="salvando()">Criar usuário</button>
+    </div>
+  </form>
+</div>
+
+<div class="table-wrap">
+  <table class="data-table" *ngIf="usuarios().length; else vazio">
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>E-mail</th>
+        <th>Perfil</th>
+        <th>Status</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let u of usuarios()">
+        <td>{{ u.nomeCompleto }}</td>
+        <td>{{ u.email }}</td>
+        <td>{{ u.roles.join(', ') }}</td>
+        <td>
+          <span class="badge" [class.badge--success]="u.ativo" [class.badge--muted]="!u.ativo">
+            {{ u.ativo ? 'Ativo' : 'Inativo' }}
+          </span>
+        </td>
+        <td>
+          <div class="row-actions">
+            <button
+              type="button"
+              class="btn btn--outline btn--sm"
+              [disabled]="u.email === meuId"
+              (click)="alternarStatus(u)"
+            >
+              {{ u.ativo ? 'Desativar' : 'Reativar' }}
+            </button>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <ng-template #vazio>
+    <div class="card empty-state">Nenhum usuário cadastrado.</div>
+  </ng-template>
+</div>

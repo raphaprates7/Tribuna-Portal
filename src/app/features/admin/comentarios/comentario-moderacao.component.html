@@ -1,0 +1,28 @@
+<div class="page-header">
+  <h1>Comentários pendentes</h1>
+</div>
+
+<p class="error-message" *ngIf="erro()">{{ erro() }}</p>
+
+<div class="card empty-state" *ngIf="!carregando() && !pendentes().length">
+  Nenhum comentário aguardando moderação. 🎉
+</div>
+
+<div class="card" style="padding: 20px; margin-bottom: 16px;" *ngFor="let c of pendentes()">
+  <p style="margin: 0 0 4px; font-weight: 600;">
+    {{ c.nome }} <span style="font-weight: 400; color: var(--color-muted);">({{ c.email }})</span>
+  </p>
+  <p style="margin: 0 0 8px; font-size: var(--fs-label-s); color: var(--color-muted);">
+    em "{{ c.artigoTitulo }}" · {{ c.criadoEm | date: 'dd/MM/yyyy HH:mm' }}
+  </p>
+  <p style="margin: 0 0 16px;">{{ c.texto }}</p>
+
+  <div class="row-actions" style="justify-content: flex-start;">
+    <button type="button" class="btn btn--primary btn--sm" [disabled]="processandoId() === c.id" (click)="aprovar(c)">
+      Aprovar
+    </button>
+    <button type="button" class="btn btn--danger btn--sm" [disabled]="processandoId() === c.id" (click)="rejeitar(c)">
+      Excluir
+    </button>
+  </div>
+</div>

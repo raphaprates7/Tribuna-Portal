@@ -25,7 +25,8 @@
     </label>
 
     <app-button type="submit" variant="primary">Postar Comentário →</app-button>
-    <p class="comments__thanks" *ngIf="posted()">Comentário publicado — obrigado por participar!</p>
+    <p class="comments__thanks" *ngIf="posted()">Comentário enviado! Ele aparecerá após revisão.</p>
+    <p class="comments__error" *ngIf="erro()">{{ erro() }}</p>
   </form>
 
   <h3 class="comments__heading">Comentários</h3>

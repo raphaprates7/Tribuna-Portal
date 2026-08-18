@@ -1,0 +1,104 @@
+<div class="page-header">
+  <h1>{{ modoEdicao ? 'Editar artigo' : 'Novo artigo' }}</h1>
+  <a class="btn btn--outline" routerLink="/admin/artigos">← Voltar</a>
+</div>
+
+<p class="error-message" *ngIf="erro()">{{ erro() }}</p>
+
+<form class="form-grid" [formGroup]="form" (ngSubmit)="salvar()">
+  <div class="form-field">
+    <label for="titulo">Título *</label>
+    <input id="titulo" type="text" formControlName="titulo" maxlength="200" />
+  </div>
+
+  <div class="form-field">
+    <label for="subtitulo">Subtítulo</label>
+    <input id="subtitulo" type="text" formControlName="subtitulo" maxlength="200" />
+  </div>
+
+  <div class="form-field">
+    <label for="resumo">Resumo *</label>
+    <textarea id="resumo" formControlName="resumo" rows="3" maxlength="500"></textarea>
+  </div>
+
+  <div class="form-row">
+    <div class="form-field">
+      <label for="vertical">Vertical (seção do site) *</label>
+      <select id="vertical" formControlName="verticalId">
+        <option [ngValue]="0" disabled>Selecione...</option>
+        <option *ngFor="let v of verticais()" [ngValue]="v.id">{{ v.nome }}</option>
+      </select>
+    </div>
+    <div class="form-field">
+      <label for="categoria">Categoria (tema/tag, opcional)</label>
+      <select id="categoria" formControlName="categoriaId">
+        <option [ngValue]="null">Nenhuma</option>
+        <option *ngFor="let c of categorias()" [ngValue]="c.id">{{ c.nome }}</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="form-field">
+    <label for="autorExibicao">Assinatura do artigo (opcional)</label>
+    <input id="autorExibicao" type="text" formControlName="autorExibicao" maxlength="150" placeholder="Deixe em branco para usar seu nome" />
+    <p class="field-hint">
+      Use quando você está publicando em nome de outra pessoa — o nome aqui aparece como autor no site em vez do seu.
+    </p>
+  </div>
+
+  <div class="form-field">
+    <label>Imagem de capa</label>
+    <p class="field-hint">Recomendado: 1200×630px (proporção 1.91:1) — JPG, PNG, WEBP ou GIF, até 5MB.</p>
+    <div class="cover-upload">
+      <img *ngIf="form.value.imagemCapaUrl as capa" [src]="capa" alt="Capa do artigo" />
+      <div class="cover-upload__placeholder" *ngIf="!form.value.imagemCapaUrl">Sem imagem</div>
+
+      <div>
+        <input type="file" accept="image/png,image/jpeg,image/webp,image/gif" (change)="onCapaSelecionada($event)" />
+        <button
+          type="button"
+          class="btn btn--outline btn--sm"
+          style="margin-top: 8px;"
+          *ngIf="form.value.imagemCapaUrl"
+          (click)="removerCapa()"
+        >
+          Remover capa
+        </button>
+        <p *ngIf="enviandoCapa()" style="font-size: var(--fs-label-s); color: var(--color-muted);">Enviando...</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="form-field quill-field">
+    <label>Conteúdo *</label>
+    <p class="field-hint">
+      Imagens inseridas no texto: use preferencialmente 1600px de largura (paisagem, boa nitidez em telas grandes).
+    </p>
+    <quill-editor
+      formControlName="conteudoHtml"
+      [modules]="quillModules"
+      placeholder="Escreva o artigo aqui — use a barra de ferramentas para inserir imagens em qualquer ponto do texto."
+      (onEditorCreated)="onEditorCreated($event)"
+    ></quill-editor>
+  </div>
+
+  <div class="form-checks">
+    <label class="form-check">
+      <input type="checkbox" formControlName="destaque" />
+      Destacar na home
+    </label>
+    <label class="form-check">
+      <input type="checkbox" formControlName="patrocinado" />
+      Conteúdo patrocinado
+    </label>
+  </div>
+
+  <div class="form-actions">
+    <button type="button" class="btn btn--outline" [disabled]="salvando()" (click)="salvar(false)">
+      Salvar rascunho
+    </button>
+    <button type="button" class="btn btn--primary" [disabled]="salvando()" (click)="salvar(true)">
+      {{ salvando() ? 'Publicando...' : 'Publicar' }}
+    </button>
+  </div>
+</form>

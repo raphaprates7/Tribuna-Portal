@@ -1,0 +1,114 @@
+.admin {
+  display: flex;
+  min-height: 100vh;
+  background: var(--color-surface);
+  font-family: var(--font-body);
+  color: var(--color-body-text);
+}
+
+.admin__sidebar {
+  width: 220px;
+  flex-shrink: 0;
+  background: var(--color-ink);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 24px 0;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+
+.admin__brand {
+  font-family: var(--font-heading);
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  padding: 0 24px 24px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  margin-bottom: 16px;
+
+  span {
+    color: var(--color-primary-tint);
+    opacity: 0.7;
+  }
+}
+
+.admin__nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+
+  a {
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: none;
+    padding: 12px 24px;
+    font-size: var(--fs-body-m);
+    border-left: 3px solid transparent;
+    transition: background 0.15s, color 0.15s;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.06);
+      color: #fff;
+    }
+
+    &.is-active {
+      background: rgba(255, 255, 255, 0.1);
+      color: #fff;
+      border-left-color: var(--color-primary);
+      font-weight: 600;
+    }
+  }
+}
+
+.admin__back {
+  color: rgba(255, 255, 255, 0.55);
+  text-decoration: none;
+  padding: 12px 24px;
+  font-size: var(--fs-body-s);
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+.admin__content {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.admin__header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 32px;
+  background: var(--color-surface-alt);
+  border-bottom: 1px solid var(--color-border);
+  font-size: var(--fs-body-s);
+  color: var(--color-muted);
+}
+
+.admin__logout {
+  border: 1px solid var(--color-border-strong);
+  background: transparent;
+  border-radius: var(--radius-pill);
+  padding: 6px 16px;
+  font-size: var(--fs-body-s);
+  cursor: pointer;
+  color: var(--color-ink);
+
+  &:hover {
+    background: var(--color-surface);
+  }
+}
+
+.admin__main {
+  flex: 1;
+  padding: 32px;
+  max-width: 1100px;
+  width: 100%;
+}

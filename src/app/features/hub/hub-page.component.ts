@@ -10,9 +10,11 @@ import { NewsletterFormComponent } from '../../shared/components/newsletter-form
 import { IconComponent } from '../../shared/components/icon/icon.component';
 import { SeoService } from '../../core/services/seo.service';
 
-interface HubHeadline {
+interface HubRailItem {
   title: string;
+  excerpt: string;
   href: string;
+  image: string | null;
 }
 
 interface HubRail {
@@ -20,8 +22,7 @@ interface HubRail {
   name: string;
   accent: string;
   href: string;
-  image: string | null;
-  headlines: HubHeadline[];
+  items: HubRailItem[];
 }
 
 @Component({
@@ -61,18 +62,26 @@ export class HubPageComponent implements OnInit {
   }
 
   private toRail(v: VerticalPageData): HubRail {
-    const headlines: HubHeadline[] = [
-      { title: v.featuredArticle.title, href: v.featuredArticle.href },
-      ...v.cards.map((c) => ({ title: c.title, href: c.href })),
-    ].slice(0, 5);
+    const destaque = v.featuredArticles.map((a) => ({
+      title: a.title,
+      excerpt: a.excerpt,
+      href: a.href,
+      image: a.image,
+    }));
+
+    const cards = v.cards.map((c) => ({
+      title: c.title,
+      excerpt: c.excerpt,
+      href: c.href,
+      image: c.image,
+    }));
 
     return {
       slug: v.slug,
       name: v.name,
       accent: v.theme.accent,
       href: `/${v.slug}`,
-      image: v.cards.find((c) => c.image)?.image ?? null,
-      headlines,
+      items: [...destaque, ...cards].slice(0, 4),
     };
   }
 }
