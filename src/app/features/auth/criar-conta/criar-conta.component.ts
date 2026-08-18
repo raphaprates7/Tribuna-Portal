@@ -6,6 +6,7 @@ import { HttpErrorResponse } from '@angular/common/http';
 import { BreadcrumbComponent } from '../../../shared/components/breadcrumb/breadcrumb.component';
 import { ButtonComponent } from '../../../shared/components/button/button.component';
 import { AuthService } from '../../../core/services/auth.service';
+import { extrairMensagemErro } from '../../../core/utils/erro.util';
 
 @Component({
   selector: 'app-criar-conta',
@@ -49,8 +50,7 @@ export class CriarContaComponent {
       },
       error: (erro: HttpErrorResponse) => {
         this.submitting.set(false);
-        const mensagens = Array.isArray(erro.error) ? erro.error.join(' ') : erro.error?.mensagem;
-        this.error.set(mensagens ?? 'Não foi possível criar a conta. Tente novamente.');
+        this.error.set(extrairMensagemErro(erro, 'Não foi possível criar a conta. Tente novamente.'));
       },
     });
   }

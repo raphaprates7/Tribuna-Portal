@@ -6,6 +6,7 @@ import { HttpErrorResponse } from '@angular/common/http';
 import { BreadcrumbComponent } from '../../shared/components/breadcrumb/breadcrumb.component';
 import { ButtonComponent } from '../../shared/components/button/button.component';
 import { AuthService } from '../../core/services/auth.service';
+import { extrairMensagemErro } from '../../core/utils/erro.util';
 
 @Component({
   selector: 'app-create-account',
@@ -53,7 +54,7 @@ export class CreateAccountComponent {
       },
       error: (erro: HttpErrorResponse) => {
         this.submitting.set(false);
-        this.error.set(erro.error?.mensagem ?? 'Não foi possível entrar. Tente novamente.');
+        this.error.set(extrairMensagemErro(erro, 'Não foi possível entrar. Tente novamente.'));
       },
     });
   }
