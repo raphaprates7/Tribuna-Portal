@@ -18,6 +18,7 @@ export interface ArticleDetail {
   breadcrumbs: Breadcrumb[];
   title: string;
   subtitle: string;
+  summary: string;
   date: string;
   author: string;
   shareLinks: ShareLink[];

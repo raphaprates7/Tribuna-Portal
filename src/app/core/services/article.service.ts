@@ -79,6 +79,7 @@ export class ArticleService {
       ],
       title: artigo.titulo,
       subtitle: artigo.subtitulo ?? '',
+      summary: artigo.resumo,
       date: artigo.publicadoEm ?? '',
       author: artigo.autorNome,
       shareLinks: [

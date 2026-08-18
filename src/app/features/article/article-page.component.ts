@@ -38,7 +38,7 @@ export class ArticlePageComponent implements OnInit {
         this.data.set(data);
         this.seo.update({
           title: `${data.title} — Tribuna`,
-          description: data.subtitle,
+          description: data.subtitle || data.summary,
           image: data.heroImage,
           path: `/artigos/${slug}`,
         });
