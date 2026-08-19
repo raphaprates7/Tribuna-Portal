@@ -105,6 +105,12 @@ export const routes: Routes = [
     title: 'Tribuna GG — Tribuna',
   },
   {
+    path: 'cultura',
+    loadComponent: () => import('./features/vertical/vertical-page.component').then((m) => m.VerticalPageComponent),
+    data: { slug: 'cultura' },
+    title: 'Tribuna Cultura — Tribuna',
+  },
+  {
     path: 'termos-de-uso',
     loadComponent: () =>
       import('./features/institutional/institutional-page.component').then((m) => m.InstitutionalPageComponent),

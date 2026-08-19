@@ -25,7 +25,8 @@
   },
   {
     "label": "Cultura",
-    "href": "/blog"
+    "href": "/cultura",
+    "accent": "#b3261e"
   },
   {
     "label": "Conteúdos",
