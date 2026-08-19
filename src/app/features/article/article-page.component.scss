@@ -12,6 +12,15 @@
   align-items: start;
 }
 
+.article__main {
+  // Grid items default to min-width: auto, so without this the column
+  // refuses to shrink below the content's intrinsic min-content size — a
+  // cover image with no explicit width/height contributes its NATURAL
+  // pixel size to that calculation regardless of the "width: 100%" below,
+  // ballooning the whole column (and the page) past the viewport.
+  min-width: 0;
+}
+
 .article__title {
   font-size: var(--fs-h1);
   margin-bottom: 16px;
@@ -96,6 +105,12 @@
   font-size: var(--fs-body-m);
   line-height: 1.7;
   color: var(--color-body-text);
+  // Defesa contra conteúdo colado no editor Quill que vem com espaços
+  // trocados por &nbsp; (comum ao colar de fontes externas): sem isso, o
+  // navegador trata o parágrafo inteiro como uma "palavra" só e estoura a
+  // largura da página inteira em vez de simplesmente quebrar a linha.
+  overflow-wrap: break-word;
+  word-break: break-word;
 
   ::ng-deep {
     p {
