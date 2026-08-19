@@ -34,7 +34,8 @@ export class ArtigoFormComponent implements OnInit {
   erro = signal<string | null>(null);
 
   // Toolbar do Quill: o suficiente para um artigo de portal de notícias —
-  // títulos, ênfase, listas, citação, link e imagem (upload real, sem base64).
+  // títulos, ênfase, listas, citação, link, imagem (upload real, sem base64)
+  // e vídeo (embed do YouTube/Vimeo).
   quillModules = {
     toolbar: {
       container: [
@@ -43,11 +44,12 @@ export class ArtigoFormComponent implements OnInit {
         [{ align: [] }],
         ['blockquote', 'code-block'],
         [{ list: 'ordered' }, { list: 'bullet' }],
-        ['link', 'image'],
+        ['link', 'image', 'video'],
         ['clean'],
       ],
       handlers: {
         image: () => this.abrirSeletorImagemInline(),
+        video: () => this.inserirVideo(),
       },
     },
   };
@@ -102,6 +104,65 @@ export class ArtigoFormComponent implements OnInit {
 
   onEditorCreated(editor: unknown): void {
     this.quillInstance = editor;
+  }
+
+  // Aceita a URL normal que a pessoa copia da barra de endereço (watch,
+  // youtu.be, shorts, vimeo.com) e converte pra URL de embed — sem isso o
+  // admin teria que descobrir sozinho o formato /embed/ que o player espera.
+  // Retorna null se não reconhecer, pra não inserir um iframe de origem
+  // arbitrária (o backend também valida isso, mas não faz sentido nem tentar).
+  private converterParaUrlEmbed(url: string): string | null {
+    let host: URL;
+    try {
+      host = new URL(url.trim());
+    } catch {
+      return null;
+    }
+
+    const hostname = host.hostname.replace(/^www\./, '');
+
+    if (hostname === 'youtube.com') {
+      const id = host.pathname.startsWith('/embed/')
+        ? host.pathname.split('/')[2]
+        : host.pathname.startsWith('/shorts/')
+          ? host.pathname.split('/')[2]
+          : host.searchParams.get('v');
+      return id ? `https://www.youtube.com/embed/${id}` : null;
+    }
+
+    if (hostname === 'youtu.be') {
+      const id = host.pathname.split('/')[1];
+      return id ? `https://www.youtube.com/embed/${id}` : null;
+    }
+
+    if (hostname === 'vimeo.com') {
+      const id = host.pathname.split('/')[1];
+      return id ? `https://player.vimeo.com/video/${id}` : null;
+    }
+
+    if (hostname === 'player.vimeo.com' && host.pathname.startsWith('/video/')) {
+      return url.trim();
+    }
+
+    return null;
+  }
+
+  private inserirVideo(): void {
+    const url = window.prompt('Cole o link do vídeo (YouTube ou Vimeo):');
+    if (!url) {
+      return;
+    }
+
+    const embedUrl = this.converterParaUrlEmbed(url);
+    if (!embedUrl) {
+      this.erro.set('Link de vídeo não reconhecido. Use um link do YouTube ou do Vimeo.');
+      return;
+    }
+
+    const selecao = this.quillInstance?.getSelection(true);
+    const index = selecao ? selecao.index : this.quillInstance?.getLength() ?? 0;
+    this.quillInstance?.insertEmbed(index, 'video', embedUrl, 'user');
+    this.quillInstance?.setSelection(index + 1, 0);
   }
 
   private abrirSeletorImagemInline(): void {

@@ -1,5 +1,6 @@
-import { Component, OnInit, computed, signal } from '@angular/core';
+import { Component, OnInit, computed, inject, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 import { ActivatedRoute } from '@angular/router';
 import { switchMap, map } from 'rxjs';
 import { ArticleService } from '../../core/services/article.service';
@@ -19,10 +20,23 @@ import { CommentSectionComponent } from './components/comment-section/comment-se
   styleUrl: './article-page.component.scss',
 })
 export class ArticlePageComponent implements OnInit {
+  private sanitizer = inject(DomSanitizer);
+
   data = signal<ArticleDetail | null>(null);
   private slug = signal('');
 
   isFavorito = computed(() => this.favoritosService.favoritos().some((f) => f.slug === this.slug()));
+
+  // O HTML já passa pelo sanitizador do backend (ConteudoSanitizerService) antes
+  // de ser salvo — só admin/editor autenticado consegue gravar nesse campo, e lá
+  // scripts/handlers inline são removidos e <iframe> só sobrevive se apontar pra
+  // um host de embed de vídeo confiável (YouTube/Vimeo). O sanitizador padrão do
+  // Angular no [innerHTML] removeria o <iframe> de qualquer forma, então essa
+  // fonte específica (já confiável) precisa desse bypass pro embed aparecer.
+  contentHtmlSeguro = computed<SafeHtml | null>(() => {
+    const conteudo = this.data()?.contentHtml;
+    return conteudo ? this.sanitizer.bypassSecurityTrustHtml(conteudo) : null;
+  });
 
   constructor(
     private route: ActivatedRoute,

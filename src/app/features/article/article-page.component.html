@@ -30,7 +30,7 @@
         <img [src]="d.heroImage" [alt]="d.title" />
       </div>
 
-      <div class="article__body" [innerHTML]="d.contentHtml"></div>
+      <div class="article__body" [innerHTML]="contentHtmlSeguro()"></div>
 
       <app-comment-section [articleId]="d.id" [comments]="d.comments"></app-comment-section>
     </article>
