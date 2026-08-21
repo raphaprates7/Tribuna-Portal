@@ -13,6 +13,7 @@
         <th>Vertical</th>
         <th>Categoria</th>
         <th>Autor</th>
+        <th>Visualizações</th>
         <th>Status</th>
         <th></th>
       </tr>
@@ -26,6 +27,7 @@
         <td>{{ artigo.verticalNome }}</td>
         <td>{{ artigo.categoriaNome ?? '—' }}</td>
         <td>{{ artigo.autorNome }}</td>
+        <td>{{ artigo.visualizacoes | number }}</td>
         <td>
           <span class="badge" [class.badge--success]="artigo.publicada" [class.badge--muted]="!artigo.publicada">
             {{ artigo.publicada ? 'Publicado' : 'Rascunho' }}
