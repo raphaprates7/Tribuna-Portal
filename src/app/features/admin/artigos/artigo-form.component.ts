@@ -103,8 +103,20 @@ export class ArtigoFormComponent implements OnInit {
     }
   }
 
-  onEditorCreated(editor: unknown): void {
+  onEditorCreated(editor: any): void {
     this.quillInstance = editor;
+
+    // Colar de fontes externas (Word, Google Docs, artigos de outros sites)
+    // costuma trazer espaço não separável (&nbsp;/ ) no lugar de espaço
+    // normal — o texto fica sem quebra de linha correta e, em casos extremos,
+    // já estourou a largura da página inteira (ver article-page.component.scss).
+    // Só mexe no que é colado, nunca no que é digitado.
+    editor.clipboard.addMatcher(Node.TEXT_NODE, (_node: Node, delta: any) => {
+      delta.ops = delta.ops.map((op: any) =>
+        typeof op.insert === 'string' ? { ...op, insert: op.insert.replace(/\u00A0/g, ' ') } : op
+      );
+      return delta;
+    });
   }
 
   // Aceita a URL normal que a pessoa copia da barra de endereço (watch,
