@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FormBuilder, ReactiveFormsModule, Validators } from '@angular/forms';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { QuillModule } from 'ngx-quill';
+import './quill-video-blot';
 import { ArtigoAdminService } from '../../../core/services/artigo-admin.service';
 import { CategoriaAdminService } from '../../../core/services/categoria-admin.service';
 import { VerticalAdminService } from '../../../core/services/vertical-admin.service';
@@ -109,9 +110,11 @@ export class ArtigoFormComponent implements OnInit {
   // Aceita a URL normal que a pessoa copia da barra de endereço (watch,
   // youtu.be, shorts, vimeo.com) e converte pra URL de embed — sem isso o
   // admin teria que descobrir sozinho o formato /embed/ que o player espera.
+  // Também identifica Shorts, que são gravados em formato vertical — sem
+  // marcar isso, o embed ficaria espremido/cortado no proporção 16:9 padrão.
   // Retorna null se não reconhecer, pra não inserir um iframe de origem
   // arbitrária (o backend também valida isso, mas não faz sentido nem tentar).
-  private converterParaUrlEmbed(url: string): string | null {
+  private converterParaUrlEmbed(url: string): { embedUrl: string; vertical: boolean } | null {
     let host: URL;
     try {
       host = new URL(url.trim());
@@ -122,46 +125,50 @@ export class ArtigoFormComponent implements OnInit {
     const hostname = host.hostname.replace(/^www\./, '');
 
     if (hostname === 'youtube.com') {
+      const ehShorts = host.pathname.startsWith('/shorts/');
       const id = host.pathname.startsWith('/embed/')
         ? host.pathname.split('/')[2]
-        : host.pathname.startsWith('/shorts/')
+        : ehShorts
           ? host.pathname.split('/')[2]
           : host.searchParams.get('v');
-      return id ? `https://www.youtube.com/embed/${id}` : null;
+      return id ? { embedUrl: `https://www.youtube.com/embed/${id}`, vertical: ehShorts } : null;
     }
 
     if (hostname === 'youtu.be') {
       const id = host.pathname.split('/')[1];
-      return id ? `https://www.youtube.com/embed/${id}` : null;
+      return id ? { embedUrl: `https://www.youtube.com/embed/${id}`, vertical: false } : null;
     }
 
     if (hostname === 'vimeo.com') {
       const id = host.pathname.split('/')[1];
-      return id ? `https://player.vimeo.com/video/${id}` : null;
+      return id ? { embedUrl: `https://player.vimeo.com/video/${id}`, vertical: false } : null;
     }
 
     if (hostname === 'player.vimeo.com' && host.pathname.startsWith('/video/')) {
-      return url.trim();
+      return { embedUrl: url.trim(), vertical: false };
     }
 
     return null;
   }
 
   private inserirVideo(): void {
-    const url = window.prompt('Cole o link do vídeo (YouTube ou Vimeo):');
+    const url = window.prompt('Cole o link do vídeo (YouTube ou Vimeo — Shorts também funciona, fica no formato vertical automaticamente):');
     if (!url) {
       return;
     }
 
-    const embedUrl = this.converterParaUrlEmbed(url);
-    if (!embedUrl) {
+    const resultado = this.converterParaUrlEmbed(url);
+    if (!resultado) {
       this.erro.set('Link de vídeo não reconhecido. Use um link do YouTube ou do Vimeo.');
       return;
     }
 
     const selecao = this.quillInstance?.getSelection(true);
     const index = selecao ? selecao.index : this.quillInstance?.getLength() ?? 0;
-    this.quillInstance?.insertEmbed(index, 'video', embedUrl, 'user');
+    this.quillInstance?.insertEmbed(index, 'video', resultado.embedUrl, 'user');
+    if (resultado.vertical) {
+      this.quillInstance?.formatText(index, 1, 'vertical', true, 'user');
+    }
     this.quillInstance?.setSelection(index + 1, 0);
   }
 

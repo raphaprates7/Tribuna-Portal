@@ -150,6 +150,10 @@
     // O blot de vídeo do Quill gera um <iframe class="ql-video"> com
     // width/height fixos inline — troca por um wrapper de proporção 16:9
     // que acompanha a largura do artigo, igual qualquer outra mídia embutida.
+    // Shorts do YouTube (marcados como "vertical" na inserção, ver
+    // quill-video-blot.ts) usam 9:16 e ficam centralizados e mais estreitos,
+    // já que um vídeo vertical esticado até a largura do artigo ficaria
+    // absurdamente alto.
     iframe.ql-video {
       display: block;
       width: 100%;
@@ -158,6 +162,14 @@
       border: none;
       border-radius: var(--radius-s);
       margin: 20px 0;
+
+      &.ql-video--vertical {
+        aspect-ratio: 9 / 16;
+        width: 100%;
+        max-width: 380px;
+        margin-left: auto;
+        margin-right: auto;
+      }
     }
 
     img {
