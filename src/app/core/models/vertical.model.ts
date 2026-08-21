@@ -20,4 +20,8 @@ export interface VerticalPageData {
   featuredArticles: FeaturedArticle[];
   trending: TrendingItem[];
   cards: ContentCard[];
+  pagination: {
+    current: number;
+    total: number;
+  };
 }

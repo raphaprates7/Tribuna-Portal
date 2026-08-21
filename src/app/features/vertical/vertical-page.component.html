@@ -30,6 +30,13 @@
       <section class="vertical__grid">
         <app-category-card *ngFor="let card of d.cards" [card]="card"></app-category-card>
       </section>
+
+      <app-pagination
+        *ngIf="d.pagination.total > 1"
+        [current]="d.pagination.current"
+        [total]="d.pagination.total"
+        (pageChange)="onPageChange($event)"
+      ></app-pagination>
     </div>
   </div>
 </ng-container>

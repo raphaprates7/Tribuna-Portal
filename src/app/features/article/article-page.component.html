@@ -27,6 +27,15 @@
           <a *ngFor="let s of d.shareLinks" [href]="s.href" [attr.aria-label]="s.label" class="article__share-btn">
             <app-icon [name]="s.icon" [size]="14" color="#fff"></app-icon>
           </a>
+          <button
+            type="button"
+            class="article__share-btn"
+            (click)="copiarLink()"
+            [attr.aria-label]="linkCopiado() ? 'Link copiado' : 'Copiar link'"
+          >
+            <app-icon [name]="linkCopiado() ? 'check' : 'link'" [size]="14" color="#fff"></app-icon>
+          </button>
+          <span class="article__share-feedback" *ngIf="linkCopiado()" role="status">Link copiado!</span>
         </span>
       </div>
 

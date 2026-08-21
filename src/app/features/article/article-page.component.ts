@@ -1,5 +1,5 @@
-import { Component, OnInit, computed, inject, signal } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { Component, OnInit, PLATFORM_ID, computed, inject, signal } from '@angular/core';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 import { ActivatedRoute } from '@angular/router';
 import { switchMap, map } from 'rxjs';
@@ -21,9 +21,11 @@ import { CommentSectionComponent } from './components/comment-section/comment-se
 })
 export class ArticlePageComponent implements OnInit {
   private sanitizer = inject(DomSanitizer);
+  private isBrowser = isPlatformBrowser(inject(PLATFORM_ID));
 
   data = signal<ArticleDetail | null>(null);
   emModoPreview = signal(false);
+  linkCopiado = signal(false);
   private slug = signal('');
 
   isFavorito = computed(() => this.favoritosService.favoritos().some((f) => f.slug === this.slug()));
@@ -75,6 +77,39 @@ export class ArticlePageComponent implements OnInit {
           });
         }
       });
+  }
+
+  copiarLink(): void {
+    if (!this.isBrowser) {
+      return;
+    }
+
+    const mostrarConfirmacao = () => {
+      this.linkCopiado.set(true);
+      setTimeout(() => this.linkCopiado.set(false), 2000);
+    };
+
+    // navigator.clipboard.writeText pode falhar (permissão negada, contexto
+    // não seguro, navegador antigo) — sem isso o clique não faz nada
+    // visível e a pessoa acha que o botão está quebrado. execCommand é
+    // depreciado mas ainda amplamente suportado como último recurso.
+    navigator.clipboard.writeText(window.location.href).then(mostrarConfirmacao, () => {
+      const campo = document.createElement('textarea');
+      campo.value = window.location.href;
+      campo.style.position = 'fixed';
+      campo.style.opacity = '0';
+      document.body.appendChild(campo);
+      campo.select();
+      try {
+        // execCommand retorna um boolean de sucesso — sem checar, o botão
+        // afirmaria "copiado" mesmo quando a cópia genuinamente falhou.
+        if (document.execCommand('copy')) {
+          mostrarConfirmacao();
+        }
+      } finally {
+        document.body.removeChild(campo);
+      }
+    });
   }
 
   alternarFavorito(): void {

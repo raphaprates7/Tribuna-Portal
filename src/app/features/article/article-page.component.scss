@@ -85,15 +85,23 @@
   width: 28px;
   height: 28px;
   border-radius: 50%;
+  border: none;
   background: var(--color-primary);
   color: #fff;
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+  font: inherit;
 }
 .article__share-btn:hover {
   background: var(--color-primary-dark);
   text-decoration: none;
+}
+.article__share-feedback {
+  font-size: var(--fs-label-s);
+  font-weight: 600;
+  color: var(--color-primary);
 }
 
 .article__hero {

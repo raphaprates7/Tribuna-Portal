@@ -27,6 +27,8 @@ interface ArtigoListItemApi {
 
 interface PaginaResultApi<T> {
   itens: T[];
+  paginaAtual: number;
+  totalPaginas: number;
 }
 
 const ACCENT_PADRAO = '#6e1423';
@@ -39,8 +41,8 @@ export class VerticalPageService {
   private trendingService = inject(TrendingService);
   private readonly baseUrl = environment.apiBaseUrl;
 
-  getPage(slug: string): Observable<VerticalPageData> {
-    const paramsListagem = new HttpParams().set('vertical', slug).set('pagina', 1).set('tamanhoPagina', 10);
+  getPage(slug: string, pagina = 1): Observable<VerticalPageData> {
+    const paramsListagem = new HttpParams().set('vertical', slug).set('pagina', pagina).set('tamanhoPagina', 10);
     const paramsDestaque = new HttpParams().set('vertical', slug).set('quantidade', 5);
 
     return forkJoin({
@@ -50,17 +52,18 @@ export class VerticalPageService {
       trending: this.trendingService.getTrending(4, slug),
     }).pipe(
       map(({ vertical, artigos, destaques, trending }) =>
-        this.paraVerticalPageData(vertical, artigos.itens, destaques, trending)
+        this.paraVerticalPageData(vertical, artigos, destaques, trending)
       )
     );
   }
 
   private paraVerticalPageData(
     vertical: VerticalApi,
-    artigos: ArtigoListItemApi[],
+    artigosPagina: PaginaResultApi<ArtigoListItemApi>,
     destaques: ArtigoListItemApi[],
     trending: TrendingItem[]
   ): VerticalPageData {
+    const artigos = artigosPagina.itens;
     // Se não há nenhum artigo marcado como destaque nessa vertical, usa o mais
     // recente como fallback — assim a página não fica sem "capa" nunca.
     const destaquesEfetivos = destaques.length > 0 ? destaques : artigos.slice(0, 1);
@@ -105,6 +108,10 @@ export class VerticalPageService {
       featuredArticles,
       trending,
       cards,
+      pagination: {
+        current: artigosPagina.paginaAtual,
+        total: artigosPagina.totalPaginas,
+      },
     };
   }
 }

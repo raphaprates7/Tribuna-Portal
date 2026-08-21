@@ -25,6 +25,8 @@ const ICON_MAP: Record<string, string> = {
   linkedin: 'fa-brands fa-linkedin-in',
   whatsapp: 'fa-brands fa-whatsapp',
   x: 'fa-brands fa-x-twitter',
+  link: 'fa-solid fa-link',
+  check: 'fa-solid fa-check',
 };
 
 @Component({
