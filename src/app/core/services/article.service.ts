@@ -36,7 +36,17 @@ export class ArticleService {
   private readonly baseUrl = environment.apiBaseUrl;
 
   getArticle(slug: string): Observable<ArticleDetail> {
-    return this.http.get<ArtigoDetailApi>(`${this.baseUrl}/artigos/${slug}`).pipe(
+    return this.buscarDetalheCompleto(`${this.baseUrl}/artigos/${slug}`);
+  }
+
+  // Mesmo formato de getArticle, mas pelo endpoint de prévia (admin/editor
+  // autenticado, funciona com rascunho não publicado ainda).
+  getArticlePreview(id: number): Observable<ArticleDetail> {
+    return this.buscarDetalheCompleto(`${this.baseUrl}/artigos/preview/${id}`);
+  }
+
+  private buscarDetalheCompleto(url: string): Observable<ArticleDetail> {
+    return this.http.get<ArtigoDetailApi>(url).pipe(
       switchMap((artigo) =>
         forkJoin({
           artigo: of(artigo),

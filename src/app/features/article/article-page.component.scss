@@ -5,6 +5,17 @@
   padding: 40px var(--gutter);
 }
 
+.preview-banner {
+  background: #fff3cd;
+  color: #664d03;
+  border: 1px solid #ffe69c;
+  border-radius: var(--radius-s);
+  padding: 12px 20px;
+  font-weight: 600;
+  font-size: var(--fs-body-s);
+  margin-bottom: 24px;
+}
+
 .article {
   display: grid;
   grid-template-columns: 2.4fr 1fr;

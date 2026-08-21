@@ -26,7 +26,7 @@ export class ArtigoFormComponent implements OnInit {
   private route = inject(ActivatedRoute);
   private router = inject(Router);
 
-  private artigoId: number | null = null;
+  artigoId: number | null = null;
 
   verticais = signal<VerticalAdmin[]>([]);
   categorias = signal<CategoriaAdmin[]>([]);

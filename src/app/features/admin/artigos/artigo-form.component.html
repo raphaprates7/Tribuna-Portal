@@ -1,6 +1,17 @@
 <div class="page-header">
   <h1>{{ modoEdicao ? 'Editar artigo' : 'Novo artigo' }}</h1>
-  <a class="btn btn--outline" routerLink="/admin/artigos">← Voltar</a>
+  <div class="row-actions">
+    <a
+      *ngIf="modoEdicao"
+      class="btn btn--outline"
+      [routerLink]="['/admin/preview', artigoId]"
+      target="_blank"
+      rel="noopener"
+    >
+      Visualizar
+    </a>
+    <a class="btn btn--outline" routerLink="/admin/artigos">← Voltar</a>
+  </div>
 </div>
 
 <p class="error-message" *ngIf="erro()">{{ erro() }}</p>

@@ -1,3 +1,7 @@
+<div class="preview-banner" *ngIf="emModoPreview()">
+  Prévia — este conteúdo ainda não foi publicado no site.
+</div>
+
 <ng-container *ngIf="data() as d">
   <app-breadcrumb [items]="d.breadcrumbs"></app-breadcrumb>
 

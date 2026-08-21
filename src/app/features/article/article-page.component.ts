@@ -23,6 +23,7 @@ export class ArticlePageComponent implements OnInit {
   private sanitizer = inject(DomSanitizer);
 
   data = signal<ArticleDetail | null>(null);
+  emModoPreview = signal(false);
   private slug = signal('');
 
   isFavorito = computed(() => this.favoritosService.favoritos().some((f) => f.slug === this.slug()));
@@ -46,9 +47,18 @@ export class ArticlePageComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
+    const preview = this.route.snapshot.data['preview'] === true;
+    this.emModoPreview.set(preview);
+
     this.route.paramMap
       .pipe(
         switchMap((params) => {
+          if (preview) {
+            const id = Number(params.get('id'));
+            // Favoritar não faz sentido numa prévia (rascunho pode nem ter
+            // slug público ainda); "slug" fica vazio de propósito aqui.
+            return this.articleService.getArticlePreview(id).pipe(map((data) => ({ data, slug: '' })));
+          }
           const slug = params.get('slug') ?? '';
           return this.articleService.getArticle(slug).pipe(map((data) => ({ data, slug })));
         })
@@ -56,12 +66,14 @@ export class ArticlePageComponent implements OnInit {
       .subscribe(({ data, slug }) => {
         this.data.set(data);
         this.slug.set(slug);
-        this.seo.update({
-          title: `${data.title} — Tribuna`,
-          description: data.subtitle || data.summary,
-          image: data.heroImage,
-          path: `/artigos/${slug}`,
-        });
+        if (!preview) {
+          this.seo.update({
+            title: `${data.title} — Tribuna`,
+            description: data.subtitle || data.summary,
+            image: data.heroImage,
+            path: `/artigos/${slug}`,
+          });
+        }
       });
   }
 

@@ -157,6 +157,16 @@ export const routes: Routes = [
     title: 'Artigo — Tribuna',
   },
   {
+    // Fora do layout do admin de propósito: mostra o artigo com o mesmo
+    // header/footer/ticker do site real, não a barra lateral do painel —
+    // é pra conferir exatamente como vai ficar publicado.
+    path: 'admin/preview/:id',
+    canActivate: [adminGuard],
+    loadComponent: () => import('./features/article/article-page.component').then((m) => m.ArticlePageComponent),
+    data: { preview: true },
+    title: 'Prévia — Tribuna',
+  },
+  {
     path: 'favoritos',
     loadComponent: () => import('./features/favoritos/favoritos.component').then((m) => m.FavoritosComponent),
     title: 'Favoritos — Tribuna',

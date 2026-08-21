@@ -17,6 +17,19 @@ export function app(): express.Express {
   server.set('view engine', 'html');
   server.set('views', browserDistFolder);
 
+  // Consolida www.otribuna.com.br em otribuna.com.br (o domínio sem www já é
+  // o canônico usado em toda parte — SeoService.SITE_URL, og:url, sitemap
+  // etc.) — sem isso, buscadores veem o mesmo conteúdo em dois hosts
+  // diferentes e dividem o sinal de SEO entre os dois em vez de consolidar.
+  // Precisa vir antes de qualquer outra rota.
+  server.get('**', (req, res, next) => {
+    if (req.hostname === 'www.otribuna.com.br') {
+      res.redirect(301, `https://otribuna.com.br${req.originalUrl}`);
+      return;
+    }
+    next();
+  });
+
   // Example Express Rest API endpoints
   // server.get('/api/**', (req, res) => { });
   // Serve static files from /browser
